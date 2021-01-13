@@ -76,6 +76,7 @@ define('WP_DEBUG', false);
 define('FORCE_SSL_ADMIN', true);
 define('WP_HOME', 'https://' . $_SERVER['HTTP_HOST']);
 define('WP_SITEURL', WP_HOME);
+$_SERVER['HTTPS'] = 'on';
 
 /* Это всё, дальше не редактируем. Успехов! */
 
