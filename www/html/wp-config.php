@@ -22,16 +22,16 @@ define( 'WPCACHEHOME', '/home/www/aviet.ugatu.su/www/html/wp-content/plugins/wp-
 $url = parse_url(getenv('DATABASE_URL') ? getenv('DATABASE_URL') : getenv('CLEARDB_DATABASE_URL'));
 
 /** The name of the database for WordPress */
-define('DB_NAME', trim($url['path'], '/'));
+define('DB_NAME', 'heroku_76c06b5b717ed00', '/'));
 
 /** MySQL database username */
-define('DB_USER', $url['user']);
+define('DB_USER', 'b0b41d52557bae');
 
 /** MySQL database password */
-define('DB_PASSWORD', $url['pass']);
+define('DB_PASSWORD', '35bbd9d8']);
 
 /** MySQL hostname */
-define('DB_HOST', $url['host']);
+define('DB_HOST', 'eu-cdbr-west-03.cleardb.net');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
