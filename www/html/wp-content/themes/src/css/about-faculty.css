@@ -1,0 +1,280 @@
+#history {
+	width: 275px;
+}
+
+div.list {
+	background: url("../img/history.png") repeat scroll center top / cover;
+}
+
+#faculty-citations {
+	width: 95px;
+}
+
+#citations-radio-lg {
+	width: 95px;
+}
+
+header.header-back {
+	background: url(../img/about_bg_3000px.jpg);
+	background-size: cover;
+}
+
+.chairs h2 {
+	font-weight: 400;
+	opacity: .7;
+}
+
+.chairs p {
+	opacity: .6;
+}
+
+a.button-border {
+	color: #4eabcd;
+	display: block;
+	text-align: center;
+	cursor: pointer;
+	font-size: 11px;
+}
+
+.citations-title-back h1{
+	margin: 0;
+	clear: both;
+}
+
+@media (max-width: 820px) {
+	#citations-radio-xs {
+		width: 275px;
+	}
+
+	.chairs-back,
+	.chairs,
+	.chair {
+		height: auto;
+		overflow: auto;
+	}
+	
+	.chairs {
+		padding: 20px 0;
+	}
+
+	.chair {
+		padding: 0 20px 20px 20px;
+		margin-bottom: 10px;
+		border-bottom: 1px solid rgba(0, 0, 0, .2);
+	}
+
+	.chair:last-of-type {
+		border-bottom: none;
+	}
+
+	a.button-border {
+		display: inline;
+		text-decoration: underline;
+	}
+
+	.citations-title-back {
+		background: #f4f5f6;
+		padding: 25px 20px 0 25px;
+	}
+
+	.citations {
+		padding-top: 0;
+	}
+}
+
+@media (min-width: 820px) and (max-width: 1200px) {
+	
+	#history {
+		left: 150px;
+	}
+	
+	#faculty-citations {
+		left: 196px;
+	}
+
+	body {
+		font-size: 13px;
+	}
+
+	.chairs-back,
+	.chairs {
+		height: 1047px;
+	}
+
+	.chairs {
+		padding: 45px 0;
+	}
+	
+	.chair {
+		height: 310px;
+	}
+
+	.chairs h2 {
+		font-size: 20px;
+	}
+
+	#mechanic {
+		margin-bottom: 41px;
+	}
+
+	a.button-border {
+		width: 170px;
+		margin-top: 20px;
+		border: 1px solid #4eabcd;
+		border-radius: 20px;
+		padding: 10px 0;
+	}
+	
+	.citations .citations-wrapper {
+		padding-top: 0;
+	}
+	.citations-title-back {
+		padding: 14px 0 0 -5px;
+		background: #f4f5f6;
+	}
+
+}
+
+@media (min-width: 1200px) {
+	#history {
+		left: 177px;
+	}
+
+	body {
+		font-size: 13px;
+	}
+
+	.news-wrapper {
+		width: 102%;
+		margin-left: -20px;
+	}
+
+	.info-block {
+		border-bottom: 1px solid rgba(0, 0, 0, .2);
+	}
+
+	.chairs-back,
+	.chairs {
+		height: 1020px;
+	}
+
+	.chairs {
+		padding: 60px 0;
+		border-bottom: 1px solid rgba(0, 0, 0, .2);
+	}
+
+	.chairs h2 {
+		font-size: 20px;
+	}
+
+	.chair {
+		margin-bottom: 50px;
+		height: 240px;
+	}
+	
+	#chair-5 {
+		margin-top: 0;
+	}
+
+	a.button-border {
+		padding: 10px 30px;
+		border: 1px solid #4eabcd;
+		border-radius: 20px;
+		margin-top: 20px;
+		width: 170px;
+	}
+
+	div.citations-back,
+	div.citations,
+	div.citations-radio-back {
+		background: #fff;
+	}
+
+	div.cit {
+		background: #f5f6f7;
+	}
+
+	.citations-title-back,
+	.citations-title {
+		height: auto;
+		overflow: hidden;
+	}
+
+	.citations-title-back {
+		margin: 0;
+		width: 100%;
+		height: auto;
+		background: #fff;
+	}
+
+	.citations-title-back h1 {
+		margin: 0;
+		float: left;
+		width: 500px;
+	}
+}
+
+
+
+
+/*ВЫПУСКНИКИ*/
+body .citations-title-back,
+body .citations-back,
+body .citations,
+body .citations-radio-back {
+	background: #fff;
+}
+
+body .cit {
+	background: #f4f5f6;
+}
+
+@media (max-width: 820px) {
+
+}
+
+@media (min-width: 820px) and (max-width: 1200px) {
+
+	.citations-title-back {
+		padding-top: 35px;
+	}
+	
+	.citations-back {
+		height: 284px;
+	}
+
+	.grad-container {
+		height: 78%;
+		top: 19px;
+	}
+	.citations-scroll {
+		padding: 0;
+	}
+
+}
+ 
+@media (min-width: 1200px) {
+
+	.citations-title-back {
+		height: 78px;
+		padding-top: 36px;
+	}
+	
+	.citations-back,
+	.citations {
+		height: 265px;
+	}
+
+	.citations-back .citations {
+		padding: 10px 0 0 0;
+	}
+
+	.citations-lg-wrapper {
+		width: 102%;
+		margin-left: -20px;
+	}
+
+	.citations-radio-back {
+		height: 93px;
+	}
+}
