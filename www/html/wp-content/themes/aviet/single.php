@@ -16,12 +16,12 @@
 </div>
 <?php get_footer(); ?>
 <script>
-	jQuery('<link rel="stylesheet" href="http://aviet.ugatu.su/wp-content/themes/aviet/css/all.min.css">').appendTo(jQuery("head"));
+	jQuery('<link rel="stylesheet" href="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/all.min.css">').appendTo(jQuery("head"));
 	if(jQuery(".foogallery-container").length === 0) {
-		jQuery('<link rel="stylesheet" href="http://aviet.ugatu.su/wp-content/themes/aviet/css/castom-single.min.css">').appendTo(jQuery("head"));
+		jQuery('<link rel="stylesheet" href="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/castom-single.min.css">').appendTo(jQuery("head"));
 	}
 	else {
-		jQuery('<link rel="stylesheet" href="http://aviet.ugatu.su/wp-content/themes/aviet/css/castom-single-galery.min.css"> ').appendTo(jQuery("head"));
+		jQuery('<link rel="stylesheet" href="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/castom-single-galery.min.css"> ').appendTo(jQuery("head"));
 	}
 </script>
 </body>

@@ -30,7 +30,7 @@ $cache_enabled = false; //Added by WP-Cache Manager
 $super_cache_enabled = true; //Added by WP-Cache Manager
 $cache_max_time = 3600; //Added by WP-Cache Manager
 //$use_flock = true; // Set it true or false if you know what to use
-$cache_path = '/home/www/aviet.ugatu.su/www/html/wp-content/cache'; //Added by WP-Cache Manager
+$cache_path = '/home/www/aviet-ugatu.herokuapp.com/www/html/wp-content/cache'; //Added by WP-Cache Manager
 $file_prefix = 'wp-cache-';
 $ossdlcdn = 0;
 

@@ -73,7 +73,7 @@ Template Name: About-Faculty
 			<p class="phone">8 (347) 273-77-79</p>
 			<p class="message"><a href="mailto:iit-usatu@yandex.ru">iit-usatu@yandex.ru</a></p>
 			<p class="location">ул. Карла Маркса 12, кор. 4, ауд. 4-408</p>
-			<a class="button-border" data-modal-button = "http://aviet.ugatu.su/?p=57">УЗНАТЬ БОЛЬШЕ</a>
+			<a class="button-border" data-modal-button = "http://aviet-ugatu.herokuapp.com/?p=57">УЗНАТЬ БОЛЬШЕ</a>
 		</div>
 		<div class="chair colm-lg-6 colm-sm-6 col-xs-12 xs-not-m">
 			<h2>Кафедра электроники и биомедицинских<br>технологий</h2>
@@ -81,7 +81,7 @@ Template Name: About-Faculty
 			<p class="phone">8 (347) 273-78-36</p>
 			<p class="message"><a href="mailto:pelugatu@yandex.ru">pelugatu@yandex.ru</a></p>
 			<p class="location">ул. Карла Маркса 12, кор. 4, ауд. 4-312</p>
-			<a class="button-border" data-modal-button = "http://aviet.ugatu.su/?p=59">УЗНАТЬ БОЛЬШЕ</a>
+			<a class="button-border" data-modal-button = "http://aviet-ugatu.herokuapp.com/?p=59">УЗНАТЬ БОЛЬШЕ</a>
 		</div>
 		<div class="chair colm-lg-6 colm-sm-6 col-xs-12 all-not-m">
 			<h2>Кафедра телекоммуникационных систем</h2>
@@ -89,7 +89,7 @@ Template Name: About-Faculty
 			<p class="phone">8 (347) 273-06-89</p>
 			<p class="message"><a href="mailto:tks@ugatu.ac.ru">tks@ugatu.ac.ru</a></p>
 			<p class="location">ул. Карла Маркса 12, кор. 6, ауд. 6-520</p>
-			<a class="button-border" data-modal-button = "http://aviet.ugatu.su/?p=61">УЗНАТЬ БОЛЬШЕ</a>
+			<a class="button-border" data-modal-button = "http://aviet-ugatu.herokuapp.com/?p=61">УЗНАТЬ БОЛЬШЕ</a>
 		</div>
 		<div class="chair colm-lg-6 colm-sm-6 col-xs-12 xs-not-m">
 			<h2 id="mechanic">Кафедра электромеханики</h2>
@@ -97,7 +97,7 @@ Template Name: About-Faculty
 			<p class="phone">8 (347) 273-77-87</p>
 			<p class="message"><a href="mailto:elm.ugatu@gmail.com">elm.ugatu@gmail.com</a></p>
 			<p class="location">ул. Карла Маркса 12, кор. 4, ауд. 4-207</p>
-			<a class="button-border" data-modal-button = "http://aviet.ugatu.su/?p=63">УЗНАТЬ БОЛЬШЕ</a>
+			<a class="button-border" data-modal-button = "http://aviet-ugatu.herokuapp.com/?p=63">УЗНАТЬ БОЛЬШЕ</a>
 		</div>
 		<div class="chair colm-lg-6 colm-sm-6 col-xs-12 all-not-m xs-not-m" id="chair-5">
 			<h2>Кафедра теоретичиских основ электротехники</h2>
@@ -105,7 +105,7 @@ Template Name: About-Faculty
 			<p class="phone">8 (347) 272-11-62</p>
 			<p class="message"><a href="mailto:toe@ugatu.ac.ru">toe@ugatu.ac.ru</a></p>
 			<p class="location">ул. Карла Маркса 12, кор. 4, ауд. 4-229</p>
-			<a class="button-border" data-modal-button = "http://aviet.ugatu.su/?p=65">УЗНАТЬ БОЛЬШЕ</a>
+			<a class="button-border" data-modal-button = "http://aviet-ugatu.herokuapp.com/?p=65">УЗНАТЬ БОЛЬШЕ</a>
 		</div>
 	</div>
 </div>
@@ -116,26 +116,26 @@ Template Name: About-Faculty
 	</div>
 </div>
 <div class="citations-back" data-slider="citations-lg">
-	<div class="grad-container hidden-lg hidden-xs left-grad"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/grad.png" alt=""></div>
-	<div class="grad-container hidden-lg hidden-xs right-grad"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/grad.png" alt=""></div>
+	<div class="grad-container hidden-lg hidden-xs left-grad"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/grad.png" alt=""></div>
+	<div class="grad-container hidden-lg hidden-xs right-grad"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/grad.png" alt=""></div>
 	<div class="citations container" data-slider="citations-xs">
-		<div class="arrow hidden-lg hidden-sm" data-slider-controls="left" data-slider-controls-info="citations-xs"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/arrow-l.png" alt=""></div>
+		<div class="arrow hidden-lg hidden-sm" data-slider-controls="left" data-slider-controls-info="citations-xs"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/arrow-l.png" alt=""></div>
 		<div class="citations-scroll col-xs-8">
 			<div class="citations-lg-wrapper hidden-lg fadeIn" data-slider-info="citations-lg" data-slider-number="0">
 				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="0">
-					<div class="avatar"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/bairamov.png" alt=""></div>
+					<div class="avatar"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/bairamov.png" alt=""></div>
 					<h2>БАЙРАМОВ ИГОРЬ ЮРЬЕВИЧ </h2>
 					<em>ГЛАВНЫЙ ИНЖЕНЕР ООО «БАШРЭС»</em>
 					<blockquote>"На кафедре электромеханики работает замечательный профессорско-преподавательский состав, в который входят именитые доктора наук и молодые перспективные преподаватели."</blockquote>
 				</div>
 				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="1">
-					<div class="avatar"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/tihochuk.png" alt=""></div>
+					<div class="avatar"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/tihochuk.png" alt=""></div>
 					<h2>ТИХОНЧУК ДМИТРИЙ АЛЕКСАНДРОВИЧ</h2>
 					<em>ВЕДУЩИЙ ИНЖЕНЕР ООО «БАШКИРЭНЕРГО»</em>
 					<blockquote>"Квалификация научно-педагогического состава, а также организация работы кафедры электромеханики  находится на самом высоком уровне."</blockquote>
 				</div>
 				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="2">
-					<div class="avatar"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/karavaev.png" alt=""></div>
+					<div class="avatar"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/karavaev.png" alt=""></div>
 					<h2>КАРАВАЕВ АРТЕМ АЛЕКСАНДРОВИЧ</h2>
 					<em>ИНЖЕНЕР-ТЕХНОЛОГ АО ТЕХНОДИНАМИКА </em>
 					<blockquote>"Обучение на кафедре электромеханики проходит в увлекательном формате, затрагивающем не только сам процесс обучения, но и спортивные и социально-культурные мероприятия."</blockquote>
@@ -143,19 +143,19 @@ Template Name: About-Faculty
 			</div>
 			<div class="citations-lg-wrapper hidden-lg fadeIn" data-slider-info="citations-lg" data-slider-number="1">
 				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="3">
-					<div class="avatar"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/musakaev.png" alt=""></div>
+					<div class="avatar"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/musakaev.png" alt=""></div>
 					<h2>МУСАКАЕВ МАРАТ РАДИКОВИЧ</h2>
 					<em>СОТРУДНИК ДРЕЗДЕНСКОГО ТЕХНИЧЕСКОГО УНИВЕРСИТЕТА</em>
 					<blockquote>"Мне удалось получить сильное инженерное образование, неплохую базовую подготовку и, что самое главное, научиться самостоятельно учиться."</blockquote>
 				</div>
 				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="4">
-					<div class="avatar"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/asaev.png" alt=""></div>
+					<div class="avatar"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/asaev.png" alt=""></div>
 					<h2>АСАЕВ РОМАН АНДРЕЕВИЧ</h2>
 					<em>ИНЖЕНЕР ТЕЛЕВИДЕНИЯ ЗАО "СТС-РЕГИОН"</em>
 					<blockquote>"Учиться было интересно благодаря профессиональному преподавательскому составу. Специальность очень востребована, так как все сейчас основывается на сетевых технологиях."</blockquote>
 				</div>
 				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="5">
-					<div class="avatar"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/boiko.png" alt=""></div>
+					<div class="avatar"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/boiko.png" alt=""></div>
 					<h2>БОЙКО АНТОН ВИТАЛЬЕВИЧ</h2>
 					<em>НАЧАЛЬНИК ТЕХНИЧЕСКОГО ОТДЕЛА ГУП «МЕДТЕХНИКА»</em>
 					<blockquote>"Одновременно с развитием высокотехнологичной медицинской помощи возрастает потребность в технических компетенциях и специалистах способных их предоставить."</blockquote>
@@ -163,26 +163,26 @@ Template Name: About-Faculty
 			</div>
 			<div class="citations-lg-wrapper hidden-lg fadeIn" data-slider-info="citations-lg" data-slider-number="2">
 				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="6">
-					<div class="avatar"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/raspolov.png" alt=""></div>
+					<div class="avatar"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/raspolov.png" alt=""></div>
 					<h2>РАСПОПОВ ЕВГЕНИЙ ВИКТОРОВИЧ</h2>
 					<em>ГЕНЕРАЛЬНЫЙ ДИРЕКТОР ОАО УНПП «МОЛНИЯ» </em>
 					<blockquote>"Дорогие абитуриенты! Счастливы люди, познавшие радость творчества. Хорошо, когда работа приносит удовлетворение и материальный достаток."</blockquote>
 				</div>
 				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="7">
-					<div class="avatar"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/ba4manov.png" alt=""></div>
+					<div class="avatar"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/ba4manov.png" alt=""></div>
 					<h2>БАЧМАНОВ  ВЯЧЕСЛАВ ЕВГЕНЬЕВИЧ</h2>
 					<em>ТЕХНИЧЕСКИЙ ДИРЕКТОР ОАО УППО</em>
 					<blockquote>"Сегодня в стране многие отрасли промышленности ощущают нехватку высококвалифицированных специалистов в области информационно-измерительной техники."</blockquote>
 				</div>
 				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="8">
-					<div class="avatar"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/durakova.png" alt=""></div>
+					<div class="avatar"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/durakova.png" alt=""></div>
 					<h2>ДУРАКОВА ВИКТОРИЯ СЕРГЕЕВНА</h2>
 					<em>ИНЖЕНЕР ООО «ГАЗПРОМ ТРАНСГАЗ УФА»</em>
 					<blockquote>"В процессе обучения на кафедре ТС были получены знания, навыки и умения в области телекоммуникаций, которые я применяю в своей профессиональной деятельности."</blockquote>
 				</div>
 			</div>
 		</div>
-		<div class="arrow hidden-lg hidden-sm" data-slider-controls="right" data-slider-controls-info="citations-xs"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/arrow-r.png" alt=""></div>
+		<div class="arrow hidden-lg hidden-sm" data-slider-controls="right" data-slider-controls-info="citations-xs"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/arrow-r.png" alt=""></div>
 	</div>
 </div>
 <div class="citations-radio-back hidden-sm">
@@ -205,15 +205,15 @@ Template Name: About-Faculty
 </div>
 <?php get_footer(); ?>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="http://aviet.ugatu.su/wp-content/themes/aviet/js/slider.js"></script>
-<script src="http://aviet.ugatu.su/wp-content/themes/aviet/js/menu.js"></script>
-<script src="http://aviet.ugatu.su/wp-content/themes/aviet/js/modal-window.js"></script>
-<script src="http://aviet.ugatu.su/wp-content/themes/aviet/js/post-auto-delay.js"></script>
+<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/slider.js"></script>
+<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/menu.js"></script>
+<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/modal-window.js"></script>
+<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/post-auto-delay.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.5/jquery.smooth-scroll.min.js"></script>
 <script>
 	document.addEventListener("DOMContentLoaded", postAutoDelay(document.querySelectorAll(".citations-lg-wrapper")));
-	$('<link rel="stylesheet" href="http://aviet.ugatu.su/wp-content/themes/aviet/css/all.css"><link rel="stylesheet" href="http://aviet.ugatu.su/wp-content/themes/aviet/css/about-faculty.css">').appendTo($("head"));
+	$('<link rel="stylesheet" href="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/all.css"><link rel="stylesheet" href="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/about-faculty.css">').appendTo($("head"));
 </script>
-<script src="http://aviet.ugatu.su/wp-content/themes/aviet/js/scrolls.js"></script>
+<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/scrolls.js"></script>
 </body>
 </html>

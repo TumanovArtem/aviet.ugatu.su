@@ -83,8 +83,8 @@ Template Name: Enrollee
 			<div class="col-lg-7 col-sm-12 col-xs-12">
 				<h2>БАКАЛАВРИАТ</h2>
 				<div>
-					<img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/white-arrow-down.png" alt="" class="visible">
-					<img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/white-arrow-up.png" alt="">
+					<img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/white-arrow-down.png" alt="" class="visible">
+					<img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/white-arrow-up.png" alt="">
 				</div>
 			</div>
 			<div class="col-lg-5 hidden-sm hidden-xs">
@@ -96,7 +96,7 @@ Template Name: Enrollee
 				<div class="col-lg-7 col-sm-10 col-xs-12">
 					<h2>Инфокоммуникационные технологии и системы связи</h2>
 					<span class="dir-date">11.03.02</span>
-					<a class="more" data-modal-button="http://aviet.ugatu.su/?p=67">УЗНАТЬ БОЛЬШЕ</a>
+					<a class="more" data-modal-button="http://aviet-ugatu.herokuapp.com/?p=67">УЗНАТЬ БОЛЬШЕ</a>
 				</div>
 				<div class="col-lg-1 hidden-sm hidden-xs">
 					<h2>ТС</h2>
@@ -109,7 +109,7 @@ Template Name: Enrollee
 				<div class="col-lg-7 col-sm-10 col-xs-12">
 					<h2>Электроника и наноэлектроника</h2>
 					<span class="dir-date">11.03.04</span>
-					<a  class="more" data-modal-button="http://aviet.ugatu.su/?p=69">УЗНАТЬ БОЛЬШЕ</a>
+					<a  class="more" data-modal-button="http://aviet-ugatu.herokuapp.com/?p=69">УЗНАТЬ БОЛЬШЕ</a>
 				</div>
 				<div class="col-lg-1 hidden-sm hidden-xs">
 					<h2>ЭиБТ</h2>
@@ -122,7 +122,7 @@ Template Name: Enrollee
 				<div class="col-lg-7 col-sm-10 col-xs-12">
 					<h2>Приборостроение</h2>
 					<span class="dir-date">12.03.01</span>
-					<a  class="more" data-modal-button="http://aviet.ugatu.su/?p=71">УЗНАТЬ БОЛЬШЕ</a>
+					<a  class="more" data-modal-button="http://aviet-ugatu.herokuapp.com/?p=71">УЗНАТЬ БОЛЬШЕ</a>
 				</div>
 				<div class="col-lg-1 hidden-sm hidden-xs">
 					<h2>ИИТ</h2>
@@ -135,7 +135,7 @@ Template Name: Enrollee
 				<div class="col-lg-7 col-sm-10 col-xs-12">
 					<h2>Биотехнические системы и технологии</h2>
 					<span class="dir-date">12.03.04</span>
-					<a  class="more" data-modal-button="http://aviet.ugatu.su/?p=73">УЗНАТЬ БОЛЬШЕ</a>
+					<a  class="more" data-modal-button="http://aviet-ugatu.herokuapp.com/?p=73">УЗНАТЬ БОЛЬШЕ</a>
 				</div>
 				<div class="col-lg-1 hidden-sm hidden-xs">
 					<h2>ЭиБТ</h2>
@@ -148,7 +148,7 @@ Template Name: Enrollee
 				<div class="col-lg-7 col-sm-10 col-xs-12">
 					<h2>Электроэнергетика и электротехника</h2>
 					<span class="dir-date">13.03.02</span>
-					<a  class="more" data-modal-button="http://aviet.ugatu.su/?p=75">УЗНАТЬ БОЛЬШЕ</a>
+					<a  class="more" data-modal-button="http://aviet-ugatu.herokuapp.com/?p=75">УЗНАТЬ БОЛЬШЕ</a>
 				</div>
 				<div class="col-lg-1 hidden-sm hidden-xs">
 					<h2>ЭМ</h2>
@@ -162,8 +162,8 @@ Template Name: Enrollee
 			<div class="col-lg-7 col-sm-12 col-xs-12">
 				<h2>СПЕЦИАЛИТЕТ</h2>
 				<div>
-					<img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/white-arrow-down.png" alt="" class="visible">
-					<img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/white-arrow-up.png" alt="">
+					<img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/white-arrow-down.png" alt="" class="visible">
+					<img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/white-arrow-up.png" alt="">
 				</div>
 			</div>
 			<div class="col-lg-5 hidden-sm hidden-xs">
@@ -175,7 +175,7 @@ Template Name: Enrollee
 				<div class="col-lg-7 col-sm-10 col-xs-12">
 					<h2>Инфокоммуникационные технологии и системы специальной связи</h2>
 					<span class="dir-date">11.05.04</span>
-					<a  class="more" data-modal-button="http://aviet.ugatu.su/?p=391">УЗНАТЬ БОЛЬШЕ</a>
+					<a  class="more" data-modal-button="http://aviet-ugatu.herokuapp.com/?p=391">УЗНАТЬ БОЛЬШЕ</a>
 				</div>
 				<div class="col-lg-1 hidden-sm hidden-xs">
 					<h2>ТС</h2>
@@ -188,7 +188,7 @@ Template Name: Enrollee
 				<div class="col-lg-7 col-sm-10 col-xs-12">
 					<h2>Специльные электромеханические системы</h2>
 					<span class="dir-date">13.05.02</span>
-					<a  class="more" data-modal-button="http://aviet.ugatu.su/?p=394">УЗНАТЬ БОЛЬШЕ</a>
+					<a  class="more" data-modal-button="http://aviet-ugatu.herokuapp.com/?p=394">УЗНАТЬ БОЛЬШЕ</a>
 				</div>
 				<div class="col-lg-1 hidden-sm hidden-xs">
 					<h2>ЭМ</h2>
@@ -201,7 +201,7 @@ Template Name: Enrollee
 				<div class="col-lg-7 col-sm-10 col-xs-12">
 					<h2>Системы управления летательными аппаратами</h2>
 					<span class="dir-date">24.05.06</span>
-					<a  class="more" data-modal-button="http://aviet.ugatu.su/?p=398">УЗНАТЬ БОЛЬШЕ</a>
+					<a  class="more" data-modal-button="http://aviet-ugatu.herokuapp.com/?p=398">УЗНАТЬ БОЛЬШЕ</a>
 				</div>
 				<div class="col-lg-1 hidden-sm hidden-xs">
 					<h2>ИИТ</h2>
@@ -215,8 +215,8 @@ Template Name: Enrollee
 			<div class="col-lg-7 col-sm-12 col-xs-12">
 				<h2>МАГИСТРАТУРА</h2>
 				<div>
-					<img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/white-arrow-down.png" alt="" class="visible">
-					<img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/white-arrow-up.png" alt="">
+					<img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/white-arrow-down.png" alt="" class="visible">
+					<img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/white-arrow-up.png" alt="">
 				</div>
 			</div>
 			<div class="col-lg-5 hidden-sm hidden-xs">
@@ -228,7 +228,7 @@ Template Name: Enrollee
 				<div class="col-lg-7 col-sm-10 col-xs-12">
 					<h2>Инфокоммуникационные технологии и системы связи</h2>
 					<span class="dir-date">11.04.02</span>
-					<a  class="more" data-modal-button="http://aviet.ugatu.su/?p=67">УЗНАТЬ БОЛЬШЕ</a>
+					<a  class="more" data-modal-button="http://aviet-ugatu.herokuapp.com/?p=67">УЗНАТЬ БОЛЬШЕ</a>
 				</div>
 				<div class="col-lg-1 hidden-sm hidden-xs">
 					<h2>ТС</h2>
@@ -241,7 +241,7 @@ Template Name: Enrollee
 				<div class="col-lg-7 col-sm-10 col-xs-12">
 					<h2>Электроника и наноэлектроника</h2>
 					<span class="dir-date">11.04.04</span>
-					<a  class="more" data-modal-button="http://aviet.ugatu.su/?p=69">УЗНАТЬ БОЛЬШЕ</a>
+					<a  class="more" data-modal-button="http://aviet-ugatu.herokuapp.com/?p=69">УЗНАТЬ БОЛЬШЕ</a>
 				</div>
 				<div class="col-lg-1 hidden-sm hidden-xs">
 					<h2>ЭиБТ</h2>
@@ -254,7 +254,7 @@ Template Name: Enrollee
 				<div class="col-lg-7 col-sm-10 col-xs-12">
 					<h2>Приборостроение</h2>
 					<span class="dir-date">12.04.01</span>
-					<a  class="more" data-modal-button="http://aviet.ugatu.su/?p=71">УЗНАТЬ БОЛЬШЕ</a>
+					<a  class="more" data-modal-button="http://aviet-ugatu.herokuapp.com/?p=71">УЗНАТЬ БОЛЬШЕ</a>
 				</div>
 				<div class="col-lg-1 hidden-sm hidden-xs">
 					<h2>ИИТ</h2>
@@ -267,7 +267,7 @@ Template Name: Enrollee
 				<div class="col-lg-7 col-sm-10 col-xs-12">
 					<h2>Биотехнические системы и технологии</h2>
 					<span class="dir-date">12.04.04</span>
-					<a  class="more" data-modal-button="http://aviet.ugatu.su/?p=73">УЗНАТЬ БОЛЬШЕ</a>
+					<a  class="more" data-modal-button="http://aviet-ugatu.herokuapp.com/?p=73">УЗНАТЬ БОЛЬШЕ</a>
 				</div>
 				<div class="col-lg-1 hidden-sm hidden-xs">
 					<h2>ЭиБТ</h2>
@@ -280,7 +280,7 @@ Template Name: Enrollee
 				<div class="col-lg-7 col-sm-10 col-xs-12">
 					<h2>Электроэнергетика и электротехника</h2>
 					<span class="dir-date">13.04.02</span>
-					<a  class="more" data-modal-button="http://aviet.ugatu.su/?p=75">УЗНАТЬ БОЛЬШЕ</a>
+					<a  class="more" data-modal-button="http://aviet-ugatu.herokuapp.com/?p=75">УЗНАТЬ БОЛЬШЕ</a>
 				</div>
 				<div class="col-lg-1 hidden-sm hidden-xs">
 					<h2>ЭМ</h2>
@@ -345,7 +345,7 @@ Template Name: Enrollee
 </div>
 <?php get_footer(); ?>
 <script>
-	jQuery('<link rel="stylesheet" href="http://aviet.ugatu.su/wp-content/themes/aviet/css/all.min.css"><link rel="stylesheet" href="http://aviet.ugatu.su/wp-content/themes/aviet/css/enrollee.min.css">').appendTo(jQuery("head"));
+	jQuery('<link rel="stylesheet" href="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/all.min.css"><link rel="stylesheet" href="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/enrollee.min.css">').appendTo(jQuery("head"));
 	var ajaxurl = '<?php echo site_url() ?>/wp-admin/admin-ajax.php';
 </script>
 </body>

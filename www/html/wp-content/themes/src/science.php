@@ -45,14 +45,14 @@ Template Name: Science
 </div>
 <?php get_footer(); ?>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="http://aviet.ugatu.su/wp-content/themes/aviet/js/menu.js"></script>
-<script src="http://aviet.ugatu.su/wp-content/themes/aviet/js/modal-window.js"></script>
-<script src="http://aviet.ugatu.su/wp-content/themes/aviet/js/load-posts.js"></script>
-<script src="http://aviet.ugatu.su/wp-content/themes/aviet/js/scrolls.js"></script>
-<script src="http://aviet.ugatu.su/wp-content/themes/aviet/js/media-posts.js"></script>
-<script src="http://aviet.ugatu.su/wp-content/themes/aviet/js/jquery.smoothscroll.js"></script>
+<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/menu.js"></script>
+<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/modal-window.js"></script>
+<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/load-posts.js"></script>
+<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/scrolls.js"></script>
+<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/media-posts.js"></script>
+<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/jquery.smoothscroll.js"></script>
 <script>
-	$('<link rel="stylesheet" href="http://aviet.ugatu.su/wp-content/themes/aviet/css/all.css"><link rel="stylesheet" href="http://aviet.ugatu.su/wp-content/themes/aviet/css/science.css">').appendTo($("head"));
+	$('<link rel="stylesheet" href="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/all.css"><link rel="stylesheet" href="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/science.css">').appendTo($("head"));
 </script>
 </body>
 </html>

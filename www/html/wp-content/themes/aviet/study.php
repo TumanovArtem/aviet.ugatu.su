@@ -66,7 +66,7 @@ Template Name: Study
 </div>
 <?php get_footer(); ?>
 <script>
-	jQuery('<link rel="stylesheet" href="http://aviet.ugatu.su/wp-content/themes/aviet/css/all.min.css"><link rel="stylesheet" href="http://aviet.ugatu.su/wp-content/themes/aviet/css/study.min.css">').appendTo(jQuery("head"));
+	jQuery('<link rel="stylesheet" href="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/all.min.css"><link rel="stylesheet" href="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/study.min.css">').appendTo(jQuery("head"));
 	var ajaxurl = '<?php echo site_url() ?>/wp-admin/admin-ajax.php';
 </script>
 </body>

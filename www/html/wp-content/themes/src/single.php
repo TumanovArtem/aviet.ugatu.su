@@ -11,16 +11,16 @@
 	<?php endwhile; ?>
 </div>
 <?php get_footer(); ?>
-<script src="http://aviet.ugatu.su/wp-content/themes/aviet/js/jquery-2.1.4.min.js"></script>
-<script src="http://aviet.ugatu.su/wp-content/themes/aviet/js/menu.js"></script>
-<script src="http://aviet.ugatu.su/wp-content/themes/aviet/js/scrolls.js"></script>
+<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/jquery-2.1.4.min.js"></script>
+<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/menu.js"></script>
+<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/scrolls.js"></script>
 <script>
-	$('<link rel="stylesheet" href="http://aviet.ugatu.su/wp-content/themes/aviet/css/all.css">').appendTo($("head"));
+	$('<link rel="stylesheet" href="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/all.css">').appendTo($("head"));
 	if($(".foogallery-container").length === 0) {
-		$('<link rel="stylesheet" href="http://aviet.ugatu.su/wp-content/themes/aviet/css/castom-single.css">').appendTo($("head"));
+		$('<link rel="stylesheet" href="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/castom-single.css">').appendTo($("head"));
 	}
 	else {
-		$('<link rel="stylesheet" href="http://aviet.ugatu.su/wp-content/themes/aviet/css/castom-single-galery.css"> ').appendTo($("head"));
+		$('<link rel="stylesheet" href="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/castom-single-galery.css"> ').appendTo($("head"));
 	}
 </script>
 </body>

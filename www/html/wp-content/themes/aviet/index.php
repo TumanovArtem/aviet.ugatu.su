@@ -5,8 +5,8 @@
 		<div class="trigger-sm hidden-lg hidden-xs ">
 			<span>ТЭГИ</span>
 			<div>
-				<img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/arrow-down.png" alt="" class="" width="13" height="13">
-				<img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/arrow-up.png" alt="" class="hidden">
+				<img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/arrow-down.png" alt="" class="" width="13" height="13">
+				<img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/arrow-up.png" alt="" class="hidden">
 			</div>
 		</div>
 		<div class="trigger-xs trigger-xs-passive hidden-lg hidden-sm ">
@@ -221,7 +221,7 @@
 			?>
 		</div>
 
-		<a href="http://aviet.ugatu.su/news" class="button hidden-lg hidden-sm">БОЛЬШЕ НОВОСТЕЙ</a>
+		<a href="http://aviet-ugatu.herokuapp.com/news" class="button hidden-lg hidden-sm">БОЛЬШЕ НОВОСТЕЙ</a>
 	</div>
 </div>
 <div class="faculty-back">
@@ -233,18 +233,18 @@
 		<a href="" class="button hidden-lg wow fadeIn" data-wow-delay=".2s">УЗНАТЬ БОЛЬШЕ</a>
 		<div class="col-lg-5 hidden-sm hidden-xs statistic wow fadeIn">
 			<div class="col-lg-11 wow fadeIn" data-wow-delay=".25s">
-				<div class="faculty-img"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/school.png" alt=""></div>
+				<div class="faculty-img"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/school.png" alt=""></div>
 				<h2>5 КАФЕДР</h2>
 			</div>
 			<div class="col-lg-11 wow fadeIn" data-wow-delay=".3s">
-				<div class="faculty-img"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/test_tube.png" alt=""></div>
+				<div class="faculty-img"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/test_tube.png" alt=""></div>
 				<h2>32 ЛАБОРАТОРИИ</h2>
 			</div>
 			<div class="col-lg-11 wow fadeIn" data-wow-delay=".35s">
-				<div class="faculty-img"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/group.png" alt=""></div>
+				<div class="faculty-img"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/group.png" alt=""></div>
 				<h2>2356 СТУДЕНТОВ</h2>
 			</div>
-			<a href="http://aviet.ugatu.su/about-faculty" class="button wow fadeIn" data-wow-delay=".4s">УЗНАТЬ БОЛЬШЕ</a>
+			<a href="http://aviet-ugatu.herokuapp.com/about-faculty" class="button wow fadeIn" data-wow-delay=".4s">УЗНАТЬ БОЛЬШЕ</a>
 		</div>
 	</div>
 </div>
@@ -254,27 +254,27 @@
 				<h1 class="wow fadeIn" data-wow-delay="0">АБИТУРИЕНТУ</h1>
 				<p class="wow fadeIn" data-wow-delay=".1s">Абитуриент? Не знаешь как подать документы? Раздумываешь, какое все-таки выбрать направление? Хочешь посмотреть проходные баллы на интересующую специальность за предыдущие годы?</p>
 				<p class="wow fadeIn" data-wow-delay=".2s">Скорее заходи в раздел нашего сайта под названием "Абитуриенту"</p>
-				<a href="http://aviet.ugatu.su/enrollee" class="button hidden-xs wow fadeIn" data-wow-delay=".3s">УЗНАТЬ БОЛЬШЕ</a>
+				<a href="http://aviet-ugatu.herokuapp.com/enrollee" class="button hidden-xs wow fadeIn" data-wow-delay=".3s">УЗНАТЬ БОЛЬШЕ</a>
 			</div>
 			<div class="colm-lg-1 colm-sm-1 hidden-xs empty"></div>
 			<div class="colm-lg-2 hidden-sm hidden-xs all-not-m wow fadeIn" data-wow-delay=".4s">
-				<div class="preview" data-modal-button="http://aviet.ugatu.su/?p=50"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/stairs.png" alt=""></div>
-				<h2 class="hidden-sm hidden-xs" data-modal-button="http://aviet.ugatu.su/?p=50">ПОСТУПЛЕНИЕ.<br>С ЧЕГО НАЧАТЬ?</h2>
+				<div class="preview" data-modal-button="http://aviet-ugatu.herokuapp.com/?p=50"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/stairs.png" alt=""></div>
+				<h2 class="hidden-sm hidden-xs" data-modal-button="http://aviet-ugatu.herokuapp.com/?p=50">ПОСТУПЛЕНИЕ.<br>С ЧЕГО НАЧАТЬ?</h2>
 			</div>
 			<div class="colm-lg-2 hidden-sm hidden-xs sm-not-m wow fadeIn" data-wow-delay=".5s">
-				<div class="preview wow fadeIn" data-modal-button="http://aviet.ugatu.su/?p=54"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/purchase_order.png" alt=""></div>
-				<h2 class="hidden-sm hidden-xs wow fadeIn" data-modal-button="http://aviet.ugatu.su/?p=54">ПРОХОДНЫЕ БАЛЛЫ<br>ПРОШЛЫХ ЛЕТ</h2>
+				<div class="preview wow fadeIn" data-modal-button="http://aviet-ugatu.herokuapp.com/?p=54"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/purchase_order.png" alt=""></div>
+				<h2 class="hidden-sm hidden-xs wow fadeIn" data-modal-button="http://aviet-ugatu.herokuapp.com/?p=54">ПРОХОДНЫЕ БАЛЛЫ<br>ПРОШЛЫХ ЛЕТ</h2>
 			</div>
 			<div class="colm-lg-2 hidden-sm hidden-xs sm-not-m wow fadeIn" data-wow-delay=".6s">
-				<a href="http://aviet.ugatu.su/enrollee#direction-anchor"><div class="preview wow fadeIn"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/student.png" alt=""></div></a>
-				<h2 class="hidden-sm hidden-xs wow fadeIn"><a href="http://aviet.ugatu.su/enrollee#direction-anchor">НАПРАВЛЕНИЯ ПОДГОТОВКИ</a></h2>
+				<a href="http://aviet-ugatu.herokuapp.com/enrollee#direction-anchor"><div class="preview wow fadeIn"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/student.png" alt=""></div></a>
+				<h2 class="hidden-sm hidden-xs wow fadeIn"><a href="http://aviet-ugatu.herokuapp.com/enrollee#direction-anchor">НАПРАВЛЕНИЯ ПОДГОТОВКИ</a></h2>
 			</div>
 			<div class="hidden-lg colm-sm-2 hidden-xs wow fadeIn" data-wow-delay=".7s">
-				<a data-modal-button="http://aviet.ugatu.su/?p=50"><div class="preview wow fadeIn"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/stairs.png" alt=""></div></a>
-				<a data-modal-button="http://aviet.ugatu.su/?p=54"><div class="preview wow fadeIn"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/purchase_order.png" alt=""></div></a>
-				<a href="http://aviet.ugatu.su/enrollee#direction-anchor"><div class="preview wow fadeIn"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/student.png" alt=""></div></a>
+				<a data-modal-button="http://aviet-ugatu.herokuapp.com/?p=50"><div class="preview wow fadeIn"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/stairs.png" alt=""></div></a>
+				<a data-modal-button="http://aviet-ugatu.herokuapp.com/?p=54"><div class="preview wow fadeIn"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/purchase_order.png" alt=""></div></a>
+				<a href="http://aviet-ugatu.herokuapp.com/enrollee#direction-anchor"><div class="preview wow fadeIn"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/student.png" alt=""></div></a>
 			</div>
-			<a href="http://aviet.ugatu.su/enrollee" class="button hidden-lg hidden-md hidden-sm" data-wow-delay=".8s">УЗНАТЬ БОЛЬШЕ</a>
+			<a href="http://aviet-ugatu.herokuapp.com/enrollee" class="button hidden-lg hidden-md hidden-sm" data-wow-delay=".8s">УЗНАТЬ БОЛЬШЕ</a>
 	</div>
 </div>
 <div class="galery-back">
@@ -283,40 +283,40 @@
 		<div class="colm-lg-3 hidden-sm hidden-xs lg-not-m wow fadeIn">
 			<h1 class="wow fadeIn" data-wow-delay="0s">ГАЛЕРЕЯ</h1>
 			<p class="wow fadeIn" data-wow-delay=".1s">Здесь вы сможете найти фотографии со всех наиболее ярких и запоминающихся событий и мероприятий факультета авионики, энергетики и инфокоммуникаций.</p>
-			<a href="http://aviet.ugatu.su/faculty-life#galery-anchor" class="button wow fadeIn" data-wow-delay=".2s">В ГАЛЕРЕЮ</a>
+			<a href="http://aviet-ugatu.herokuapp.com/faculty-life#galery-anchor" class="button wow fadeIn" data-wow-delay=".2s">В ГАЛЕРЕЮ</a>
 		</div>
 		<div class="colm-lg-3 colm-sm-4 photo sm-not-m xs-not-m wow fadeIn" id="photo-1" data-wow-delay=".3s">
-			<img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/girl.jpg" alt="" class="hidden-lg hidden-sm">
+			<img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/girl.jpg" alt="" class="hidden-lg hidden-sm">
 		</div>
 		<div class="colm-lg-3 colm-sm-4 photo wow fadeIn" id="photo-2" data-wow-delay=".4s">
-			<img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/solder.jpg" alt="" class="hidden-lg hidden-sm">
+			<img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/solder.jpg" alt="" class="hidden-lg hidden-sm">
 		</div>
 		<div class="colm-lg-3 colm-sm-4 col-xs-6 hiddex-xs photo wow fadeIn" id="photo-3" data-wow-delay=".5s">
 		</div>
-		<a href="http://aviet.ugatu.su/faculty-life#gallery-anchor" class="button hidden-lg wow fadeIn">В ГАЛЕРЕЮ</a>
+		<a href="http://aviet-ugatu.herokuapp.com/faculty-life#gallery-anchor" class="button hidden-lg wow fadeIn">В ГАЛЕРЕЮ</a>
 	</div>
 </div>
 <div class="citations-back" data-slider="citations-lg">
-	<div class="grad-container hidden-lg hidden-xs left-grad"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/grad.png" alt=""></div>
-	<div class="grad-container hidden-lg hidden-xs right-grad"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/grad.png" alt=""></div>
+	<div class="grad-container hidden-lg hidden-xs left-grad"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/grad.png" alt=""></div>
+	<div class="grad-container hidden-lg hidden-xs right-grad"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/grad.png" alt=""></div>
 	<div class="citations container" data-slider="citations-xs">
-		<div class="arrow hidden-lg hidden-sm" data-slider-controls="left" data-slider-controls-info="citations-xs"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/arrow-l.png" alt=""></div>
+		<div class="arrow hidden-lg hidden-sm" data-slider-controls="left" data-slider-controls-info="citations-xs"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/arrow-l.png" alt=""></div>
 		<div class="citations-scroll col-xs-8">
 			<div class="citations-lg-wrapper hidden-lg fadeIn" data-slider-info="citations-lg" data-slider-number="0">
 				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="0">
-					<div class="avatar"><img width="50" height="50" src="http://aviet.ugatu.su/wp-content/themes/aviet/img/zhernakov.png" alt=""></div>
+					<div class="avatar"><img width="50" height="50" src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/zhernakov.png" alt=""></div>
 					<h2>ЖЕРНАКОВ СЕРГЕЙ ВЛАДИМИРОВИЧ</h2>
 					<em>ДОКТОР ТЕХНИЧЕСКИХ НАУК</em>
 					<blockquote>"Качественные знания в области современной электронной, компьютерной и микропроцессорной техники, умение работать с системами автоматизированного проектирования обеспечивают устойчивый спрос на специалистов."</blockquote>
 				</div>
 				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="1">
-					<div class="avatar"><img width="50" height="50" src="http://aviet.ugatu.su/wp-content/themes/aviet/img/lobanov2.png" alt=""></div>
+					<div class="avatar"><img width="50" height="50" src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/lobanov2.png" alt=""></div>
 					<h2>ЛОБАНОВ ЮРИЙ ВИКТОРОВИЧ</h2>
 					<em>КАНДИДАТ ТЕХНИЧЕСКИХ НАУК</em>
 					<blockquote>"Электроника  сама по себе очень интересная и востребованная наука, имеющая широкое практическое применение от компьютеров и сотовых телефонов до современных производственных энергетических комплексов."</blockquote>
 				</div>
 				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="2">
-					<div class="avatar"><img width="50" height="50" src="http://aviet.ugatu.su/wp-content/themes/aviet/img/urazbahtina.png" alt=""></div>
+					<div class="avatar"><img width="50" height="50" src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/urazbahtina.png" alt=""></div>
 					<h2>УРАЗБАХТИНА ЮЛИЯ ОЛЕГОВНА</h2>
 					<em>ДЕКАН ФАКУЛЬТЕТА АВИЭТ</em>
 					<blockquote>"Основная образовательная программа «Биотехнические системы и технологии» реализует подготовку бакалавров способных эффективно работать в сфере биотехнических систем и технологий."</blockquote>
@@ -324,19 +324,19 @@
 			</div>
 			<div class="citations-lg-wrapper hidden-lg fadeIn" data-slider-info="citations-lg" data-slider-number="1">
 				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="3">
-					<div class="avatar"><img width="50" height="50" src="http://aviet.ugatu.su/wp-content/themes/aviet/img/bagmanov.png" alt=""></div>
+					<div class="avatar"><img width="50" height="50" src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/bagmanov.png" alt=""></div>
 					<h2>БАГМАНОВ ВАЛЕРИЙ ХУСАИНОВИЧ</h2>
 					<em>ПРОФЕССОР КАФЕДРЫ ТС</em>
 					<blockquote>"В любых корпорациях, фирмах и ведомствах, военных и гражданских, а также в обыденной жизни связь есть везде и будет всегда. Это одна из самых востребованных на рынке труда специальностей."</blockquote>
 				</div>
 				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="4">
-					<div class="avatar"><img width="50" height="50" src="http://aviet.ugatu.su/wp-content/themes/aviet/img/phetisov.png" alt=""></div>
+					<div class="avatar"><img width="50" height="50" src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/phetisov.png" alt=""></div>
 					<h2>ФЕТИСОВ ВЛАДИМИР СТАНИСЛАВОВИЧ</h2>
 					<em>ДОКТОР ТЕХНИЧЕСКИХ НАУК</em>
 					<blockquote>"В рамках направления "Приборостроение" мы ведем подготовку бакалавров и магистров, в частности, по профилю "Информационно-измерительная техника и технологии"."</blockquote>
 				</div>
 				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="5">
-					<div class="avatar"><img width="50" height="50" src="http://aviet.ugatu.su/wp-content/themes/aviet/img/mukaev.png" alt=""></div>
+					<div class="avatar"><img width="50" height="50" src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/mukaev.png" alt=""></div>
 					<h2>МУКАЕВ РОБЕР ЮНУСОВИЧ</h2>
 					<em>КАНДИДАТ ТЕХНИЧЕСКИХ НАУК</em>
 					<blockquote>"Без приборостроения и измерительной техники не может существовать ни одна сфера науки."</blockquote>
@@ -344,26 +344,26 @@
 			</div>
 			<div class="citations-lg-wrapper hidden-lg fadeIn" data-slider-info="citations-lg" data-slider-number="2">
 				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="6">
-					<div class="avatar"><img width="50" height="50" src="http://aviet.ugatu.su/wp-content/themes/aviet/img/roginskaya.png" alt=""></div>
+					<div class="avatar"><img width="50" height="50" src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/roginskaya.png" alt=""></div>
 					<h2>РОГИНСКАЯ ЛЮБОВЬ ЭММАНУИЛОВНА</h2>
 					<em>ДОКТОР ТЕХНИЧЕСКИХ НАУК</em>
 					<blockquote>"Можно сказать, что наука на нашей кафедре с женским уклоном, потому как позволяет выбрать такую работу, в которой требуется не большая физическая сила, а интеллект и аккуратность."</blockquote>
 				</div>
 				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="7">
-					<div class="avatar"><img width="50" height="50" src="http://aviet.ugatu.su/wp-content/themes/aviet/img/sattarov.png" alt=""></div>
+					<div class="avatar"><img width="50" height="50" src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/sattarov.png" alt=""></div>
 					<h2>САТТАРОВ РОБЕРТ РАДИЛОВИЧ</h2>
 					<em>ДОКТОР ТЕХНИЧЕСКИХ НАУК</em>
 					<blockquote>"Электричество -  это основа современной цивилизации. Наши студенты изучают основы теории электричества и электромагнетизма, и это позволяет им на глубоком уровне освоить выбранное направление."</blockquote>
 				</div>
 				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="8">
-					<div class="avatar"><img width="50" height="50" src="http://aviet.ugatu.su/wp-content/themes/aviet/img/pashali.png" alt=""></div>
+					<div class="avatar"><img width="50" height="50" src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/pashali.png" alt=""></div>
 					<h2>ПАШАЛИ ДИАНА ЮРЬЕВНА</h2>
 					<em>КАНДИДАТ ТЕХНИЧЕСКИХ НАУК</em>
 					<blockquote>"Электроэнергетика – это важная и востребованная отрасль для современной промышленности."</blockquote>
 				</div>
 			</div>
 		</div>
-		<div class="arrow hidden-lg hidden-sm" data-slider-controls="right" data-slider-controls-info="citations-xs"><img src="http://aviet.ugatu.su/wp-content/themes/aviet/img/arrow-r.png" alt=""></div>
+		<div class="arrow hidden-lg hidden-sm" data-slider-controls="right" data-slider-controls-info="citations-xs"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/arrow-r.png" alt=""></div>
 	</div>
 </div>
 <div class="citations-radio-back hidden-sm">
@@ -411,7 +411,7 @@
 
 	document.addEventListener("DOMContentLoaded", postAutoDelay(document.querySelectorAll(".news-wrapper, .citations-lg-wrapper")));
 
-	jQuery('<link rel="stylesheet" href="http://aviet.ugatu.su/wp-content/themes/aviet/css/all.min.css"><link rel="stylesheet" href="http://aviet.ugatu.su/wp-content/themes/aviet/css/main.min.css">').appendTo(jQuery("head"));
+	jQuery('<link rel="stylesheet" href="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/all.min.css"><link rel="stylesheet" href="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/main.min.css">').appendTo(jQuery("head"));
 </script>
 </body>
 </html>
