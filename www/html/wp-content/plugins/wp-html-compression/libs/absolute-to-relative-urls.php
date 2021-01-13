@@ -1,6 +1,6 @@
 <?php
 /*
-Absolute-to-Relative URLs 0.3.4 <http://www.svachon.com/blog/absolute-to-relative-urls/>
+Absolute-to-Relative URLs 0.3.4 <https://www.svachon.com/blog/absolute-to-relative-urls/>
 A class for use in shortening URL links.
 */
 
@@ -185,7 +185,7 @@ class Absolute_to_Relative_URLs
 		{
 			$this->custom_site_url = true;
 			
-			$url = ( !isset($_SERVER['HTTPS']) )   ?   'http://' : 'https://';
+			$url = ( !isset($_SERVER['HTTPS']) )   ?   'https://' : 'https://';
 			
 			if ( isset($_SERVER['PHP_AUTH_USER']) )
 			{

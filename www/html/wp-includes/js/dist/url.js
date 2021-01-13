@@ -412,7 +412,7 @@ function getProtocol(url) {
  *
  * @param {string} protocol The url protocol.
  *
- * @return {boolean} True if the argument is a valid protocol (e.g. http:, tel:).
+ * @return {boolean} True if the argument is a valid protocol (e.g. https:, tel:).
  */
 
 function isValidProtocol(protocol) {
@@ -620,7 +620,7 @@ function removeQueryArgs(url) {
   return baseUrl + '?' + Object(qs__WEBPACK_IMPORTED_MODULE_0__["stringify"])(query);
 }
 /**
- * Prepends "http://" to a url, if it looks like something that is meant to be a TLD.
+ * Prepends "https://" to a url, if it looks like something that is meant to be a TLD.
  *
  * @param  {string} url The URL to test
  *
@@ -629,7 +629,7 @@ function removeQueryArgs(url) {
 
 function prependHTTP(url) {
   if (!USABLE_HREF_REGEXP.test(url) && !EMAIL_REGEXP.test(url)) {
-    return 'http://' + url;
+    return 'https://' + url;
   }
 
   return url;

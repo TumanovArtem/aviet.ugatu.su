@@ -59,7 +59,7 @@ class GFW_Widget extends WP_Widget {
             echo '</ul>';
 
             if ( $options['widget_link'] ) {
-                echo '<div class="gfw-link">Speed Matters! <a href="' . (GTmetrix_For_WordPress::gtmetrix_file_exists( $custom_fields['report_url'][0] . '/screenshot.jpg' ) ? $custom_fields['report_url'][0] : 'http://gtmetrix.com/') . '" target="_blank" class="gfw-link">GTmetrix</a></div>';
+                echo '<div class="gfw-link">Speed Matters! <a href="' . (GTmetrix_For_WordPress::gtmetrix_file_exists( $custom_fields['report_url'][0] . '/screenshot.jpg' ) ? $custom_fields['report_url'][0] : 'https://gtmetrix.com/') . '" target="_blank" class="gfw-link">GTmetrix</a></div>';
             }
             echo $after_widget;
         }

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Super Cache\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-super-cache\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tag/wp-super-cache\n"
 "POT-Creation-Date: 2010-09-27 13:58+0000\n"
 "PO-Revision-Date: 2011-08-10 18:25+0200\n"
 "Last-Translator: \n"
@@ -76,8 +76,8 @@ msgstr "Статут ўбудовы \" Bad Behaviour\": %s."
 
 #: plugins/badbehaviour.php:61
 #, php-format
-msgid "(Only legacy caching supported, disabled compression and requires <a href=\"http://www.bad-behavior.ioerror.us/\">Bad Behavior</a> in \"%s/plugins/bad-behavior/\") "
-msgstr "(Гэты дадатковы модуль будзе функцыянаваць толькі ў рэжыме сярэдняга кэшавання, адключыце сціск і ўсталюйце ўбудова \"<a href=\"http://www.bad-behavior.ioerror.us/\">Bad Behavior</a>\" у \"%s/plugins/bad-behavior/\")"
+msgid "(Only legacy caching supported, disabled compression and requires <a href=\"https://www.bad-behavior.ioerror.us/\">Bad Behavior</a> in \"%s/plugins/bad-behavior/\") "
+msgstr "(Гэты дадатковы модуль будзе функцыянаваць толькі ў рэжыме сярэдняга кэшавання, адключыце сціск і ўсталюйце ўбудова \"<a href=\"https://www.bad-behavior.ioerror.us/\">Bad Behavior</a>\" у \"%s/plugins/bad-behavior/\")"
 
 #: plugins/badbehaviour.php:69
 #: wp-cache.php:1191
@@ -87,8 +87,8 @@ msgstr "Увага!"
 
 #: plugins/domain-mapping.php:57
 #, php-format
-msgid "<a href=\"http://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a> support plugin is %s"
-msgstr "Статут ўбудовы \" <a href=\"http://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a>\": %s"
+msgid "<a href=\"https://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a> support plugin is %s"
+msgstr "Статут ўбудовы \" <a href=\"https://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a>\": %s"
 
 #: plugins/domain-mapping.php:58
 msgid "(support for multiple domains on multisite websites) "
@@ -100,12 +100,12 @@ msgstr "Выяўленая падтрымка сэрвісу мультибло�
 
 #: plugins/searchengine.php:71
 #, php-format
-msgid "<a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> plugin is %s."
-msgstr "Статут ўбудовы \" <a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a>\":% s."
+msgid "<a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> plugin is %s."
+msgstr "Статут ўбудовы \" <a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a>\":% s."
 
 #: plugins/searchengine.php:72
-msgid "(requires <a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> too) "
-msgstr "(Патрабуе ўсталёўкі <a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> ) "
+msgid "(requires <a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> too) "
+msgstr "(Патрабуе ўсталёўкі <a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> ) "
 
 #: wp-cache.php:87
 #, php-format
@@ -126,12 +126,12 @@ msgstr "Ваш сервер настроены так, што правярае �
 
 #: wp-cache.php:144
 #, php-format
-msgid "You or an administrator may be able to make it work by changing the group owner of the plugin scripts to match that of the web server user. The group owner of the %s/cache/ directory must also be changed. See the <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> for further details."
-msgstr "Вы або Адміністратар можаце выправіць памылкі, змяніўшы групу ўладальніка скрыптоў плагіна праз налады вэб-сервера. Таксама трэба змяніць уладальніка для тэчкі% s / cache /. Для больш падрабязнай інфармацыі глядзіце <a href=\"http://php.net/features.safe-mode\">старонку дапамогі па рэжыму safe mode</a> (на англ.). "
+msgid "You or an administrator may be able to make it work by changing the group owner of the plugin scripts to match that of the web server user. The group owner of the %s/cache/ directory must also be changed. See the <a href=\"https://php.net/features.safe-mode\">safe mode manual page</a> for further details."
+msgstr "Вы або Адміністратар можаце выправіць памылкі, змяніўшы групу ўладальніка скрыптоў плагіна праз налады вэб-сервера. Таксама трэба змяніць уладальніка для тэчкі% s / cache /. Для больш падрабязнай інфармацыі глядзіце <a href=\"https://php.net/features.safe-mode\">старонку дапамогі па рэжыму safe mode</a> (на англ.). "
 
 #: wp-cache.php:146
-msgid "You or an administrator must disable this. See the <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> for further details. This cannot be disabled in a .htaccess file unfortunately. It must be done in the php.ini config file."
-msgstr "Вы або Адміністратар павінны адключыць гэта. Для больш падрабязнай інфармацыі глядзіце <a href=\"http://php.net/features.safe-mode\">старонку дапамогі па рэжыму safe mode</a> (на англ.). Дадзеныя налады НЕ могуць быць адключаныя праз файл. htaccess, для вырашэння праблемы трэба рэдагаваць php.ini ў наладах вэб-сервера. "
+msgid "You or an administrator must disable this. See the <a href=\"https://php.net/features.safe-mode\">safe mode manual page</a> for further details. This cannot be disabled in a .htaccess file unfortunately. It must be done in the php.ini config file."
+msgstr "Вы або Адміністратар павінны адключыць гэта. Для больш падрабязнай інфармацыі глядзіце <a href=\"https://php.net/features.safe-mode\">старонку дапамогі па рэжыму safe mode</a> (на англ.). Дадзеныя налады НЕ могуць быць адключаныя праз файл. htaccess, для вырашэння праблемы трэба рэдагаваць php.ini ў наладах вэб-сервера. "
 
 #: wp-cache.php:152
 msgid "Permlink Structure Error"
@@ -170,8 +170,8 @@ msgid "Zlib Output Compression Enabled!"
 msgstr "Сціск Zlib Output ўключана!"
 
 #: wp-cache.php:205
-msgid "PHP is compressing the data sent to the visitors of your site. Disabling this is recommended as the plugin caches the compressed output once instead of compressing the same page over and over again. Also see #21 in the Troubleshooting section. See <a href=\"http://php.net/manual/en/zlib.configuration.php\">this page</a> for instructions on modifying your php.ini."
-msgstr "PHP выкарыстоўвае сціск для сціснутых старонкі Вашага сайта. Адключэнне дадзенай опцыі рэкамендуецца, каб пазбегнуць шматразовага сціску старонак убудовай. Даведацца больш, наведаўшы профіль 16 ст \" Апісанне праблем \"у файле readme.txt (на англ.). Таксама азнаёмцеся з <a href=\"http://php.net/manual/en/zlib.configuration.php\">гэтай старонкай</a> (на англ.) па php.ini. "
+msgid "PHP is compressing the data sent to the visitors of your site. Disabling this is recommended as the plugin caches the compressed output once instead of compressing the same page over and over again. Also see #21 in the Troubleshooting section. See <a href=\"https://php.net/manual/en/zlib.configuration.php\">this page</a> for instructions on modifying your php.ini."
+msgstr "PHP выкарыстоўвае сціск для сціснутых старонкі Вашага сайта. Адключэнне дадзенай опцыі рэкамендуецца, каб пазбегнуць шматразовага сціску старонак убудовай. Даведацца больш, наведаўшы профіль 16 ст \" Апісанне праблем \"у файле readme.txt (на англ.). Таксама азнаёмцеся з <a href=\"https://php.net/manual/en/zlib.configuration.php\">гэтай старонкай</a> (на англ.) па php.ini. "
 
 #: wp-cache.php:209
 msgid "Mod rewrite may not be installed!"
@@ -254,8 +254,8 @@ msgstr "Выдаліце ​​ўсе правілы mod_rewrite з файла% 
 
 #: wp-cache.php:253
 #, php-format
-msgid "Add the rules yourself. Edit %s.htaccess and find the block of code enclosed by the lines <code># BEGIN WPSuperCache</code> and <code># END WPSuperCache</code>. There are two sections that look very similar. Just below the line <code>%%{HTTP:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> add these lines: (do it twice, once for each section)"
-msgstr "Дадайце правілы самастойна. Для гэтага адкрыйце у рэдактары файл% s.htaccess і знайдзіце код паміж <code># BEGIN WPSuperCache</code> і <code># END WPSuperCache</code> . Вы ўбачыце два падобных блока кода. Адразу пасля радка <code>%%{HTTP:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> дадайце наступнае (такіх радкоў дзве, дадайце код і пасля другой): "
+msgid "Add the rules yourself. Edit %s.htaccess and find the block of code enclosed by the lines <code># BEGIN WPSuperCache</code> and <code># END WPSuperCache</code>. There are two sections that look very similar. Just below the line <code>%%{https:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> add these lines: (do it twice, once for each section)"
+msgstr "Дадайце правілы самастойна. Для гэтага адкрыйце у рэдактары файл% s.htaccess і знайдзіце код паміж <code># BEGIN WPSuperCache</code> і <code># END WPSuperCache</code> . Вы ўбачыце два падобных блока кода. Адразу пасля радка <code>%%{https:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> дадайце наступнае (такіх радкоў дзве, дадайце код і пасля другой): "
 
 #: wp-cache.php:266
 msgid "Required to serve compressed supercache files properly."
@@ -714,8 +714,8 @@ msgstr "Дзякуй за абнаўленне."
 
 #: wp-cache.php:1011
 #, php-format
-msgid "The mod_rewrite rules changed since you last installed this plugin. Unfortunately you must remove the old supercache rules before the new ones are updated. Refresh this page when you have edited your .htaccess file. If you wish to manually upgrade, change the following line: %1$s so it looks like this: %2$s The only changes are \"HTTP_COOKIE\" becomes \"HTTP:Cookie\" and \"wordpressuser\" becomes \"wordpress\". This is a WordPress 2.5 change but it&#8217;s backwards compatible with older versions if you&#8217;re brave enough to use them."
-msgstr "З моманту апошняй усталяванай версіі плагіна правілы mod_rewrite былі змененыя. На жаль, Вам давядзецца ўручную выдаліць старыя правілы перш чым новыя запрацуюць. Абнавіце гэтую старонку калі скончыце рэдагаваць файл. Htaccess. Калі Вы жадаеце цалкам абнавіць усе самі, то заменіце наступны радок:%1$s на гэтую:%2$s. Адзінае адрозненне - гэта замена \"HTTP_COOKIE \" на \"HTTP: Cookie \" і \"wordpressuser \" на \"wordpress \". Гэтыя перамены звязаны з новай версіяй WordPress 02/05 . Вядома Вы можаце працягваць працаваць са старымі версіямі, калі хопіць адвагі;) "
+msgid "The mod_rewrite rules changed since you last installed this plugin. Unfortunately you must remove the old supercache rules before the new ones are updated. Refresh this page when you have edited your .htaccess file. If you wish to manually upgrade, change the following line: %1$s so it looks like this: %2$s The only changes are \"HTTP_COOKIE\" becomes \"https:Cookie\" and \"wordpressuser\" becomes \"wordpress\". This is a WordPress 2.5 change but it&#8217;s backwards compatible with older versions if you&#8217;re brave enough to use them."
+msgstr "З моманту апошняй усталяванай версіі плагіна правілы mod_rewrite былі змененыя. На жаль, Вам давядзецца ўручную выдаліць старыя правілы перш чым новыя запрацуюць. Абнавіце гэтую старонку калі скончыце рэдагаваць файл. Htaccess. Калі Вы жадаеце цалкам абнавіць усе самі, то заменіце наступны радок:%1$s на гэтую:%2$s. Адзінае адрозненне - гэта замена \"HTTP_COOKIE \" на \"https: Cookie \" і \"wordpressuser \" на \"wordpress \". Гэтыя перамены звязаны з новай версіяй WordPress 02/05 . Вядома Вы можаце працягваць працаваць са старымі версіямі, калі хопіць адвагі;) "
 
 #: wp-cache.php:1015
 msgid "Trailing slash check required."
@@ -913,8 +913,8 @@ msgid "Save UA Strings"
 msgstr "Захаваць наладкі"
 
 #: wp-cache.php:1342
-msgid "Do not cache the following page types. See the <a href=\"http://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> documentation for a complete discussion on each type."
-msgstr "Не кэшаваць старонкі наступных тыпаў. Паспрабуйцце звярнуцца да <a href=\"http://codex.wordpress.org/Conditional_Tags\">Артыкулам Кодэкса WP</a> (па-ангельску), каб даведацца больш падрабязна пра тыпы старонак. "
+msgid "Do not cache the following page types. See the <a href=\"https://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> documentation for a complete discussion on each type."
+msgstr "Не кэшаваць старонкі наступных тыпаў. Паспрабуйцце звярнуцца да <a href=\"https://codex.wordpress.org/Conditional_Tags\">Артыкулам Кодэкса WP</a> (па-ангельску), каб даведацца больш падрабязна пра тыпы старонак. "
 
 #: wp-cache.php:1345
 msgid "Single Posts"
@@ -1136,8 +1136,8 @@ msgid "Edit <code>%s</code> and add the following line:<br /> <code>define('WP_C
 msgstr "Выпраўце файл наладак код <code>%s</code> і дадайце наступную пункту: <br /> <code>define('WP_CACHE', true);</code> <br /> Інакш, <strong>WP-Cache не зможа запусціцца.</strong> "
 
 #: wp-cache.php:1737
-msgid "<h3>WP_CACHE constant added to wp-config.php</h3><p>If you continue to see this warning message please see point 5 of the <a href=\"http://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. The WP_CACHE line must be moved up."
-msgstr " <h3> Пераменная WP_CACHE дададзеная ў файл канфігурацый wp-config.php </h3><p> Калі Вы да гэтага часу бачыце дадзенае паведамленне, то паспрабуйцце звярнуцца з пунктам 5 <a href=\"http://wordpress.org/extend/plugins/wp-super-cache/faq/\">чаво</a> (на англ.). Радок з WP_CACHE павінна быць размешчаная вышэй. "
+msgid "<h3>WP_CACHE constant added to wp-config.php</h3><p>If you continue to see this warning message please see point 5 of the <a href=\"https://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. The WP_CACHE line must be moved up."
+msgstr " <h3> Пераменная WP_CACHE дададзеная ў файл канфігурацый wp-config.php </h3><p> Калі Вы да гэтага часу бачыце дадзенае паведамленне, то паспрабуйцце звярнуцца з пунктам 5 <a href=\"https://wordpress.org/extend/plugins/wp-super-cache/faq/\">чаво</a> (на англ.). Радок з WP_CACHE павінна быць размешчаная вышэй. "
 
 #: wp-cache.php:1759
 msgid "Cache Contents"

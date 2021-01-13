@@ -1568,7 +1568,7 @@ function wp_check_browser_version() {
 		// include an unmodified $wp_version
 		include( ABSPATH . WPINC . '/version.php' );
 
-		$url     = 'http://api.wordpress.org/core/browse-happy/1.1/';
+		$url     = 'https://api.wordpress.org/core/browse-happy/1.1/';
 		$options = array(
 			'body'       => array( 'useragent' => $_SERVER['HTTP_USER_AGENT'] ),
 			'user-agent' => 'WordPress/' . $wp_version . '; ' . home_url( '/' ),

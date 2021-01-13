@@ -23,7 +23,7 @@ Run analyses, schedule reports on a daily, weekly or monthly basis, and receive 
 
 = How do I get a GTmetrix API account? =
 
-Go to [GTmetrix.com](http://gtmetrix.com/) and register. It's free.
+Go to [GTmetrix.com](https://gtmetrix.com/) and register. It's free.
 
 = How can I get more API Credits? =
 
@@ -31,7 +31,7 @@ You can purchase more API credits under the [GTmetrix PRO](https://gtmetrix.com/
 
 = Only administrators can use the plugin. How can I grant access to other roles? =
 
-GTmetrix for WordPress creates a new capability called access_gtmetrix. Using a plugin such as [Members](http://wordpress.org/extend/plugins/members/) or [User Role Editor](http://wordpress.org/extend/plugins/user-role-editor/), you can assign this capability to any role.
+GTmetrix for WordPress creates a new capability called access_gtmetrix. Using a plugin such as [Members](https://wordpress.org/extend/plugins/members/) or [User Role Editor](https://wordpress.org/extend/plugins/user-role-editor/), you can assign this capability to any role.
 
 == Screenshots ==
 

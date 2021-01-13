@@ -438,7 +438,7 @@ if ( ! class_exists( 'WpSmush' ) ) {
 				$use_http = get_option( WP_SMUSH_PREFIX.'use_http' );
 				wp_cache_add( WP_SMUSH_PREFIX.'use_http', $use_http, 'smush' );
 			}
-			$use_http ? define( 'WP_SMUSH_API_HTTP', 'http://smushpro.wpmudev.org/1.0/') : '';
+			$use_http ? define( 'WP_SMUSH_API_HTTP', 'https://smushpro.wpmudev.org/1.0/') : '';
 
 			$this->resize_from_meta_data( $meta, $ID );
 
@@ -563,7 +563,7 @@ if ( ! class_exists( 'WpSmush' ) ) {
 
 		/**
 		 * Return the filesize in a humanly readable format.
-		 * Taken from http://www.php.net/manual/en/function.filesize.php#91477
+		 * Taken from https://www.php.net/manual/en/function.filesize.php#91477
 		 */
 		function format_bytes( $bytes, $precision = 2 ) {
 			$units = array( 'B', 'KB', 'MB', 'GB', 'TB' );

@@ -811,12 +811,12 @@ msgstr "Galerie justifiée"
 
 #: extensions/default-templates/class-default-templates-extension.php:269
 msgid ""
-"The Justified Gallery template uses the popular <a href=\"http://miromannino."
+"The Justified Gallery template uses the popular <a href=\"https://miromannino."
 "com/projects/justified-gallery/\" target=\"_blank\">Justified Gallery jQuery "
 "Plugin</a> under the hood. You can specify thumbnail captions by setting the "
 "alt text for your attachments."
 msgstr ""
-"Le modèle de galerie justifiée utilise le populaire <a href=\"http://"
+"Le modèle de galerie justifiée utilise le populaire <a href=\"https://"
 "miromannino.com/projects/justified-gallery/\" target=\"_blank\">Justified "
 "Gallery jQuery Plugin</a>.Vous pouvez spécifier des légendes de vignettes en "
 "réglant le texte alternatif (alt text) pour vos images."
@@ -2646,5 +2646,5 @@ msgid "FooPlugins"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "http://fooplugins.com"
+msgid "https://fooplugins.com"
 msgstr ""

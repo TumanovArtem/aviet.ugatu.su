@@ -76,10 +76,10 @@ function login_header( $title = 'Log In', $message = '', $wp_error = null ) {
 
 	?><!DOCTYPE html>
 	<!--[if IE 8]>
-		<html xmlns="http://www.w3.org/1999/xhtml" class="ie8" <?php language_attributes(); ?>>
+		<html xmlns="https://www.w3.org/1999/xhtml" class="ie8" <?php language_attributes(); ?>>
 	<![endif]-->
 	<!--[if !(IE 8) ]><!-->
-		<html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes(); ?>>
+		<html xmlns="https://www.w3.org/1999/xhtml" <?php language_attributes(); ?>>
 	<!--<![endif]-->
 	<head>
 	<meta http-equiv="Content-Type" content="<?php bloginfo( 'html_type' ); ?>; charset=<?php bloginfo( 'charset' ); ?>" />
@@ -451,7 +451,7 @@ if ( defined( 'RELOCATE' ) && RELOCATE ) { // Move flag is set
 		$_SERVER['PHP_SELF'] = str_replace( $_SERVER['PATH_INFO'], '', $_SERVER['PHP_SELF'] );
 	}
 
-	$url = dirname( set_url_scheme( 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'] ) );
+	$url = dirname( set_url_scheme( 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'] ) );
 	if ( $url != get_option( 'siteurl' ) ) {
 		update_option( 'siteurl', $url );
 	}
@@ -918,7 +918,7 @@ switch ( $action ) {
 			$redirect_to = $_REQUEST['redirect_to'];
 			// Redirect to HTTPS if user wants SSL.
 			if ( $secure_cookie && false !== strpos( $redirect_to, 'wp-admin' ) ) {
-				$redirect_to = preg_replace( '|^http://|', 'https://', $redirect_to );
+				$redirect_to = preg_replace( '|^https://|', 'https://', $redirect_to );
 			}
 		} else {
 			$redirect_to = admin_url();

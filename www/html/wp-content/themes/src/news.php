@@ -11,8 +11,8 @@ Template Name: News
 		<div class="trigger-sm hidden-lg hidden-xs ">
 			<span>ТЭГИ</span>
 			<div>
-				<img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/arrow-down.png" alt="" class="">
-				<img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/arrow-up.png" alt="" class="hidden">
+				<img src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/arrow-down.png" alt="" class="">
+				<img src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/arrow-up.png" alt="" class="hidden">
 			</div>
 		</div>
 		<div class="trigger-xs trigger-xs-passive hidden-lg hidden-sm ">
@@ -277,19 +277,19 @@ Template Name: News
 </div>
 <?php get_footer(); ?>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/menu.js"></script>
-<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/slider.js"></script>
-<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/news-trigger.js"></script>
-<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/modal-window.js"></script>
-<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/load-posts.js"></script>
-<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/scrolls.js"></script>
-<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/media-posts.js"></script>
-<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/post-auto-delay.js"></script>
-<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/jquery.smoothscroll.js"></script>
+<script src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/menu.js"></script>
+<script src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/slider.js"></script>
+<script src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/news-trigger.js"></script>
+<script src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/modal-window.js"></script>
+<script src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/load-posts.js"></script>
+<script src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/scrolls.js"></script>
+<script src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/media-posts.js"></script>
+<script src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/post-auto-delay.js"></script>
+<script src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/jquery.smoothscroll.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script>
 	document.addEventListener("DOMContentLoaded", postAutoDelay(document.querySelectorAll(".news-wrapper")));
-	$('<link rel="stylesheet" href="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/all.css"><link rel="stylesheet" href="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/news.css">').appendTo($("head"));
+	$('<link rel="stylesheet" href="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/all.css"><link rel="stylesheet" href="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/news.css">').appendTo($("head"));
 	var ajaxurl = '<?php echo site_url() ?>/wp-admin/admin-ajax.php';
 </script>
 </body>

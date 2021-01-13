@@ -17,7 +17,7 @@ class WP_Http_Streams {
 	/**
 	 * Send a HTTP request to a URI using PHP Streams.
 	 *
-	 * @see WP_Http::request For default options descriptions.
+	 * @see WP_https::request For default options descriptions.
 	 *
 	 * @since 2.7.0
 	 * @since 3.7.0 Combined with the fsockopen transport and switched to stream_socket_client().
@@ -49,7 +49,7 @@ class WP_Http_Streams {
 		}
 
 		// Construct Cookie: header if any cookies are set.
-		WP_Http::buildCookieHeader( $r );
+		WP_https::buildCookieHeader( $r );
 
 		$arrURL = parse_url( $url );
 
@@ -65,7 +65,7 @@ class WP_Http_Streams {
 			}
 		}
 
-		// Always pass a Path, defaulting to the root in cases such as http://example.com
+		// Always pass a Path, defaulting to the root in cases such as https://example.com
 		if ( ! isset( $arrURL['path'] ) ) {
 			$arrURL['path'] = '/';
 		}
@@ -265,7 +265,7 @@ class WP_Http_Streams {
 				if ( ! $bodyStarted ) {
 					$strResponse .= $block;
 					if ( strpos( $strResponse, "\r\n\r\n" ) ) {
-						$process     = WP_Http::processResponse( $strResponse );
+						$process     = WP_https::processResponse( $strResponse );
 						$bodyStarted = true;
 						$block       = $process['body'];
 						unset( $strResponse );
@@ -307,14 +307,14 @@ class WP_Http_Streams {
 				$keep_reading = ( ! $bodyStarted || ! isset( $r['limit_response_size'] ) || strlen( $strResponse ) < ( $header_length + $r['limit_response_size'] ) );
 			}
 
-			$process = WP_Http::processResponse( $strResponse );
+			$process = WP_https::processResponse( $strResponse );
 			unset( $strResponse );
 
 		}
 
 		fclose( $handle );
 
-		$arrHeaders = WP_Http::processHeaders( $process['headers'], $url );
+		$arrHeaders = WP_https::processHeaders( $process['headers'], $url );
 
 		$response = array(
 			'headers'  => $arrHeaders['headers'],
@@ -326,13 +326,13 @@ class WP_Http_Streams {
 		);
 
 		// Handle redirects.
-		if ( false !== ( $redirect_response = WP_Http::handle_redirects( $url, $r, $response ) ) ) {
+		if ( false !== ( $redirect_response = WP_https::handle_redirects( $url, $r, $response ) ) ) {
 			return $redirect_response;
 		}
 
 		// If the body was chunk encoded, then decode it.
 		if ( ! empty( $process['body'] ) && isset( $arrHeaders['headers']['transfer-encoding'] ) && 'chunked' == $arrHeaders['headers']['transfer-encoding'] ) {
-			$process['body'] = WP_Http::chunkTransferDecode( $process['body'] );
+			$process['body'] = WP_https::chunkTransferDecode( $process['body'] );
 		}
 
 		if ( true === $r['decompress'] && true === WP_Http_Encoding::should_decode( $arrHeaders['headers'] ) ) {
@@ -380,7 +380,7 @@ class WP_Http_Streams {
 		 * If the request is being made to an IP address, we'll validate against IP fields
 		 * in the cert (if they exist)
 		 */
-		$host_type = ( WP_Http::is_ip_address( $host ) ? 'ip' : 'dns' );
+		$host_type = ( WP_https::is_ip_address( $host ) ? 'ip' : 'dns' );
 
 		$certificate_hostnames = array();
 		if ( ! empty( $cert['extensions']['subjectAltName'] ) ) {
@@ -460,10 +460,10 @@ class WP_Http_Streams {
  * This class is not used, and is included for backward compatibility only.
  * All code should make use of WP_Http directly through its API.
  *
- * @see WP_HTTP::request
+ * @see WP_https::request
  *
  * @since 2.7.0
- * @deprecated 3.7.0 Please use WP_HTTP::request() directly
+ * @deprecated 3.7.0 Please use WP_https::request() directly
  */
 class WP_HTTP_Fsockopen extends WP_HTTP_Streams {
 	// For backward compatibility for users who are using the class directly.

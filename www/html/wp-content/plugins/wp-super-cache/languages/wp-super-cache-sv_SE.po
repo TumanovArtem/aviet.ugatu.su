@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: wp-super-cache 0.9.9.6\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-super-cache\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tag/wp-super-cache\n"
 "POT-Creation-Date: 2010-09-27 13:58+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Fredrik Forséll <fredrik@djurby.se>\n"
@@ -73,8 +73,8 @@ msgstr "Bad Behaviour-stöd är %s."
 
 #: plugins/badbehaviour.php:61
 #, php-format
-msgid "(Only legacy caching supported, disabled compression and requires <a href=\"http://www.bad-behavior.ioerror.us/\">Bad Behavior</a> in \"%s/plugins/bad-behavior/\") "
-msgstr "(endast föråldrad cache stöds, inaktiverad kompression och kräver <a href=\"http://www.bad-behavior.ioerror.us/\">Bad Behavior</a> i \"%s/plugins/bad-behavior/\")"
+msgid "(Only legacy caching supported, disabled compression and requires <a href=\"https://www.bad-behavior.ioerror.us/\">Bad Behavior</a> in \"%s/plugins/bad-behavior/\") "
+msgstr "(endast föråldrad cache stöds, inaktiverad kompression och kräver <a href=\"https://www.bad-behavior.ioerror.us/\">Bad Behavior</a> i \"%s/plugins/bad-behavior/\")"
 
 #: plugins/badbehaviour.php:69
 #: wp-cache.php:1191
@@ -84,8 +84,8 @@ msgstr "Varning!"
 
 #: plugins/domain-mapping.php:57
 #, php-format
-msgid "<a href=\"http://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a> support plugin is %s"
-msgstr "<a href=\"http://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a>-tilläget är %s"
+msgid "<a href=\"https://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a> support plugin is %s"
+msgstr "<a href=\"https://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a>-tilläget är %s"
 
 #: plugins/domain-mapping.php:58
 msgid "(support for multiple domains on multisite websites) "
@@ -97,12 +97,12 @@ msgstr "Domain Mapping-tillägget detekterat! Var vänlig gå till Supercache-ti
 
 #: plugins/searchengine.php:71
 #, php-format
-msgid "<a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> plugin is %s."
-msgstr "<a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a>-tillägget är %s"
+msgid "<a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> plugin is %s."
+msgstr "<a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a>-tillägget är %s"
 
 #: plugins/searchengine.php:72
-msgid "(requires <a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> too) "
-msgstr "(kräver <a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> också) "
+msgid "(requires <a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> too) "
+msgstr "(kräver <a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> också) "
 
 #: wp-cache.php:87
 #, php-format
@@ -123,12 +123,12 @@ msgstr "Din server är inställd för att kontrollera ägaren av PHP-skript inna
 
 #: wp-cache.php:144
 #, php-format
-msgid "You or an administrator may be able to make it work by changing the group owner of the plugin scripts to match that of the web server user. The group owner of the %s/cache/ directory must also be changed. See the <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> for further details."
-msgstr "Du eller en administratör kan få det att fungera genom att ändra grupp-ägaren av pluginskripten till att passa webserver användaren. Gruppägaren av mappen %s/cache/ måste också ändras. Läs <a href=\"http://php.net/features.safe-mode\">safe mode manualsidan</a> för mer information."
+msgid "You or an administrator may be able to make it work by changing the group owner of the plugin scripts to match that of the web server user. The group owner of the %s/cache/ directory must also be changed. See the <a href=\"https://php.net/features.safe-mode\">safe mode manual page</a> for further details."
+msgstr "Du eller en administratör kan få det att fungera genom att ändra grupp-ägaren av pluginskripten till att passa webserver användaren. Gruppägaren av mappen %s/cache/ måste också ändras. Läs <a href=\"https://php.net/features.safe-mode\">safe mode manualsidan</a> för mer information."
 
 #: wp-cache.php:146
-msgid "You or an administrator must disable this. See the <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> for further details. This cannot be disabled in a .htaccess file unfortunately. It must be done in the php.ini config file."
-msgstr "Du eller en administratör måste inaktivera det här. Läs <a href=\"http://php.net/features.safe-mode\">safe mode manualsidan</a> för mer information. Det här kan tyvärr inte inaktiveras i en .htaccess fil. Det måste göras i konfigurationsfilen php.ini."
+msgid "You or an administrator must disable this. See the <a href=\"https://php.net/features.safe-mode\">safe mode manual page</a> for further details. This cannot be disabled in a .htaccess file unfortunately. It must be done in the php.ini config file."
+msgstr "Du eller en administratör måste inaktivera det här. Läs <a href=\"https://php.net/features.safe-mode\">safe mode manualsidan</a> för mer information. Det här kan tyvärr inte inaktiveras i en .htaccess fil. Det måste göras i konfigurationsfilen php.ini."
 
 #: wp-cache.php:152
 msgid "Permlink Structure Error"
@@ -167,8 +167,8 @@ msgid "Zlib Output Compression Enabled!"
 msgstr "Zlib utdatakomprimering aktiverad!"
 
 #: wp-cache.php:205
-msgid "PHP is compressing the data sent to the visitors of your site. Disabling this is recommended as the plugin caches the compressed output once instead of compressing the same page over and over again. Also see #21 in the Troubleshooting section. See <a href=\"http://php.net/manual/en/zlib.configuration.php\">this page</a> for instructions on modifying your php.ini."
-msgstr "PHP komprimerar datat som sänds till besökare på din webbsida. Det rekommenderas att stänga av det eftersom tillägget sparar det komprimerade utdatat en gång i stället för att komprimera samma sida om och om igen. Se också #21 på felsökningssidan. Se <a href=\"http://php.net/manual/en/zlib.configuration.php\">denna sida</a> för instruktioner hur du ändrar din php.ini."
+msgid "PHP is compressing the data sent to the visitors of your site. Disabling this is recommended as the plugin caches the compressed output once instead of compressing the same page over and over again. Also see #21 in the Troubleshooting section. See <a href=\"https://php.net/manual/en/zlib.configuration.php\">this page</a> for instructions on modifying your php.ini."
+msgstr "PHP komprimerar datat som sänds till besökare på din webbsida. Det rekommenderas att stänga av det eftersom tillägget sparar det komprimerade utdatat en gång i stället för att komprimera samma sida om och om igen. Se också #21 på felsökningssidan. Se <a href=\"https://php.net/manual/en/zlib.configuration.php\">denna sida</a> för instruktioner hur du ändrar din php.ini."
 
 #: wp-cache.php:209
 msgid "Mod rewrite may not be installed!"
@@ -251,8 +251,8 @@ msgstr "Radera tilläggets mod_rewrite regler i %s.htaccess omslutet av <code># 
 
 #: wp-cache.php:253
 #, php-format
-msgid "Add the rules yourself. Edit %s.htaccess and find the block of code enclosed by the lines <code># BEGIN WPSuperCache</code> and <code># END WPSuperCache</code>. There are two sections that look very similar. Just below the line <code>%%{HTTP:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> add these lines: (do it twice, once for each section)"
-msgstr "Lägg till reglerna själv. Redigera %s.htaccess och hitta blocket med kod som omsluts av raderna <code># BEGIN WPSuperCache</code> och <code># END WPSuperCache</code>. Det är två delar som ser väldigt lika ut. Precis nedanför raden <code>%%{HTTP:Cookie} !^.*(comment_author_|wordpress|wp-postpass_).*$</code> lägg till den här raden: (gör det två gånger, en för varje del)"
+msgid "Add the rules yourself. Edit %s.htaccess and find the block of code enclosed by the lines <code># BEGIN WPSuperCache</code> and <code># END WPSuperCache</code>. There are two sections that look very similar. Just below the line <code>%%{https:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> add these lines: (do it twice, once for each section)"
+msgstr "Lägg till reglerna själv. Redigera %s.htaccess och hitta blocket med kod som omsluts av raderna <code># BEGIN WPSuperCache</code> och <code># END WPSuperCache</code>. Det är två delar som ser väldigt lika ut. Precis nedanför raden <code>%%{https:Cookie} !^.*(comment_author_|wordpress|wp-postpass_).*$</code> lägg till den här raden: (gör det två gånger, en för varje del)"
 
 #: wp-cache.php:266
 msgid "Required to serve compressed supercache files properly."
@@ -711,8 +711,8 @@ msgstr "Tack för att du uppgraderat."
 
 #: wp-cache.php:1011
 #, php-format
-msgid "The mod_rewrite rules changed since you last installed this plugin. Unfortunately you must remove the old supercache rules before the new ones are updated. Refresh this page when you have edited your .htaccess file. If you wish to manually upgrade, change the following line: %1$s so it looks like this: %2$s The only changes are \"HTTP_COOKIE\" becomes \"HTTP:Cookie\" and \"wordpressuser\" becomes \"wordpress\". This is a WordPress 2.5 change but it&#8217;s backwards compatible with older versions if you&#8217;re brave enough to use them."
-msgstr "Mod_rewrite reglerna har ändrats sedan du senast installerade det här tillägget. Tyvärr måste du ta bort de gamla supercache reglerna innan de nya är uppdaterade. Uppdatera den här sidan när du har redigerat din .htaccess fil. Om du vill uppgradera manuellt, ändra följande rad: %1$s så den ser ut såhär: %2$s De enda ändringarna är \"HTTP_COOKIE\" blir \"HTTP:Cookie\" och \"wordpressuser\" blir \"wordpress\". Det här är en WordPress 2.5 ändring men det är bakåt kompatibelt med äldre versioner om du är modig nog att använda dem."
+msgid "The mod_rewrite rules changed since you last installed this plugin. Unfortunately you must remove the old supercache rules before the new ones are updated. Refresh this page when you have edited your .htaccess file. If you wish to manually upgrade, change the following line: %1$s so it looks like this: %2$s The only changes are \"HTTP_COOKIE\" becomes \"https:Cookie\" and \"wordpressuser\" becomes \"wordpress\". This is a WordPress 2.5 change but it&#8217;s backwards compatible with older versions if you&#8217;re brave enough to use them."
+msgstr "Mod_rewrite reglerna har ändrats sedan du senast installerade det här tillägget. Tyvärr måste du ta bort de gamla supercache reglerna innan de nya är uppdaterade. Uppdatera den här sidan när du har redigerat din .htaccess fil. Om du vill uppgradera manuellt, ändra följande rad: %1$s så den ser ut såhär: %2$s De enda ändringarna är \"HTTP_COOKIE\" blir \"https:Cookie\" och \"wordpressuser\" blir \"wordpress\". Det här är en WordPress 2.5 ändring men det är bakåt kompatibelt med äldre versioner om du är modig nog att använda dem."
 
 #: wp-cache.php:1015
 msgid "Trailing slash check required."
@@ -910,8 +910,8 @@ msgid "Save UA Strings"
 msgstr "Spara UA strängar"
 
 #: wp-cache.php:1342
-msgid "Do not cache the following page types. See the <a href=\"http://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> documentation for a complete discussion on each type."
-msgstr "Cacha inte följande sidtyper. Läs <a href=\"http://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> dokumenten för en komplett diskussion av varje typ."
+msgid "Do not cache the following page types. See the <a href=\"https://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> documentation for a complete discussion on each type."
+msgstr "Cacha inte följande sidtyper. Läs <a href=\"https://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> dokumenten för en komplett diskussion av varje typ."
 
 #: wp-cache.php:1345
 msgid "Single Posts"
@@ -1133,8 +1133,8 @@ msgid "Edit <code>%s</code> and add the following line:<br /> <code>define('WP_C
 msgstr "Redigera <code>%s</code> och lägg till följande rad: <br /> <code>define('WP_CACHE', true);</code><br />Annars <strong>kommer inte WP-Cache köras</strong> av WordPresskärnan."
 
 #: wp-cache.php:1737
-msgid "<h3>WP_CACHE constant added to wp-config.php</h3><p>If you continue to see this warning message please see point 5 of the <a href=\"http://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. The WP_CACHE line must be moved up."
-msgstr "<h3>WP_CACHE konstant tillagd i wp-config.php</h3><p>Om du fortsätter att se det här varningsmeddelandetvar vänlig läs punkt 5 i <a href=\"http://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. WP_CACHE raden måste flyttas upp."
+msgid "<h3>WP_CACHE constant added to wp-config.php</h3><p>If you continue to see this warning message please see point 5 of the <a href=\"https://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. The WP_CACHE line must be moved up."
+msgstr "<h3>WP_CACHE konstant tillagd i wp-config.php</h3><p>Om du fortsätter att se det här varningsmeddelandetvar vänlig läs punkt 5 i <a href=\"https://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. WP_CACHE raden måste flyttas upp."
 
 #: wp-cache.php:1759
 msgid "Cache Contents"

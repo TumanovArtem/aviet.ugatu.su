@@ -1175,7 +1175,7 @@ module.exports = function (that, target, C) {
 };
 
 },{"57":57,"98":98}],52:[function(_dereq_,module,exports){
-// fast apply, http://jsperf.lnkit.com/fast-apply/5
+// fast apply, https://jsperf.lnkit.com/fast-apply/5
 module.exports = function (fn, args, that) {
   var un = that === undefined;
   switch (args.length) {

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Super Cache\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-super-cache\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tag/wp-super-cache\n"
 "POT-Creation-Date: 2011-01-05 14:52:03+00:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Baris Unver <baris.unver@beyn.org>\n"
@@ -14,8 +14,8 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: ossdl-cdn.php:133
-msgid "Your website probably uses lots of static files. Image, Javascript and CSS files are usually static files that could just as easily be served from another site or CDN. Therefore this plugin replaces any links in the <code>wp-content</code> and <code>wp-includes</code> directories (except for PHP files) on your site with the URL you provide below. That way you can either copy all the static content to a dedicated host or mirror the files to a CDN by <a href=\"http://knowledgelayer.softlayer.com/questions/365/How+does+Origin+Pull+work%3F\" target=\"_blank\">origin pull</a>."
-msgstr "Siteniz muhtemelen çok fazla statik dosya kullanıyordur. Görsel, JavaScript ve CSS dosyaları genellikle başka bir siteden veya bir CDN sisteminden kolayca sunabileceğiniz statik dosyalardır. Bu yüzden bu eklenti <code>wp-content</code> ve <code>wp-includes</code> dizinleri içerisindeki (PHP dosyaları haricindeki) tüm bağlantıları, aşağıda belirleyeceğiniz URL üzerinden sunacaktır. Bu şekilde tüm statik dosyalarınız sanal sunucunuza veya satın aldığınız CDN sistemine <a href=\"http://knowledgelayer.softlayer.com/questions/365/How+does+Origin+Pull+work%3F\" target=\"_blank\">\"origin pull\"</a> tekniğiyle aktarılacaktır."
+msgid "Your website probably uses lots of static files. Image, Javascript and CSS files are usually static files that could just as easily be served from another site or CDN. Therefore this plugin replaces any links in the <code>wp-content</code> and <code>wp-includes</code> directories (except for PHP files) on your site with the URL you provide below. That way you can either copy all the static content to a dedicated host or mirror the files to a CDN by <a href=\"https://knowledgelayer.softlayer.com/questions/365/How+does+Origin+Pull+work%3F\" target=\"_blank\">origin pull</a>."
+msgstr "Siteniz muhtemelen çok fazla statik dosya kullanıyordur. Görsel, JavaScript ve CSS dosyaları genellikle başka bir siteden veya bir CDN sisteminden kolayca sunabileceğiniz statik dosyalardır. Bu yüzden bu eklenti <code>wp-content</code> ve <code>wp-includes</code> dizinleri içerisindeki (PHP dosyaları haricindeki) tüm bağlantıları, aşağıda belirleyeceğiniz URL üzerinden sunacaktır. Bu şekilde tüm statik dosyalarınız sanal sunucunuza veya satın aldığınız CDN sistemine <a href=\"https://knowledgelayer.softlayer.com/questions/365/How+does+Origin+Pull+work%3F\" target=\"_blank\">\"origin pull\"</a> tekniğiyle aktarılacaktır."
 
 #: ossdl-cdn.php:134
 #: wp-cache.php:965
@@ -63,16 +63,16 @@ msgid "Additional CNAMES"
 msgstr "Ek CNAME'ler"
 
 #: ossdl-cdn.php:171
-msgid "These <a href=\"http://en.wikipedia.org/wiki/CNAME_record\">CNAMES</a> will be used in place of %1$s for rewriting (in addition to the off-site URL above). Use a comma as the delimiter. For pages with a large number of static files, this can improve browser performance. CNAMEs may also need to be configured on your CDN.<br />Example: %2$s"
-msgstr "Bu <a href=\"http://en.wikipedia.org/wiki/CNAME_record\">CNAME'ler</a>, yeniden yazım için %1$s yerine kullanılacaktır (yukarıda belirlediğiniz site dışı adrese ek olarak). Virgülle ayırın. Fazlaca statik dosyaya sahip sayfalar için bu seçenek tarayıcı performansını artırabilir. CNAME'lerin bazen CDN hizmetiniz için de ayarlanması gerekebilir.<br />Example: %2$s"
+msgid "These <a href=\"https://en.wikipedia.org/wiki/CNAME_record\">CNAMES</a> will be used in place of %1$s for rewriting (in addition to the off-site URL above). Use a comma as the delimiter. For pages with a large number of static files, this can improve browser performance. CNAMEs may also need to be configured on your CDN.<br />Example: %2$s"
+msgstr "Bu <a href=\"https://en.wikipedia.org/wiki/CNAME_record\">CNAME'ler</a>, yeniden yazım için %1$s yerine kullanılacaktır (yukarıda belirlediğiniz site dışı adrese ek olarak). Virgülle ayırın. Fazlaca statik dosyaya sahip sayfalar için bu seçenek tarayıcı performansını artırabilir. CNAME'lerin bazen CDN hizmetiniz için de ayarlanması gerekebilir.<br />Example: %2$s"
 
 #: ossdl-cdn.php:176
 msgid "Save Changes"
 msgstr "Değişiklikleri Kaydet"
 
 #: ossdl-cdn.php:178
-msgid "CDN functionality provided by <a href=\"http://wordpress.org/extend/plugins/ossdl-cdn-off-linker/\">OSSDL CDN Off Linker</a> by <a href=\"http://mark.ossdl.de/\">Mark Kubacki</a>"
-msgstr "CDN kullanımı, <a href=\"http://mark.ossdl.de/\">Mark Kubacki</a> tarafından yazılan <a href=\"http://wordpress.org/extend/plugins/ossdl-cdn-off-linker/\">OSSDL CDN Off Linker</a> ile sağlanmaktadır"
+msgid "CDN functionality provided by <a href=\"https://wordpress.org/extend/plugins/ossdl-cdn-off-linker/\">OSSDL CDN Off Linker</a> by <a href=\"https://mark.ossdl.de/\">Mark Kubacki</a>"
+msgstr "CDN kullanımı, <a href=\"https://mark.ossdl.de/\">Mark Kubacki</a> tarafından yazılan <a href=\"https://wordpress.org/extend/plugins/ossdl-cdn-off-linker/\">OSSDL CDN Off Linker</a> ile sağlanmaktadır"
 
 #: wp-cache.php:99
 msgid "Please create %s /wp-cache-config.php from wp-super-cache/wp-cache-config-sample.php"
@@ -91,12 +91,12 @@ msgid "Your server is set up to check the owner of PHP scripts before allowing t
 msgstr "Sunucunuz, dosya okuma/yazma işlemlerine izin verilmeden önce PHP betiğinin sahibini kontrol edecek şekilde ayarlanmış."
 
 #: wp-cache.php:168
-msgid "You or an administrator may be able to make it work by changing the group owner of the plugin scripts to match that of the web server user. The group owner of the %s/cache/ directory must also be changed. See the <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> for further details."
-msgstr "Siz veya bir yönetici, eklenti betiklerini çalıştıran kullanıcıyı sunucu kullanıcısıyla aynı yaparak sorunu çözebilirsiniz. %s/cache/ dizininin grup sahibi de aynı şekilde değişmelidir. <a href=\"http://php.net/features.safe-mode\">Güvenli Mod yardım sayfasına</a> bakarak ayrıntılı bilgi edinebilirsiniz."
+msgid "You or an administrator may be able to make it work by changing the group owner of the plugin scripts to match that of the web server user. The group owner of the %s/cache/ directory must also be changed. See the <a href=\"https://php.net/features.safe-mode\">safe mode manual page</a> for further details."
+msgstr "Siz veya bir yönetici, eklenti betiklerini çalıştıran kullanıcıyı sunucu kullanıcısıyla aynı yaparak sorunu çözebilirsiniz. %s/cache/ dizininin grup sahibi de aynı şekilde değişmelidir. <a href=\"https://php.net/features.safe-mode\">Güvenli Mod yardım sayfasına</a> bakarak ayrıntılı bilgi edinebilirsiniz."
 
 #: wp-cache.php:170
-msgid "You or an administrator must disable this. See the <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> for further details. This cannot be disabled in a .htaccess file unfortunately. It must be done in the php.ini config file."
-msgstr "Siz veya başka bir yönetici bunu etkisizleştirmeli. <a href=\"http://php.net/features.safe-mode\">\"güvenli mod\" bilgilendirme sayfası</a>na gidip ayrıntılı bilgi alabilirsiniz. Ne yazık ki, bu ayar .htaccess ile etkisizleştirilemez; php.ini ayar dosyasının düzenlenmesi gerekiyor."
+msgid "You or an administrator must disable this. See the <a href=\"https://php.net/features.safe-mode\">safe mode manual page</a> for further details. This cannot be disabled in a .htaccess file unfortunately. It must be done in the php.ini config file."
+msgstr "Siz veya başka bir yönetici bunu etkisizleştirmeli. <a href=\"https://php.net/features.safe-mode\">\"güvenli mod\" bilgilendirme sayfası</a>na gidip ayrıntılı bilgi alabilirsiniz. Ne yazık ki, bu ayar .htaccess ile etkisizleştirilemez; php.ini ayar dosyasının düzenlenmesi gerekiyor."
 
 #: wp-cache.php:176
 msgid "Permlink Structure Error"
@@ -132,8 +132,8 @@ msgid "Zlib Output Compression Enabled!"
 msgstr "Zlib Çıktı Sıkıştırma Etkin!"
 
 #: wp-cache.php:229
-msgid "PHP is compressing the data sent to the visitors of your site. Disabling this is recommended as the plugin caches the compressed output once instead of compressing the same page over and over again. Also see #21 in the Troubleshooting section. See <a href=\"http://php.net/manual/en/zlib.configuration.php\">this page</a> for instructions on modifying your php.ini."
-msgstr "PHP, ziyaretçilerinizin gördüğü verileri sıkıştırıyor. Bunu devre dışı bırakmak, eklentinin önbelleğe aldığı sayfaların tekrar tekrar sıkıştırılmaması için tavsiye edilir. (Hata Giderme bölümünde 21. maddeyi okuyun.) PHP.ini dosyanızı düzenleme yönergeleri için <a href=\"http://php.net/manual/en/zlib.configuration.php\">bu sayfayı okuyun</a>."
+msgid "PHP is compressing the data sent to the visitors of your site. Disabling this is recommended as the plugin caches the compressed output once instead of compressing the same page over and over again. Also see #21 in the Troubleshooting section. See <a href=\"https://php.net/manual/en/zlib.configuration.php\">this page</a> for instructions on modifying your php.ini."
+msgstr "PHP, ziyaretçilerinizin gördüğü verileri sıkıştırıyor. Bunu devre dışı bırakmak, eklentinin önbelleğe aldığı sayfaların tekrar tekrar sıkıştırılmaması için tavsiye edilir. (Hata Giderme bölümünde 21. maddeyi okuyun.) PHP.ini dosyanızı düzenleme yönergeleri için <a href=\"https://php.net/manual/en/zlib.configuration.php\">bu sayfayı okuyun</a>."
 
 #: wp-cache.php:233
 msgid "Mod rewrite may not be installed!"
@@ -211,8 +211,8 @@ msgid "Delete the plugin mod_rewrite rules in %s.htaccess enclosed by <code># BE
 msgstr "%s.htaccess dosyanızda, <code># BEGIN WPSuperCache</code> ile  <code># END WPSuperCache</code> arasındaki satırları (bu iki satır da dahil olmak üzere) silerek eklentinin ürettiği mod_rewrite kurallarını silebilirsiniz. Sayfayı yenilediğinizde eklenti yenisini üretecektir."
 
 #: wp-cache.php:277
-msgid "Add the rules yourself. Edit %s.htaccess and find the block of code enclosed by the lines <code># BEGIN WPSuperCache</code> and <code># END WPSuperCache</code>. There are two sections that look very similar. Just below the line <code>%%{HTTP:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> add these lines: (do it twice, once for each section)"
-msgstr "Kuralları kendiniz ekleyin. %s.htaccess dosyasını düzenlemek için açın ve <code># BEGIN WPSuperCache</code> ile <code># END WPSuperCache</code> arasındaki satırları bulun. Birbirine çok benzeyen iki bölüm olacaktır. <code>%%{HTTP:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> satırının hemen altına şu satırları ekleyin: (iki bölüm için de birer defa yapmayı unutmayın)"
+msgid "Add the rules yourself. Edit %s.htaccess and find the block of code enclosed by the lines <code># BEGIN WPSuperCache</code> and <code># END WPSuperCache</code>. There are two sections that look very similar. Just below the line <code>%%{https:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> add these lines: (do it twice, once for each section)"
+msgstr "Kuralları kendiniz ekleyin. %s.htaccess dosyasını düzenlemek için açın ve <code># BEGIN WPSuperCache</code> ile <code># END WPSuperCache</code> arasındaki satırları bulun. Birbirine çok benzeyen iki bölüm olacaktır. <code>%%{https:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> satırının hemen altına şu satırları ekleyin: (iki bölüm için de birer defa yapmayı unutmayın)"
 
 #: wp-cache.php:290
 msgid "Required to serve compressed supercache files properly."
@@ -736,8 +736,8 @@ msgid "Thank you for upgrading."
 msgstr "Yükselttiğiniz için teşekkürler."
 
 #: wp-cache.php:1111
-msgid "The mod_rewrite rules changed since you last installed this plugin. Unfortunately you must remove the old supercache rules before the new ones are updated. Refresh this page when you have edited your .htaccess file. If you wish to manually upgrade, change the following line: %1$s so it looks like this: %2$s The only changes are \"HTTP_COOKIE\" becomes \"HTTP:Cookie\" and \"wordpressuser\" becomes \"wordpress\". This is a WordPress 2.5 change but it&#8217;s backwards compatible with older versions if you&#8217;re brave enough to use them."
-msgstr "Eklentiyi yüklediğinizden beri mod_rewrite kuralları değişti. Yenilerinin konabilmesi için öncekileri kaldırmanız gerekiyor. .htaccess dosyanızı düzenledikten sonra bu sayfayı yenileyin. Elle düzenlemek isterseniz, şu satırı şu şekilde değiştirin: %1$s ki şu şekilde gözüksün: %2$s Yapılan değişiklikler şöyle: \"HTTP_COOKIE\" yerine \"HTTP:Cookie\" yazılıyor ve \"wordpressuser\" yerine de \"wordpress\" geliyor. Bu WordPress 2.5 ile ilgili bir değişikliktir ama kendinizi cesur hissediyorsanız önceki sürümlerle de uyumludur."
+msgid "The mod_rewrite rules changed since you last installed this plugin. Unfortunately you must remove the old supercache rules before the new ones are updated. Refresh this page when you have edited your .htaccess file. If you wish to manually upgrade, change the following line: %1$s so it looks like this: %2$s The only changes are \"HTTP_COOKIE\" becomes \"https:Cookie\" and \"wordpressuser\" becomes \"wordpress\". This is a WordPress 2.5 change but it&#8217;s backwards compatible with older versions if you&#8217;re brave enough to use them."
+msgstr "Eklentiyi yüklediğinizden beri mod_rewrite kuralları değişti. Yenilerinin konabilmesi için öncekileri kaldırmanız gerekiyor. .htaccess dosyanızı düzenledikten sonra bu sayfayı yenileyin. Elle düzenlemek isterseniz, şu satırı şu şekilde değiştirin: %1$s ki şu şekilde gözüksün: %2$s Yapılan değişiklikler şöyle: \"HTTP_COOKIE\" yerine \"https:Cookie\" yazılıyor ve \"wordpressuser\" yerine de \"wordpress\" geliyor. Bu WordPress 2.5 ile ilgili bir değişikliktir ama kendinizi cesur hissediyorsanız önceki sürümlerle de uyumludur."
 
 #: wp-cache.php:1115
 msgid "Trailing slash check required."
@@ -948,8 +948,8 @@ msgid "Save UA Strings"
 msgstr "KT Dizgilerini Kaydet"
 
 #: wp-cache.php:1442
-msgid "Do not cache the following page types. See the <a href=\"http://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> documentation for a complete discussion on each type."
-msgstr "Aşağıdaki sayfa türlerini hiçbir zaman önbellekleme. (<a href=\"http://codex.wordpress.org/Conditional_Tags\">Koşul Etiketleri (İngilizce)</a> sayfasını ziyaret ederek tüm sayfa türleri hakkında bilgi edinebilirsiniz.)"
+msgid "Do not cache the following page types. See the <a href=\"https://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> documentation for a complete discussion on each type."
+msgstr "Aşağıdaki sayfa türlerini hiçbir zaman önbellekleme. (<a href=\"https://codex.wordpress.org/Conditional_Tags\">Koşul Etiketleri (İngilizce)</a> sayfasını ziyaret ederek tüm sayfa türleri hakkında bilgi edinebilirsiniz.)"
 
 #: wp-cache.php:1445
 msgid "Single Posts"
@@ -1150,8 +1150,8 @@ msgid "Edit <code>%s</code> and add the following line:<br /> <code>define('WP_C
 msgstr "<code>%s</code> kodunu düzenleyin ve şu satırı ekleyin:<br /> <code>define('WP_CACHE', true);</code><br />Bu olmadan, <strong>WP-Cache çalışmayacaktır</strong>."
 
 #: wp-cache.php:1827
-msgid "<h3>WP_CACHE constant added to wp-config.php</h3><p>If you continue to see this warning message please see point 5 of the <a href=\"http://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. The WP_CACHE line must be moved up."
-msgstr "<h3>WP_CACHE sabiti, wp-config.php dosyasına eklendi</h3><p>Bu uyarı mesajını görmeye devam ederseniz lütfen <a href=\"http://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a> sayfasındaki 5. maddeye bakın. WP_CACHE ile ilgili satır yukarı kaymış olmalı."
+msgid "<h3>WP_CACHE constant added to wp-config.php</h3><p>If you continue to see this warning message please see point 5 of the <a href=\"https://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. The WP_CACHE line must be moved up."
+msgstr "<h3>WP_CACHE sabiti, wp-config.php dosyasına eklendi</h3><p>Bu uyarı mesajını görmeye devam ederseniz lütfen <a href=\"https://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a> sayfasındaki 5. maddeye bakın. WP_CACHE ile ilgili satır yukarı kaymış olmalı."
 
 #: wp-cache.php:1851
 msgid "Cache Contents"
@@ -1427,7 +1427,7 @@ msgid ""
 "\n"
 "Regards,\n"
 "WP Super Cache Plugin\n"
-"http://wordpress.org/extend/plugins/wp-super-cache/"
+"https://wordpress.org/extend/plugins/wp-super-cache/"
 msgstr ""
 "Değerli Kullanıcı,\n"
 "\n"
@@ -1439,7 +1439,7 @@ msgstr ""
 "\n"
 "Saygılar,\n"
 "WP Super Cache Eklentisi\n"
-"http://wordpress.org/extend/plugins/wp-super-cache/"
+"https://wordpress.org/extend/plugins/wp-super-cache/"
 
 #: plugins/awaitingmoderation.php:4
 msgid "Your comment is awaiting moderation."
@@ -1479,28 +1479,28 @@ msgid "Bad Behavior"
 msgstr "Bad Behaviour"
 
 #: plugins/badbehaviour.php:68
-msgid "(Only legacy caching supported, disabled compression and requires <a href=\"http://www.bad-behavior.ioerror.us/\">Bad Behavior</a> in \"%s/plugins/bad-behavior/\") "
-msgstr "(Sadece eski tarz önbellekleme desteklenir, sıkıştırma etkin değildir ve \"%s/plugins/bad-behavior/\" dizininde <a href=\"http://www.bad-behavior.ioerror.us/\">Bad Behavior</a> olması gerekir)"
+msgid "(Only legacy caching supported, disabled compression and requires <a href=\"https://www.bad-behavior.ioerror.us/\">Bad Behavior</a> in \"%s/plugins/bad-behavior/\") "
+msgstr "(Sadece eski tarz önbellekleme desteklenir, sıkıştırma etkin değildir ve \"%s/plugins/bad-behavior/\" dizininde <a href=\"https://www.bad-behavior.ioerror.us/\">Bad Behavior</a> olması gerekir)"
 
 #: plugins/badbehaviour.php:74
 msgid "Bad Behavior support is now %s"
 msgstr "Bad Behaviour desteği %s"
 
 #: plugins/searchengine.php:71
-msgid "<a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> plugin is %s."
-msgstr "<a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> eklentisi %s"
+msgid "<a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> plugin is %s."
+msgstr "<a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> eklentisi %s"
 
 #: plugins/searchengine.php:72
-msgid "(requires <a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> too) "
-msgstr "(<a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> gerekir) "
+msgid "(requires <a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> too) "
+msgstr "(<a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> gerekir) "
 
 #: plugins/domain-mapping.php:58
 msgid "Domain Mapping"
 msgstr "Alan Adı Haritalama"
 
 #: plugins/domain-mapping.php:63
-msgid "Provides support for <a href=\"http://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a> plugin to map multiple domains to a blog."
-msgstr "<a href=\"http://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Alan Adı Haritalama</a> eklentisini destekler."
+msgid "Provides support for <a href=\"https://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a> plugin to map multiple domains to a blog."
+msgstr "<a href=\"https://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Alan Adı Haritalama</a> eklentisini destekler."
 
 #: plugins/domain-mapping.php:69
 msgid "Domain Mapping support is now %s"

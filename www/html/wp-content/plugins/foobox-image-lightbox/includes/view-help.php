@@ -39,10 +39,10 @@ $settings_url = admin_url( 'options-general.php?page=foobox-free' );
 		<a class="nav-tab nav-tab-active" href="#">
 			<?php _e( 'Getting Started', 'foobox-image-lightbox' ); ?>
 		</a>
-		<a target="_blank" class="nav-tab" href="http://fooplugins.com/plugins/foobox/?utm_source=fooboxfreeplugin&utm_medium=fooboxfreeupgradetoprolink&utm_campaign=foobox_free_getting_started">
+		<a target="_blank" class="nav-tab" href="https://fooplugins.com/plugins/foobox/?utm_source=fooboxfreeplugin&utm_medium=fooboxfreeupgradetoprolink&utm_campaign=foobox_free_getting_started">
 			<?php _e( 'Get FooBox PRO!', 'foobox-image-lightbox' ); ?>
 		</a>
-		<a target="_blank" class="nav-tab" href="http://fooplugins.com">
+		<a target="_blank" class="nav-tab" href="https://fooplugins.com">
 			<?php _e( 'FooPlugins.com', 'foobox-image-lightbox' ); ?>
 		</a>
 	</h2>
@@ -61,7 +61,7 @@ $settings_url = admin_url( 'options-general.php?page=foobox-free' );
 			<h2><?php _e( 'Looking For More Features?', 'foobox-image-lightbox' );?></h2>
 			<p>
 				<?php _e( 'FooBox Free is a great way to display your images, but why not take it to the next level? Upgrade to FooBox Pro now and add social sharing and a slew of other advanced features to your images, video, and HTML content ...all inside the best responsive lightbox plugin available.', 'foobox-image-lightbox' );?>
-				<a target="_blank" href="http://fooplugins.com/plugins/foobox/?utm_source=fooboxfreeplugin&utm_medium=fooboxfreeprolink&utm_campaign=foobox_free_getting_started"><?php _e( 'Purchase FooBox PRO now!', 'foobox-image-lightbox' );?></a>
+				<a target="_blank" href="https://fooplugins.com/plugins/foobox/?utm_source=fooboxfreeplugin&utm_medium=fooboxfreeprolink&utm_campaign=foobox_free_getting_started"><?php _e( 'Purchase FooBox PRO now!', 'foobox-image-lightbox' );?></a>
 			</p>
 			<h2><?php _e( 'Get 35% Off FooBox PRO', 'foobox-image-lightbox' );?></h2>
 			<p><?php _e( 'As a small thank you for using FooBox FREE, use the coupon code FOOBOXPRO35 to get 35% off the full PRO version.', 'foobox-image-lightbox' ); ?></p>
@@ -69,9 +69,9 @@ $settings_url = admin_url( 'options-general.php?page=foobox-free' );
 			<h2><?php _e( 'Do You Need Video Galleries?', 'foobox-image-lightbox' );?></h2>
 			<p>
 				<?php printf( __( 'Creating Video Galleries has never been easier with our free %s plugin and our premium %s extension, which both work beautifully with FooBox Free!', 'foobox-image-lightbox' ),
-					'<strong><a target="_blank" href="http://foo.gallery?utm_source=fooboxfreeplugin&utm_medium=fooboxfreeprolink&utm_campaign=foobox_free_admin_notice">FooGallery</a></strong>',
-					'<strong><a target="_blank" href="http://fooplugins.com/plugins/foovideo?utm_source=fooboxfreeplugin&utm_medium=fooboxfreefoovideolink&utm_campaign=foobox_free_admin_notice">FooVideo</a></strong>'); ?>
-				<a target="_blank" href="http://fooplugins.com/plugins/foovideo?utm_source=fooboxfreeplugin&utm_medium=fooboxfreefoovideolink&utm_campaign=foobox_free_welcome_page"
+					'<strong><a target="_blank" href="https://foo.gallery?utm_source=fooboxfreeplugin&utm_medium=fooboxfreeprolink&utm_campaign=foobox_free_admin_notice">FooGallery</a></strong>',
+					'<strong><a target="_blank" href="https://fooplugins.com/plugins/foovideo?utm_source=fooboxfreeplugin&utm_medium=fooboxfreefoovideolink&utm_campaign=foobox_free_admin_notice">FooVideo</a></strong>'); ?>
+				<a target="_blank" href="https://fooplugins.com/plugins/foovideo?utm_source=fooboxfreeplugin&utm_medium=fooboxfreefoovideolink&utm_campaign=foobox_free_welcome_page"
 			</p>
 		</div>
 	</div>

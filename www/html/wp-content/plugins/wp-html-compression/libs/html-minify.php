@@ -1,6 +1,6 @@
 <?php
 /*
-HTML Minify 0.5.7 <http://www.svachon.com/blog/html-minify/>
+HTML Minify 0.5.7 <https://www.svachon.com/blog/html-minify/>
 Reduce file size by shortening URLs and safely removing all standard comments and unnecessary white space from an HTML document.
 */
 
@@ -102,8 +102,8 @@ class HTML_Minify
 					$strip = $this->compress_js;
 					
 					// Will still end up shortening URLs within the script, but should be OK..
-					// Gets Shortened:   test.href="http://domain.com/wp"+"-content";
-					// Gets Bypassed:    test.href = "http://domain.com/wp"+"-content";
+					// Gets Shortened:   test.href="https://domain.com/wp"+"-content";
+					// Gets Bypassed:    test.href = "https://domain.com/wp"+"-content";
 					$relate = $this->compress_js;
 				}
 				else if ( !empty($token['style']) )

@@ -263,7 +263,7 @@ function wp_cache_serve_cache_file() {
 		$ungzip = false;
 	}
 	foreach ($meta[ 'headers' ] as $t => $header) {
-		// godaddy fix, via http://blog.gneu.org/2008/05/wp-supercache-on-godaddy/ and http://www.littleredrails.com/blog/2007/09/08/using-wp-cache-on-godaddy-500-error/
+		// godaddy fix, via https://blog.gneu.org/2008/05/wp-supercache-on-godaddy/ and https://www.littleredrails.com/blog/2007/09/08/using-wp-cache-on-godaddy-500-error/
 		if( strpos( $header, 'Last-Modified:' ) === false )
 			header($header);
 	}
@@ -430,7 +430,7 @@ function wp_cache_mobile_group( $user_agent ) {
 	return "mobile";
 }
 
-// From http://wordpress.org/plugins/wordpress-mobile-edition/ by Alex King
+// From https://wordpress.org/plugins/wordpress-mobile-edition/ by Alex King
 function wp_cache_check_mobile( $cache_key ) {
 	global $wp_cache_mobile_enabled, $wp_cache_mobile_browsers, $wp_cache_mobile_prefixes;
 	if ( !isset( $wp_cache_mobile_enabled ) || false == $wp_cache_mobile_enabled )
@@ -549,7 +549,7 @@ function get_supercache_dir( $blog_id = 0 ) {
 	} else {
 		$home = get_blog_option( $blog_id, 'home' );
 	}
-	return trailingslashit( apply_filters( 'wp_super_cache_supercachedir', $cache_path . 'supercache/' . trailingslashit( strtolower( preg_replace( '/:.*$/', '', str_replace( 'http://', '', str_replace( 'https://', '', $home ) ) ) ) ) ) );
+	return trailingslashit( apply_filters( 'wp_super_cache_supercachedir', $cache_path . 'supercache/' . trailingslashit( strtolower( preg_replace( '/:.*$/', '', str_replace( 'https://', '', str_replace( 'https://', '', $home ) ) ) ) ) ) );
 }
 function get_current_url_supercache_dir( $post_id = 0 ) {
 	global $cached_direct_pages, $cache_path, $wp_cache_request_uri, $WPSC_HTTP_HOST, $wp_cache_home_path;
@@ -565,7 +565,7 @@ function get_current_url_supercache_dir( $post_id = 0 ) {
 		$permalink = get_permalink( $post_id );
 		if ( false === strpos( $permalink, $site_url ) ) {
 			/*
-			 * Sometimes site_url doesn't return the siteurl. See http://wordpress.org/support/topic/wp-super-cache-not-refreshing-post-after-comments-made
+			 * Sometimes site_url doesn't return the siteurl. See https://wordpress.org/support/topic/wp-super-cache-not-refreshing-post-after-comments-made
 			*/
 			$DONOTREMEMBER = 1;
 			wp_cache_debug( "get_current_url_supercache_dir: warning! site_url ($site_url) not found in permalink ($permalink).", 1 );
@@ -582,7 +582,7 @@ function get_current_url_supercache_dir( $post_id = 0 ) {
 			} else {
 				wp_cache_debug( "get_current_url_supercache_dir: Removing SERVER_NAME ({$WPSC_HTTP_HOST}) from permalink ($permalink). Is the url right?", 1 );
 				$uri = str_replace( $WPSC_HTTP_HOST, '', $permalink );
-				$uri = str_replace( 'http://', '', $uri );
+				$uri = str_replace( 'https://', '', $uri );
 				$uri = str_replace( 'https://', '', $uri );
 			}
 		} else {

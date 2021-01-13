@@ -11,8 +11,8 @@ Template Name: News
 		<div class="trigger-sm hidden-lg hidden-xs ">
 			<span>ТЭГИ</span>
 			<div>
-				<img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/arrow-down.png" alt="" class="">
-				<img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/arrow-up.png" alt="" class="hidden">
+				<img src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/arrow-down.png" alt="" class="">
+				<img src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/arrow-up.png" alt="" class="hidden">
 			</div>
 		</div>
 		<div class="trigger-xs trigger-xs-passive hidden-lg hidden-sm ">
@@ -278,7 +278,7 @@ Template Name: News
 <?php get_footer(); ?>
 <script>
 	document.addEventListener("DOMContentLoaded", postAutoDelay(document.querySelectorAll(".news-wrapper")));
-	jQuery('<link rel="stylesheet" href="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/all.min.css"><link rel="stylesheet" href="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/news.min.css">').appendTo(jQuery("head"));
+	jQuery('<link rel="stylesheet" href="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/all.min.css"><link rel="stylesheet" href="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/news.min.css">').appendTo(jQuery("head"));
 	var ajaxurl = '<?php echo site_url() ?>/wp-admin/admin-ajax.php';
 </script>
 </body>

@@ -331,7 +331,7 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Module' ) ) {
 		 * @return array
 		 *
 		 * @author Adrien aka Gaarf & contributors
-		 * @see    http://gaarf.info/2009/08/13/xml-string-to-php-array/
+		 * @see    https://gaarf.info/2009/08/13/xml-string-to-php-array/
 		 */
 		function html_string_to_array( $xmlstr ) {
 			if ( ! class_exists( 'DOMDocument' ) ) {
@@ -516,7 +516,7 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Module' ) ) {
 			return $regex;
 		}
 
-		// original code thanks to Sean M. Brown -- http://smbrown.wordpress.com/2009/04/29/verify-googlebot-forward-reverse-dns/
+		// original code thanks to Sean M. Brown -- https://smbrown.wordpress.com/2009/04/29/verify-googlebot-forward-reverse-dns/
 		/**
 		 * @return bool
 		 */
@@ -1010,7 +1010,7 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Module' ) ) {
 		}
 
 		/***
-		 * Backwards compatibility - see http://php.net/manual/en/function.str-getcsv.php
+		 * Backwards compatibility - see https://php.net/manual/en/function.str-getcsv.php
 		 *
 		 * @param        $input
 		 * @param string $delimiter
@@ -1465,7 +1465,7 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Module' ) ) {
 			return $legacy;
 		}
 
-		/*** Thanks to Justin Tadlock for the original get-the-image code - http://themehybrid.com/plugins/get-the-image **
+		/*** Thanks to Justin Tadlock for the original get-the-image code - https://themehybrid.com/plugins/get-the-image **
 		 *
 		 * @param null $options
 		 * @param null $p
@@ -2395,7 +2395,7 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Module' ) ) {
 		function sanitize_domain( $domain ) {
 			$domain = trim( $domain );
 			$domain = $this->strtolower( $domain );
-			if ( $this->strpos( $domain, 'http://' ) === 0 ) {
+			if ( $this->strpos( $domain, 'https://' ) === 0 ) {
 				$domain = $this->substr( $domain, 7 );
 			} elseif ( $this->strpos( $domain, 'https://' ) === 0 ) {
 				$domain = $this->substr( $domain, 8 );

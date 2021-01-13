@@ -301,7 +301,7 @@ function _defineProperty(obj, key, value) {
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
   Copyright (c) 2017 Jed Watson.
   Licensed under the MIT License (MIT), see
-  http://jedwatson.github.io/classnames
+  https://jedwatson.github.io/classnames
 */
 /* global define */
 
@@ -563,7 +563,7 @@ function _typeof(obj) {
 
 if (false) { var throwOnDirectAccess, isValidElement, REACT_ELEMENT_TYPE; } else {
   // By explicitly using `prop-types` you are opting into new production behavior.
-  // http://fb.me/prop-types-in-prod
+  // https://fb.me/prop-types-in-prod
   module.exports = __webpack_require__(109)();
 }
 
@@ -1146,12 +1146,12 @@ tinycolor.prototype = {
         return this._a;
     },
     getBrightness: function() {
-        //http://www.w3.org/TR/AERT#color-contrast
+        //https://www.w3.org/TR/AERT#color-contrast
         var rgb = this.toRgb();
         return (rgb.r * 299 + rgb.g * 587 + rgb.b * 114) / 1000;
     },
     getLuminance: function() {
-        //http://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef
+        //https://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef
         var rgb = this.toRgb();
         var RsRGB, GsRGB, BsRGB, R, G, B;
         RsRGB = rgb.r/255;
@@ -1437,11 +1437,11 @@ function inputToRGB(color) {
 // --------------------
 
 // `rgbToHsl`, `rgbToHsv`, `hslToRgb`, `hsvToRgb` modified from:
-// <http://mjijackson.com/2008/02/rgb-to-hsl-and-rgb-to-hsv-color-model-conversion-algorithms-in-javascript>
+// <https://mjijackson.com/2008/02/rgb-to-hsl-and-rgb-to-hsv-color-model-conversion-algorithms-in-javascript>
 
 // `rgbToRgb`
 // Handle bounds / percentage checking to conform to CSS color spec
-// <http://www.w3.org/TR/css3-color/>
+// <https://www.w3.org/TR/css3-color/>
 // *Assumes:* r, g, b in [0, 255] or [0, 1]
 // *Returns:* { r, g, b } in [0, 255]
 function rgbToRgb(r, g, b){
@@ -1797,7 +1797,7 @@ tinycolor.mix = function(color1, color2, amount) {
 
 // Readability Functions
 // ---------------------
-// <http://www.w3.org/TR/2008/REC-WCAG20-20081211/#contrast-ratiodef (WCAG Version 2)
+// <https://www.w3.org/TR/2008/REC-WCAG20-20081211/#contrast-ratiodef (WCAG Version 2)
 
 // `contrast`
 // Analyze the 2 colors and returns the color contrast defined by (WCAG Version 2)
@@ -1879,7 +1879,7 @@ tinycolor.mostReadable = function(baseColor, colorList, args) {
 
 // Big List of Colors
 // ------------------
-// <http://www.w3.org/TR/css3-color/#svg-color>
+// <https://www.w3.org/TR/css3-color/#svg-color>
 var names = tinycolor.names = {
     aliceblue: "f0f8ff",
     antiquewhite: "faebd7",
@@ -2093,7 +2093,7 @@ function parseIntFromHex(val) {
 }
 
 // Need to handle 1.0 as 100%, since once it is a number, there is no difference between it and 1
-// <http://stackoverflow.com/questions/7422072/javascript-how-to-detect-number-as-a-decimal-including-1-0>
+// <https://stackoverflow.com/questions/7422072/javascript-how-to-detect-number-as-a-decimal-including-1-0>
 function isOnePointZero(n) {
     return typeof n == "string" && n.indexOf('.') != -1 && parseFloat(n) === 1;
 }
@@ -2128,10 +2128,10 @@ function convertHexToDecimal(h) {
 
 var matchers = (function() {
 
-    // <http://www.w3.org/TR/css3-values/#integers>
+    // <https://www.w3.org/TR/css3-values/#integers>
     var CSS_INTEGER = "[-\\+]?\\d+%?";
 
-    // <http://www.w3.org/TR/css3-values/#number-value>
+    // <https://www.w3.org/TR/css3-values/#number-value>
     var CSS_NUMBER = "[-\\+]?\\d*\\.\\d+%?";
 
     // Allow positive/negative integer/number.  Don't capture the either/or, just the entire outcome.
@@ -2473,7 +2473,7 @@ var protocolPattern = /^([a-z0-9.+-]+:)/i,
       'ftp': true,
       'gopher': true,
       'file': true,
-      'http:': true,
+      'https:': true,
       'https:': true,
       'ftp:': true,
       'gopher:': true,
@@ -2508,7 +2508,7 @@ Url.prototype.parse = function(url, parseQueryString, slashesDenoteHost) {
   var rest = url;
 
   // trim before proceeding.
-  // This is to support parse stuff like "  http://foo.com  \n"
+  // This is to support parse stuff like "  https://foo.com  \n"
   rest = rest.trim();
 
   if (!slashesDenoteHost && url.split('#').length === 1) {
@@ -2565,8 +2565,8 @@ Url.prototype.parse = function(url, parseQueryString, slashesDenoteHost) {
     // URLs are obnoxious.
     //
     // ex:
-    // http://a@b@c/ => user:a@b host:c
-    // http://a@b?@c => user:a host:c path:/?@c
+    // https://a@b@c/ => user:a@b host:c
+    // https://a@b?@c => user:a host:c path:/?@c
 
     // v0.12 TODO(isaacs): This is not quite how Chrome does things.
     // Review our test case against browsers more comprehensively.
@@ -2587,7 +2587,7 @@ Url.prototype.parse = function(url, parseQueryString, slashesDenoteHost) {
       atSign = rest.lastIndexOf('@');
     } else {
       // atSign must be in auth portion.
-      // http://a@b/c@d => host:b auth:a path:/c@d
+      // https://a@b/c@d => host:b auth:a path:/c@d
       atSign = rest.lastIndexOf('@', hostEnd);
     }
 
@@ -2864,7 +2864,7 @@ Url.prototype.resolveObject = function(relative) {
         result[rkey] = relative[rkey];
     }
 
-    //urlParse appends trailing / to urls like http://www.example.com
+    //urlParse appends trailing / to urls like https://www.example.com
     if (slashedProtocol[result.protocol] &&
         result.hostname && !result.pathname) {
       result.path = result.pathname = '/';
@@ -4036,7 +4036,7 @@ module.exports = function() {
     var err = new Error(
       'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +
       'Use PropTypes.checkPropTypes() to call them. ' +
-      'Read more at http://fb.me/use-check-prop-types'
+      'Read more at https://fb.me/use-check-prop-types'
     );
     err.name = 'Invariant Violation';
     throw err;
@@ -4348,7 +4348,7 @@ var PX = 'px';
 
 function _getComputedStyleIE(elem, name) {
   // currentStyle maybe null
-  // http://msdn.microsoft.com/en-us/library/ms535231.aspx
+  // https://msdn.microsoft.com/en-us/library/ms535231.aspx
   var ret = elem[CURRENT_STYLE] && elem[CURRENT_STYLE][name];
 
   // 当 width/height 设置为百分比时，通过 pixelLeft 方式转换的 width/height 值
@@ -4357,7 +4357,7 @@ function _getComputedStyleIE(elem, name) {
   // borderWidth 等值也有问题，但考虑到 borderWidth 设为百分比的概率很小，这里就不考虑了
 
   // From the awesome hack by Dean Edwards
-  // http://erik.eae.net/archives/2007/07/27/18.54.15/#comment-102291
+  // https://erik.eae.net/archives/2007/07/27/18.54.15/#comment-102291
   // If we're not dealing with a regular pixel number
   // but a number that has a weird ending, we need to convert it to pixels
   // exclude left right for relativity
@@ -4934,7 +4934,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	 *
 	 * These methods are based on the implementation proposed in
 	 * "An O(ND) Difference Algorithm and its Variations" (Myers, 1986).
-	 * http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.4.6927
+	 * https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.4.6927
 	 */
 	exports. /*istanbul ignore end*/Diff = _base2['default'];
 	/*istanbul ignore start*/exports. /*istanbul ignore end*/diffChars = _character.diffChars;
@@ -6566,7 +6566,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	exports.__esModule = true;
 	exports. /*istanbul ignore end*/convertChangesToDMP = convertChangesToDMP;
-	// See: http://code.google.com/p/google-diff-match-patch/wiki/API
+	// See: https://code.google.com/p/google-diff-match-patch/wiki/API
 	function convertChangesToDMP(changes) {
 	  var ret = [],
 	      change = /*istanbul ignore start*/void 0 /*istanbul ignore end*/,
@@ -7335,7 +7335,7 @@ exports["default"] = TextareaAutosize;
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 	autosize 4.0.2
 	license: MIT
-	http://www.jacklmoore.com/autosize
+	https://www.jacklmoore.com/autosize
 */
 (function (global, factory) {
 	if (true) {
@@ -14334,7 +14334,7 @@ function BlockIcon(_ref) {
   if (Object(external_lodash_["get"])(icon, ['src']) === 'block-default') {
     icon = {
       src: Object(external_this_wp_element_["createElement"])(external_this_wp_components_["SVG"], {
-        xmlns: "http://www.w3.org/2000/svg",
+        xmlns: "https://www.w3.org/2000/svg",
         viewBox: "0 0 24 24"
       }, Object(external_this_wp_element_["createElement"])(external_this_wp_components_["Path"], {
         d: "M19 7h-1V5h-4v2h-4V5H6v2H5c-1.1 0-2 .9-2 2v10h18V9c0-1.1-.9-2-2-2zm0 10H5V9h14v8z"
@@ -15020,7 +15020,7 @@ function BlockNavigation(_ref2) {
 
 
 var MenuIcon = Object(external_this_wp_element_["createElement"])(external_this_wp_components_["SVG"], {
-  xmlns: "http://www.w3.org/2000/svg",
+  xmlns: "https://www.w3.org/2000/svg",
   viewBox: "0 0 24 24",
   width: "20",
   height: "20"
@@ -15710,7 +15710,7 @@ function getMultiBlockMoverDescription(selectedCount, firstIndex, isFirst, isLas
 var upArrow = Object(external_this_wp_element_["createElement"])(external_this_wp_components_["SVG"], {
   width: "18",
   height: "18",
-  xmlns: "http://www.w3.org/2000/svg",
+  xmlns: "https://www.w3.org/2000/svg",
   viewBox: "0 0 18 18"
 }, Object(external_this_wp_element_["createElement"])(external_this_wp_components_["Polygon"], {
   points: "9,4.5 3.3,10.1 4.8,11.5 9,7.3 13.2,11.5 14.7,10.1 "
@@ -15718,7 +15718,7 @@ var upArrow = Object(external_this_wp_element_["createElement"])(external_this_w
 var downArrow = Object(external_this_wp_element_["createElement"])(external_this_wp_components_["SVG"], {
   width: "18",
   height: "18",
-  xmlns: "http://www.w3.org/2000/svg",
+  xmlns: "https://www.w3.org/2000/svg",
   viewBox: "0 0 18 18"
 }, Object(external_this_wp_element_["createElement"])(external_this_wp_components_["Polygon"], {
   points: "9,13.5 14.7,7.9 13.2,6.5 9,10.7 4.8,6.5 3.3,7.9 "
@@ -15726,7 +15726,7 @@ var downArrow = Object(external_this_wp_element_["createElement"])(external_this
 var dragHandle = Object(external_this_wp_element_["createElement"])(external_this_wp_components_["SVG"], {
   width: "18",
   height: "18",
-  xmlns: "http://www.w3.org/2000/svg",
+  xmlns: "https://www.w3.org/2000/svg",
   viewBox: "0 0 18 18"
 }, Object(external_this_wp_element_["createElement"])(external_this_wp_components_["Path"], {
   d: "M13,8c0.6,0,1-0.4,1-1s-0.4-1-1-1s-1,0.4-1,1S12.4,8,13,8z M5,6C4.4,6,4,6.4,4,7s0.4,1,1,1s1-0.4,1-1S5.6,6,5,6z M5,10 c-0.6,0-1,0.4-1,1s0.4,1,1,1s1-0.4,1-1S5.6,10,5,10z M13,10c-0.6,0-1,0.4-1,1s0.4,1,1,1s1-0.4,1-1S13.6,10,13,10z M9,6 C8.4,6,8,6.4,8,7s0.4,1,1,1s1-0.4,1-1S9.6,6,9,6z M9,10c-0.6,0-1,0.4-1,1s0.4,1,1,1s1-0.4,1-1S9.6,10,9,10z"
@@ -25333,7 +25333,7 @@ function writeInterstitialMessage(targetDocument) {
   var markup = Object(external_this_wp_element_["renderToString"])(Object(external_this_wp_element_["createElement"])("div", {
     className: "editor-post-preview-button__interstitial-message"
   }, Object(external_this_wp_element_["createElement"])(external_this_wp_components_["SVG"], {
-    xmlns: "http://www.w3.org/2000/svg",
+    xmlns: "https://www.w3.org/2000/svg",
     viewBox: "0 0 96 96"
   }, Object(external_this_wp_element_["createElement"])(external_this_wp_components_["Path"], {
     className: "outer",
@@ -29482,7 +29482,7 @@ function MultiSelectionInspector(_ref) {
     className: "editor-multi-selection-inspector__card"
   }, Object(external_this_wp_element_["createElement"])(BlockIcon, {
     icon: Object(external_this_wp_element_["createElement"])(external_this_wp_components_["SVG"], {
-      xmlns: "http://www.w3.org/2000/svg",
+      xmlns: "https://www.w3.org/2000/svg",
       viewBox: "0 0 24 24"
     }, Object(external_this_wp_element_["createElement"])(external_this_wp_components_["Path"], {
       d: "M3 5H1v16c0 1.1.9 2 2 2h16v-2H3V5zm18-4H7c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2zm0 16H7V3h14v14z"
@@ -30294,7 +30294,7 @@ function (_Component) {
             showColors: true
           }), Object(external_this_wp_element_["createElement"])(external_this_wp_components_["SVG"], {
             className: "editor-block-switcher__transform",
-            xmlns: "http://www.w3.org/2000/svg",
+            xmlns: "https://www.w3.org/2000/svg",
             viewBox: "0 0 24 24"
           }, Object(external_this_wp_element_["createElement"])(external_this_wp_components_["Path"], {
             d: "M6.5 8.9c.6-.6 1.4-.9 2.2-.9h6.9l-1.3 1.3 1.4 1.4L19.4 7l-3.7-3.7-1.4 1.4L15.6 6H8.7c-1.4 0-2.6.5-3.6 1.5l-2.8 2.8 1.4 1.4 2.8-2.8zm13.8 2.4l-2.8 2.8c-.6.6-1.3.9-2.1.9h-7l1.3-1.3-1.4-1.4L4.6 16l3.7 3.7 1.4-1.4L8.4 17h6.9c1.3 0 2.6-.5 3.5-1.5l2.8-2.8-1.3-1.4z"
@@ -31513,7 +31513,7 @@ function (_Component) {
 /* eslint-disable @wordpress/no-unused-vars-before-return */
 // Adapted from https://github.com/reworkcss/css
 // because we needed to remove source map support.
-// http://www.w3.org/TR/CSS21/grammar.htm
+// https://www.w3.org/TR/CSS21/grammar.htm
 // https://github.com/visionmedia/css-parse/pull/49#issuecomment-30088027
 var commentre = /\/\*[^*]*\*+([^/*][^*]*\*+)*\//g;
 /* harmony default export */ var parse = (function (css, options) {
@@ -31734,7 +31734,7 @@ var commentre = /\/\*[^*]*\*+([^/*][^*]*\*+)*\//g;
       return;
     }
     /* @fix Remove all comments from selectors
-       * http://ostermiller.org/findcomment.html */
+       * https://ostermiller.org/findcomment.html */
 
 
     return trim(m[0]).replace(/\/\*([^*]|[\r\n]|(\*+([^*/]|[\r\n])))*\*\/+/g, '').replace(/"(?:\\"|[^"])*"|'(?:\\'|[^'])*'/g, function (matched) {

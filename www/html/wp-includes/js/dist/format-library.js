@@ -194,7 +194,7 @@ function _inherits(subClass, superClass) {
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
   Copyright (c) 2017 Jed Watson.
   Licensed under the MIT License (MIT), see
-  http://jedwatson.github.io/classnames
+  https://jedwatson.github.io/classnames
 */
 /* global define */
 
@@ -550,7 +550,7 @@ var image_image = {
         return Object(external_this_wp_element_["createElement"])(external_this_wp_editor_["MediaUploadCheck"], null, Object(external_this_wp_element_["createElement"])(external_this_wp_editor_["RichTextInserterItem"], {
           name: image_name,
           icon: Object(external_this_wp_element_["createElement"])(external_this_wp_components_["SVG"], {
-            xmlns: "http://www.w3.org/2000/svg",
+            xmlns: "https://www.w3.org/2000/svg",
             viewBox: "0 0 24 24"
           }, Object(external_this_wp_element_["createElement"])(external_this_wp_components_["Path"], {
             d: "M4 16h10c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v9c0 1.1.9 2 2 2zM4 5h10v9H4V5zm14 9v2h4v-2h-4zM2 20h20v-2H2v2zm6.4-8.8L7 9.4 5 12h8l-2.6-3.4-2 2.6z"

@@ -1068,7 +1068,7 @@ if ( ! function_exists( 'auth_redirect' ) ) :
 		// The cookie is no good so force login
 		nocache_headers();
 
-		$redirect = ( strpos( $_SERVER['REQUEST_URI'], '/options.php' ) && wp_get_referer() ) ? wp_get_referer() : set_url_scheme( 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] );
+		$redirect = ( strpos( $_SERVER['REQUEST_URI'], '/options.php' ) && wp_get_referer() ) ? wp_get_referer() : set_url_scheme( 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'] );
 
 		$login_url = wp_login_url( $redirect, true );
 
@@ -1377,10 +1377,10 @@ if ( ! function_exists( 'wp_validate_redirect' ) ) :
 		$location = wp_sanitize_redirect( trim( $location, " \t\n\r\0\x08\x0B" ) );
 		// Browsers will assume 'http' is your protocol, and will obey a redirect to a URL starting with '//'.
 		if ( '//' === substr( $location, 0, 2 ) ) {
-			$location = 'http:' . $location;
+			$location = 'https:' . $location;
 		}
 
-		// In php 5 parse_url may fail if the URL query part contains http://, bug #38143
+		// In php 5 parse_url may fail if the URL query part contains https://, bug #38143
 		$test = ( $cut = strpos( $location, '?' ) ) ? substr( $location, 0, $cut ) : $location;
 
 		// @-operator is used to prevent possible warnings in PHP < 5.3.3.
@@ -1399,7 +1399,7 @@ if ( ! function_exists( 'wp_validate_redirect' ) ) :
 		if ( ! isset( $lp['host'] ) && ! empty( $lp['path'] ) && '/' !== $lp['path'][0] ) {
 			$path = '';
 			if ( ! empty( $_SERVER['REQUEST_URI'] ) ) {
-				$path = dirname( parse_url( 'http://placeholder' . $_SERVER['REQUEST_URI'], PHP_URL_PATH ) . '?' );
+				$path = dirname( parse_url( 'https://placeholder' . $_SERVER['REQUEST_URI'], PHP_URL_PATH ) . '?' );
 			}
 			$location = '/' . ltrim( $path . '/', '/' ) . $location;
 		}

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Super Cache\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-super-cache\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tag/wp-super-cache\n"
 "POT-Creation-Date: 2010-09-27 13:58+0000\n"
 "PO-Revision-Date: 2011-07-30 20:42+0200\n"
 "Last-Translator: Natalija Strazdauskienė <ciuvir@mail.ru>\n"
@@ -76,8 +76,8 @@ msgstr "Bad Behaviour parama yra %s."
 
 #: plugins/badbehaviour.php:61
 #, php-format
-msgid "(Only legacy caching supported, disabled compression and requires <a href=\"http://www.bad-behavior.ioerror.us/\">Bad Behavior</a> in \"%s/plugins/bad-behavior/\") "
-msgstr "(Šis įskiepis funkcionuos tik vidutinio talpinimo režimu, atjunkite suspaudimą ir įdiekite įskiepį <a href=\"http://www.bad-behavior.ioerror.us/\">Bad Behavior</a> \"%s/plugins/blogas-elgesio/\")"
+msgid "(Only legacy caching supported, disabled compression and requires <a href=\"https://www.bad-behavior.ioerror.us/\">Bad Behavior</a> in \"%s/plugins/bad-behavior/\") "
+msgstr "(Šis įskiepis funkcionuos tik vidutinio talpinimo režimu, atjunkite suspaudimą ir įdiekite įskiepį <a href=\"https://www.bad-behavior.ioerror.us/\">Bad Behavior</a> \"%s/plugins/blogas-elgesio/\")"
 
 #: plugins/badbehaviour.php:69
 #: wp-cache.php:1191
@@ -87,8 +87,8 @@ msgstr "Dėmesio!"
 
 #: plugins/domain-mapping.php:57
 #, php-format
-msgid "<a href=\"http://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a> support plugin is %s"
-msgstr "<a href=\"http://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a> įskiepio palaikymas yra is %s"
+msgid "<a href=\"https://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a> support plugin is %s"
+msgstr "<a href=\"https://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a> įskiepio palaikymas yra is %s"
 
 #: plugins/domain-mapping.php:58
 msgid "(support for multiple domains on multisite websites) "
@@ -100,12 +100,12 @@ msgstr "Domain Mapping įskiepis aptiktas! Prašome grįžti į įskiepių Super
 
 #: plugins/searchengine.php:71
 #, php-format
-msgid "<a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> plugin is %s."
-msgstr "<a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> įskiepis yra %s."
+msgid "<a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> plugin is %s."
+msgstr "<a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> įskiepis yra %s."
 
 #: plugins/searchengine.php:72
-msgid "(requires <a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> too) "
-msgstr "(reikalingas <a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> taip pat) "
+msgid "(requires <a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> too) "
+msgstr "(reikalingas <a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> taip pat) "
 
 #: wp-cache.php:87
 #, php-format
@@ -126,12 +126,12 @@ msgstr "Jūsų serveris patikrins PHP skriptų savininką, prieš leidžiant jie
 
 #: wp-cache.php:144
 #, php-format
-msgid "You or an administrator may be able to make it work by changing the group owner of the plugin scripts to match that of the web server user. The group owner of the %s/cache/ directory must also be changed. See the <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> for further details."
-msgstr "Jūs arba administratorius galite padaryti jį dirbantį, keisdami įskiepio skriptų grupės savininką, kad atitiktų žiniatinklio serverio vartotoją. %s/cache/ katalogas  taip pat turi būti pakeistas. Žiūrėti <a href=\"http://php.net/features.safe-mode\">saugaus rėžimo puslapį</a> dėl papildomos informacijos."
+msgid "You or an administrator may be able to make it work by changing the group owner of the plugin scripts to match that of the web server user. The group owner of the %s/cache/ directory must also be changed. See the <a href=\"https://php.net/features.safe-mode\">safe mode manual page</a> for further details."
+msgstr "Jūs arba administratorius galite padaryti jį dirbantį, keisdami įskiepio skriptų grupės savininką, kad atitiktų žiniatinklio serverio vartotoją. %s/cache/ katalogas  taip pat turi būti pakeistas. Žiūrėti <a href=\"https://php.net/features.safe-mode\">saugaus rėžimo puslapį</a> dėl papildomos informacijos."
 
 #: wp-cache.php:146
-msgid "You or an administrator must disable this. See the <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> for further details. This cannot be disabled in a .htaccess file unfortunately. It must be done in the php.ini config file."
-msgstr "Jūs arba administratorius turite atjungti tai. Žiūrėkite <a href=\"http://php.net/features.safe-mode\">saugaus rėžimo puslapį</a> dėl papildomos informacijos. Dėja, tai negali būti atjungta .htaccess faile. Tam reikia papildyti php.ini konfiguracijos failą."
+msgid "You or an administrator must disable this. See the <a href=\"https://php.net/features.safe-mode\">safe mode manual page</a> for further details. This cannot be disabled in a .htaccess file unfortunately. It must be done in the php.ini config file."
+msgstr "Jūs arba administratorius turite atjungti tai. Žiūrėkite <a href=\"https://php.net/features.safe-mode\">saugaus rėžimo puslapį</a> dėl papildomos informacijos. Dėja, tai negali būti atjungta .htaccess faile. Tam reikia papildyti php.ini konfiguracijos failą."
 
 #: wp-cache.php:152
 msgid "Permlink Structure Error"
@@ -170,8 +170,8 @@ msgid "Zlib Output Compression Enabled!"
 msgstr "Zlib Išėjimo suspaudimas įjungtas!"
 
 #: wp-cache.php:205
-msgid "PHP is compressing the data sent to the visitors of your site. Disabling this is recommended as the plugin caches the compressed output once instead of compressing the same page over and over again. Also see #21 in the Troubleshooting section. See <a href=\"http://php.net/manual/en/zlib.configuration.php\">this page</a> for instructions on modifying your php.ini."
-msgstr "PHP naudoja duomenų suspaudimą dėl jūsų svetainės lankytojų puslapių atvaizdavimui. Šios parinkties atjungimas yra rekomenduojamas, kad išvengti daugkartinio puslapių suspaudimo su įskiepiu. Taipogi žiūrėkite #21 Problemų sekcijoje. Žiūrėkite <a href=\"http://php.net/manual/en/zlib.configuration.php\">šį puslapį</a>, kad sekti instrukcijas modifikuotame jūsų php.ini."
+msgid "PHP is compressing the data sent to the visitors of your site. Disabling this is recommended as the plugin caches the compressed output once instead of compressing the same page over and over again. Also see #21 in the Troubleshooting section. See <a href=\"https://php.net/manual/en/zlib.configuration.php\">this page</a> for instructions on modifying your php.ini."
+msgstr "PHP naudoja duomenų suspaudimą dėl jūsų svetainės lankytojų puslapių atvaizdavimui. Šios parinkties atjungimas yra rekomenduojamas, kad išvengti daugkartinio puslapių suspaudimo su įskiepiu. Taipogi žiūrėkite #21 Problemų sekcijoje. Žiūrėkite <a href=\"https://php.net/manual/en/zlib.configuration.php\">šį puslapį</a>, kad sekti instrukcijas modifikuotame jūsų php.ini."
 
 #: wp-cache.php:209
 msgid "Mod rewrite may not be installed!"
@@ -254,8 +254,8 @@ msgstr "Ištrinti įskiepio mod_rewrite taisykles %s.htaccess tarp <code># BEGIN
 
 #: wp-cache.php:253
 #, php-format
-msgid "Add the rules yourself. Edit %s.htaccess and find the block of code enclosed by the lines <code># BEGIN WPSuperCache</code> and <code># END WPSuperCache</code>. There are two sections that look very similar. Just below the line <code>%%{HTTP:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> add these lines: (do it twice, once for each section)"
-msgstr "Pridėkite taisykles patys. Redaguoti %s.htaccess ir rasti kodo bloką tarp <code># BEGIN WPSuperCache</code> ir <code># END WPSuperCache</code> . Yra du skyriai, kurie atrodo labai panašiai. Tiesiog žemiau linijos <code>%%{HTTP:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> pridėkite šias eilutes: (tai padaryti du kartus, vieną kartą kiekviename skyriuje)"
+msgid "Add the rules yourself. Edit %s.htaccess and find the block of code enclosed by the lines <code># BEGIN WPSuperCache</code> and <code># END WPSuperCache</code>. There are two sections that look very similar. Just below the line <code>%%{https:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> add these lines: (do it twice, once for each section)"
+msgstr "Pridėkite taisykles patys. Redaguoti %s.htaccess ir rasti kodo bloką tarp <code># BEGIN WPSuperCache</code> ir <code># END WPSuperCache</code> . Yra du skyriai, kurie atrodo labai panašiai. Tiesiog žemiau linijos <code>%%{https:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> pridėkite šias eilutes: (tai padaryti du kartus, vieną kartą kiekviename skyriuje)"
 
 #: wp-cache.php:266
 msgid "Required to serve compressed supercache files properly."
@@ -714,8 +714,8 @@ msgstr "Dėkojame už modernizaciją."
 
 #: wp-cache.php:1011
 #, php-format
-msgid "The mod_rewrite rules changed since you last installed this plugin. Unfortunately you must remove the old supercache rules before the new ones are updated. Refresh this page when you have edited your .htaccess file. If you wish to manually upgrade, change the following line: %1$s so it looks like this: %2$s The only changes are \"HTTP_COOKIE\" becomes \"HTTP:Cookie\" and \"wordpressuser\" becomes \"wordpress\". This is a WordPress 2.5 change but it&#8217;s backwards compatible with older versions if you&#8217;re brave enough to use them."
-msgstr "Po paskutinio įskiepio atnaujinimo mod_rewrite taisyklės buvo pakeistos. Dėja, jums teks rankiniu būdu pašalinti senas taisykles. Atnaujinkite puslapį, kai baigsite redagavimą .htaccess failo. Jeigu norite atnaujinti viską patys, tuomet pakeiskite sekančią eilutę: %1$s į šią: %2$s . Vienintelis skirtumas - tai pakeitimas \"HTTP_COOKIE\" į \"HTTP:Cookie\" ir \"wordpressuser\" į \"wordpress\". Šie pakeitimai susiję su nauja WordPress 2.5 versija. "
+msgid "The mod_rewrite rules changed since you last installed this plugin. Unfortunately you must remove the old supercache rules before the new ones are updated. Refresh this page when you have edited your .htaccess file. If you wish to manually upgrade, change the following line: %1$s so it looks like this: %2$s The only changes are \"HTTP_COOKIE\" becomes \"https:Cookie\" and \"wordpressuser\" becomes \"wordpress\". This is a WordPress 2.5 change but it&#8217;s backwards compatible with older versions if you&#8217;re brave enough to use them."
+msgstr "Po paskutinio įskiepio atnaujinimo mod_rewrite taisyklės buvo pakeistos. Dėja, jums teks rankiniu būdu pašalinti senas taisykles. Atnaujinkite puslapį, kai baigsite redagavimą .htaccess failo. Jeigu norite atnaujinti viską patys, tuomet pakeiskite sekančią eilutę: %1$s į šią: %2$s . Vienintelis skirtumas - tai pakeitimas \"HTTP_COOKIE\" į \"https:Cookie\" ir \"wordpressuser\" į \"wordpress\". Šie pakeitimai susiję su nauja WordPress 2.5 versija. "
 
 #: wp-cache.php:1015
 msgid "Trailing slash check required."
@@ -913,8 +913,8 @@ msgid "Save UA Strings"
 msgstr "Išsaugoti nustatymus"
 
 #: wp-cache.php:1342
-msgid "Do not cache the following page types. See the <a href=\"http://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> documentation for a complete discussion on each type."
-msgstr "Ne saugoti tokių tipų puslapius. Palyginkite su <a href=\"http://codex.wordpress.org/Conditional_Tags\">Sąlyginiai tegai</a> dokumentacija, kad sužinoti daugiau."
+msgid "Do not cache the following page types. See the <a href=\"https://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> documentation for a complete discussion on each type."
+msgstr "Ne saugoti tokių tipų puslapius. Palyginkite su <a href=\"https://codex.wordpress.org/Conditional_Tags\">Sąlyginiai tegai</a> dokumentacija, kad sužinoti daugiau."
 
 #: wp-cache.php:1345
 msgid "Single Posts"
@@ -1136,8 +1136,8 @@ msgid "Edit <code>%s</code> and add the following line:<br /> <code>define('WP_C
 msgstr "Redaguoti <code>%s</code> ir pridėti šią eilutę: <br /> <code>apibrėžti('WP_CACHE', true);</code> <br /> Priešingu atveju, <strong>WP-cache negali būti vykdomas </strong> WordPress Core ."
 
 #: wp-cache.php:1737
-msgid "<h3>WP_CACHE constant added to wp-config.php</h3><p>If you continue to see this warning message please see point 5 of the <a href=\"http://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. The WP_CACHE line must be moved up."
-msgstr "<h3> WP_CACHE konstanta pridėta į wp-config.php </h3><p> Jei ir toliau matysite šį įspėjamąjį pranešimą, prašome žiūrėti 5 punkte<a href=\"http://wordpress.org/extend/plugins/wp-super-cache/faq/\">DUK</a>. WP_CACHE linija turi būti perkelta."
+msgid "<h3>WP_CACHE constant added to wp-config.php</h3><p>If you continue to see this warning message please see point 5 of the <a href=\"https://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. The WP_CACHE line must be moved up."
+msgstr "<h3> WP_CACHE konstanta pridėta į wp-config.php </h3><p> Jei ir toliau matysite šį įspėjamąjį pranešimą, prašome žiūrėti 5 punkte<a href=\"https://wordpress.org/extend/plugins/wp-super-cache/faq/\">DUK</a>. WP_CACHE linija turi būti perkelta."
 
 #: wp-cache.php:1759
 msgid "Cache Contents"

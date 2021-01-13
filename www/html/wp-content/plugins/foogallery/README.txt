@@ -1,12 +1,12 @@
 === FooGallery - Image Gallery WordPress Plugin ===
 Contributors: bradvin, fooplugins
-Donate link: http://fooplugins.com
+Donate link: https://fooplugins.com
 Tags: gallery, image gallery, photo gallery, responsive, album, media gallery, masonry gallery, portfolio, justified image gallery, video gallery, photography, photographer, retina
 Requires at least: 3.9
 Tested up to: 4.7.4
 Stable tag: trunk
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 FooGallery is the best image gallery plugin for WordPress. Why? Stunning gallery layouts, responsive, retina-ready, lightning fast, easy to use.
 
@@ -14,7 +14,7 @@ FooGallery is the best image gallery plugin for WordPress. Why? Stunning gallery
 
 FooGallery is the best image gallery plugin for WordPress. Why? Stunning gallery layouts, responsive, retina-ready, lightning fast, easy to use. Built to be highly configurable and extensible for developers or freelancers.
 
-[View the Foo Gallery Homepage & DEMO](http://foo.gallery/)
+[View the Foo Gallery Homepage & DEMO](https://foo.gallery/)
 
 **Retina Support**
 
@@ -22,7 +22,7 @@ Foo Gallery now comes with built-in support for higher quality thumbnails on ret
 
 **Video Support**
 
-Foo Gallery now supports the creation of video galleries with the [FooVideo premium extension](http://fooplugins.com/plugins/foovideo/?utm_source=foogalleryplugin&utm_medium=foogallerylink&utm_campaign=foogallery_wprepo)! Create galleries with both images and videos mixed!
+Foo Gallery now supports the creation of video galleries with the [FooVideo premium extension](https://fooplugins.com/plugins/foovideo/?utm_source=foogalleryplugin&utm_medium=foogallerylink&utm_campaign=foogallery_wprepo)! Create galleries with both images and videos mixed!
 
 **Albums Built In**
 
@@ -35,7 +35,7 @@ Foo Gallery was designed to be the most developer-friendly gallery plugin availa
 **Features**
 
 *   Retina thumbnail support
-*   Add videos to galleries (via the [FooVideo premium extension](http://fooplugins.com/plugins/foovideo/?utm_source=foogalleryplugin&utm_medium=foogallerylink&utm_campaign=foogallery_wprepo))
+*   Add videos to galleries (via the [FooVideo premium extension](https://fooplugins.com/plugins/foovideo/?utm_source=foogalleryplugin&utm_medium=foogallerylink&utm_campaign=foogallery_wprepo))
 *	Albums built-in! (Activate the albums extension)
 *	Gallery custom post type
 *	Use built-in media library to manage images
@@ -55,58 +55,58 @@ Foo Gallery was designed to be the most developer-friendly gallery plugin availa
 
 **Gallery Demos**
 
-*	Responsive Image Gallery - [demo](http://foo.gallery/demos/responsive-image-gallery/)
-*	FooGrid Image Gallery - [light demo](http://foo.gallery/demos/foogrid-light/) - [dark demo](http://foo.gallery/demos/foogrid-dark/)
-*	Image Viewer Gallery - [light demo](http://foo.gallery/demos/image-viewer-gallery/) - [dark demo](http://foo.gallery/demos/image-viewer-gallery-dark/)
-*	Masonry Gallery - [demo](http://foo.gallery/demos/masonry-image-gallery/)
-*	Simple Portfolio - [demo](http://foo.gallery/demos/simple-portfolio/)
-*	Justified Gallery ([http://miromannino.github.io/Justified-Gallery](http://miromannino.github.io/Justified-Gallery/)) - [demo](http://foo.gallery/demos/justified-gallery/)
-*	Single Thumbnail Gallery - [demo](http://foo.gallery/demos/single-thumbnail-gallery/)
-*	Polaroid Gallery - [demo](http://foo.gallery/demos/polaroid-image-gallery/)
-*	Cube Gallery - [demo](http://foo.gallery/demos/cube-gallery/) - [Buy Now!](http://fooplugins.com/plugins/cube-gallery-template/?utm_source=foogalleryplugin&utm_medium=foogallerylink&utm_campaign=foogallery_wprepo)
-*	Mixed (Images + Videos) - [demo](http://foo.gallery/demos/mixed/)
+*	Responsive Image Gallery - [demo](https://foo.gallery/demos/responsive-image-gallery/)
+*	FooGrid Image Gallery - [light demo](https://foo.gallery/demos/foogrid-light/) - [dark demo](https://foo.gallery/demos/foogrid-dark/)
+*	Image Viewer Gallery - [light demo](https://foo.gallery/demos/image-viewer-gallery/) - [dark demo](https://foo.gallery/demos/image-viewer-gallery-dark/)
+*	Masonry Gallery - [demo](https://foo.gallery/demos/masonry-image-gallery/)
+*	Simple Portfolio - [demo](https://foo.gallery/demos/simple-portfolio/)
+*	Justified Gallery ([https://miromannino.github.io/Justified-Gallery](https://miromannino.github.io/Justified-Gallery/)) - [demo](https://foo.gallery/demos/justified-gallery/)
+*	Single Thumbnail Gallery - [demo](https://foo.gallery/demos/single-thumbnail-gallery/)
+*	Polaroid Gallery - [demo](https://foo.gallery/demos/polaroid-image-gallery/)
+*	Cube Gallery - [demo](https://foo.gallery/demos/cube-gallery/) - [Buy Now!](https://fooplugins.com/plugins/cube-gallery-template/?utm_source=foogalleryplugin&utm_medium=foogallerylink&utm_campaign=foogallery_wprepo)
+*	Mixed (Images + Videos) - [demo](https://foo.gallery/demos/mixed/)
 
 **Caption Demos**
 
-*	Simple Hover Captions - [demo](http://foo.gallery/demos/captions-simple-hover/)
-*	Always Visible Captions - [demo](http://foo.gallery/demos/responsive-image-gallery-captions/)
-*	Drop Captions - [demo](http://foo.gallery/demos/captions-drop/)
-*	Fade Captions - [demo](http://foo.gallery/demos/captions-fade/)
-*	Push Captions - [demo](http://foo.gallery/demos/captions-push/)
+*	Simple Hover Captions - [demo](https://foo.gallery/demos/captions-simple-hover/)
+*	Always Visible Captions - [demo](https://foo.gallery/demos/responsive-image-gallery-captions/)
+*	Drop Captions - [demo](https://foo.gallery/demos/captions-drop/)
+*	Fade Captions - [demo](https://foo.gallery/demos/captions-fade/)
+*	Push Captions - [demo](https://foo.gallery/demos/captions-push/)
 
 **Album Demos**
 
-*	Responsive Album Layout - [demo](http://foo.gallery/demos/responsive-album-layout/)
-*	All-in-one Stack Album - [demo](http://foo.gallery/demos/all-in-one-stack-album/)
+*	Responsive Album Layout - [demo](https://foo.gallery/demos/responsive-album-layout/)
+*	All-in-one Stack Album - [demo](https://foo.gallery/demos/all-in-one-stack-album/)
 
 **Videos Demos**
 
-*	Vertical Video Slider - [demo](http://foo.gallery/demos/video-slider-vertical/) - [full-width demo](http://foo.gallery/demos/video-slider-vertical-full-width/)
-*	Horizontal Video Slider - [demo](http://foo.gallery/demos/video-slider-horizontal/) - [custom colors](http://foo.gallery/demos/video-slider-custom-theme/)
+*	Vertical Video Slider - [demo](https://foo.gallery/demos/video-slider-vertical/) - [full-width demo](https://foo.gallery/demos/video-slider-vertical-full-width/)
+*	Horizontal Video Slider - [demo](https://foo.gallery/demos/video-slider-horizontal/) - [custom colors](https://foo.gallery/demos/video-slider-custom-theme/)
 
 **Extensions**
 
-*   [FooVideo](http://fooplugins.com/plugins/foovideo/?utm_source=foogalleryplugin&utm_medium=foogallerylink&utm_campaign=foogallery_wprepo)
+*   [FooVideo](https://fooplugins.com/plugins/foovideo/?utm_source=foogalleryplugin&utm_medium=foogallerylink&utm_campaign=foogallery_wprepo)
 *	Albums (bundled)
 *	Default Gallery Templates (bundled)
 *	NextGen Gallery and Album Importer (bundled)
-*	[FooGrid Gallery](http://fooplugins.com/plugins/foogrid/?utm_source=foogalleryplugin&utm_medium=foogallerylink&utm_campaign=foogallery_wprepo)
-*	[Cube Gallery](http://fooplugins.com/plugins/cube-gallery-template/?utm_source=foogalleryplugin&utm_medium=foogallerylink&utm_campaign=foogallery_wprepo)
-*	[Custom Branding](http://fooplugins.com/plugins/foogallery-branding/?utm_source=foogalleryplugin&utm_medium=foogallerylink&utm_campaign=foogallery_wprepo)
-*	[FooBox PRO Lightbox](http://fooplugins.com/plugins/foobox/?utm_source=foogalleryplugin&utm_medium=foogallerylink&utm_campaign=foogallery_wprepo)
-*	[FooBox FREE Lightbox](http://wordpress.org/plugins/foobox-image-lightbox)
-*	[Owl Carousel Template](http://wordpress.org/plugins/foogallery-owl-carousel-template/)
-*	[ZOOM Template](http://wordpress.org/plugins/foogallery-zoom-template/)
-*	[Thirsty Affiliates](http://wordpress.org/plugins/thirstyaffiliates-for-foogallery-extension/)
+*	[FooGrid Gallery](https://fooplugins.com/plugins/foogrid/?utm_source=foogalleryplugin&utm_medium=foogallerylink&utm_campaign=foogallery_wprepo)
+*	[Cube Gallery](https://fooplugins.com/plugins/cube-gallery-template/?utm_source=foogalleryplugin&utm_medium=foogallerylink&utm_campaign=foogallery_wprepo)
+*	[Custom Branding](https://fooplugins.com/plugins/foogallery-branding/?utm_source=foogalleryplugin&utm_medium=foogallerylink&utm_campaign=foogallery_wprepo)
+*	[FooBox PRO Lightbox](https://fooplugins.com/plugins/foobox/?utm_source=foogalleryplugin&utm_medium=foogallerylink&utm_campaign=foogallery_wprepo)
+*	[FooBox FREE Lightbox](https://wordpress.org/plugins/foobox-image-lightbox)
+*	[Owl Carousel Template](https://wordpress.org/plugins/foogallery-owl-carousel-template/)
+*	[ZOOM Template](https://wordpress.org/plugins/foogallery-zoom-template/)
+*	[Thirsty Affiliates](https://wordpress.org/plugins/thirstyaffiliates-for-foogallery-extension/)
 *	[Polaroid Template](https://github.com/fooplugins/foogallery-polaroid-template)
 *	[Use Media Menu](https://github.com/fooplugins/foogallery-media-menu)
 *	Build your own!!!
 
 **Documentation**
 
-*	[FooGallery 101](http://docs.fooplugins.com/foogallery/foogallery-101/)
-*	[Developer 101](http://docs.fooplugins.com/foogallery/foogallery-developers-101/)
-*	[Actions and Filters](http://docs.fooplugins.com/foogallery/actions-filters/)
+*	[FooGallery 101](https://docs.fooplugins.com/foogallery/foogallery-101/)
+*	[Developer 101](https://docs.fooplugins.com/foogallery/foogallery-developers-101/)
+*	[Actions and Filters](https://docs.fooplugins.com/foogallery/actions-filters/)
 
 **Contribute**
 
@@ -126,7 +126,7 @@ Have you enabled retina support for your galleries? Displays with retina support
 
 = Can I add videos to my galleries? =
 
-Yes, you need to use the [FooVideo premium extension](http://fooplugins.com/plugins/foovideo/?utm_source=foogalleryplugin&utm_medium=foogallerylink&utm_campaign=foogallery_wprepo)
+Yes, you need to use the [FooVideo premium extension](https://fooplugins.com/plugins/foovideo/?utm_source=foogalleryplugin&utm_medium=foogallerylink&utm_campaign=foogallery_wprepo)
 
 = How do I get albums working? =
 
@@ -134,7 +134,7 @@ Simply go to the FooGallery extensions page and activate the Albums extension. I
 
 = Can I build an extension? =
 
-Hell, yes! Check out our [developer page](http://foo.gallery/developers/)
+Hell, yes! Check out our [developer page](https://foo.gallery/developers/)
 
 == Screenshots ==
 

@@ -4,7 +4,7 @@
  * A bunch of common and useful functions that don't fall into any specific category
  *
  * Author: Brad Vincent
- * Author URI: http://fooplugins.com
+ * Author URI: https://fooplugins.com
  * License: GPL2
 */
 

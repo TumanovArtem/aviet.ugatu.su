@@ -3,7 +3,7 @@
 
 Translatable Friendly Dates for WordPress
 Written as part of Foo Plugin Base plugin framework
-Original concept taken from Invent Partners - http://www.inventpartners.com
+Original concept taken from Invent Partners - https://www.inventpartners.com
 
 Example :
 

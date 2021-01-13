@@ -5,7 +5,7 @@
  * Version:     1.2.20
  * Author:      FooPlugins
  * Plugin URI:  https://foo.gallery
- * Author URI:  http://fooplugins.com
+ * Author URI:  https://fooplugins.com
  * Text Domain: foogallery
  * License:     GPL-2.0+
  * Domain Path: /languages

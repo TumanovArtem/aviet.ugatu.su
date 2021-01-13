@@ -248,7 +248,7 @@ jQuery( document ).ready(function() {
  * @summary Custom jQuery plugin that enables image uploader in wordpress.
  * 
  * @since 2.3.13
- * @see http://www.webmaster-source.com/2013/02/06/using-the-wordpress-3-5-media-uploader-in-your-plugin-or-theme/
+ * @see https://www.webmaster-source.com/2013/02/06/using-the-wordpress-3-5-media-uploader-in-your-plugin-or-theme/
  */
 jQuery.fn.aioseopImageUploader = function() {
     // Keep reference to this.
@@ -296,7 +296,7 @@ jQuery.fn.aioseopImageUploader = function() {
 /**
  * @summary Javascript for using WP media uploader. Indentifies which DOM should use custom uploader plugin.
  *
- * @see http://www.webmaster-source.com/2013/02/06/using-the-wordpress-3-5-media-uploader-in-your-plugin-or-theme/
+ * @see https://www.webmaster-source.com/2013/02/06/using-the-wordpress-3-5-media-uploader-in-your-plugin-or-theme/
  * @since ?
  * @since 2.3.11.2 Use WP 3.5 new media uploader
  * @since 2.3.13 Fixed issue #[740](https://github.com/semperfiwebdesign/all-in-one-seo-pack/issues/740)

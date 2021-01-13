@@ -1,6 +1,6 @@
 === WP-HTML-Compression ===
 Author: Steven Vachon
-URL: http://www.svachon.com/
+URL: https://www.svachon.com/
 Contact: contact@svachon.com
 Contributors: prometh
 Tags: absolute, bandwidth, comment, comments, compress, compressed, compression, faster, google, html, link, links, loading, optimize, optimization, minification, minified, minify, performance, plugin, reduction, relative, seo, shorten, speed, space, template, uri, url, urls, whitespace
@@ -13,7 +13,7 @@ Reduce file size by shortening URLs and safely removing all standard comments an
 
 == Description ==
 
-Combining HTML "minification" with cache and HTTP compression (**[WP Super Cache](http://wordpress.org/extend/plugins/wp-super-cache/)**, or similar) will cut down your bandwidth and ensure near-immediate content delivery while increasing your Google rankings.
+Combining HTML "minification" with cache and HTTP compression (**[WP Super Cache](https://wordpress.org/extend/plugins/wp-super-cache/)**, or similar) will cut down your bandwidth and ensure near-immediate content delivery while increasing your Google rankings.
 
 This plugin will compress your HTML by shortening **URLs** and removing **standard comments** and **whitespace**; including new lines, carriage returns, tabs and excess spaces. Most importantly, by ignoring `<pre>`, `<textarea>`, `<script>` and Explorer® `conditional comment` tags, ***presentation will not be affected***.
 
@@ -28,7 +28,7 @@ This plugin will compress your HTML by shortening **URLs** and removing **standa
 
 = Will this plugin slow down my page load times? =
 
-Yes, slightly. While you should be using **[WP Super Cache](http://wordpress.org/extend/plugins/wp-super-cache/)** anyway, it will correct the issue.
+Yes, slightly. While you should be using **[WP Super Cache](https://wordpress.org/extend/plugins/wp-super-cache/)** anyway, it will correct the issue.
 
 = Will Internet Explorer conditional comments be removed? =
 
@@ -46,9 +46,9 @@ Probably, however WordPress does a pretty good job of correcting invalid markup.
 
 If the links in your HTML are *not* hard-coded as hashes without the use of a script, an issue could occur with URL shortening. If so, setting `$shorten_urls` on line `21` of *libs/html-minify.php* to `false` will fix that.
 
-= My URLs have the "http:" and/or "https:" stripped?? =
+= My URLs have the "https:" and/or "https:" stripped?? =
 
-This is totally fine and actually intentional. It's standard and will not cause 404s nor get in the way of your SEO, but it *will* lower file size! You might be interested in reading more about this technique, called **[scheme-relative URLs](http://paulirish.com/2010/the-protocol-relative-url/)**.
+This is totally fine and actually intentional. It's standard and will not cause 404s nor get in the way of your SEO, but it *will* lower file size! You might be interested in reading more about this technique, called **[scheme-relative URLs](https://paulirish.com/2010/the-protocol-relative-url/)**.
 
 = Why does my compressed HTML have a space between most tags? =
 
@@ -56,7 +56,7 @@ To preserve *rendered* whitespace. One or more line breaks in your markup are re
 
 = How do I mark areas that should not be compressed? =
 
-While &lt;pre&gt;, &lt;textarea&gt; and &lt;script&gt; tags are automatically left uncompressed, you can designate any code to be exempted from compression. Simply drop your content between a pair of `<!--wp-html-compression no compression-->` comment tags. A picture is worth a thousand words; so, check the **[screenshots](http://wordpress.org/extend/plugins/wp-html-compression/screenshots/)**.
+While &lt;pre&gt;, &lt;textarea&gt; and &lt;script&gt; tags are automatically left uncompressed, you can designate any code to be exempted from compression. Simply drop your content between a pair of `<!--wp-html-compression no compression-->` comment tags. A picture is worth a thousand words; so, check the **[screenshots](https://wordpress.org/extend/plugins/wp-html-compression/screenshots/)**.
 
 = How do I compress the contents of &lt;script&gt; tags? =
 
@@ -84,12 +84,12 @@ This plugin has only been tested with versions of WordPress as early as 3.2. For
 * URLs within `<script>` and `<style>` tags are no longer shortened unless compression on such tags has been enabled
 
 = 0.5.7 =
-* Upgraded to **[Absolute-to-Relative URLs](http://wordpress.org/extend/plugins/absolute-to-relative-urls/)** v0.3.4
+* Upgraded to **[Absolute-to-Relative URLs](https://wordpress.org/extend/plugins/absolute-to-relative-urls/)** v0.3.4
 * Empty, hash-only anchors (`"#"`) are no longer invalidated by the URL shortener
-* Bypasses compression for **[Humans TXT](http://wordpress.org/extend/plugins/humanstxt/)** output
+* Bypasses compression for **[Humans TXT](https://wordpress.org/extend/plugins/humanstxt/)** output
 
 = 0.5.6 =
-* Upgraded to **[Absolute-to-Relative URLs](http://wordpress.org/extend/plugins/absolute-to-relative-urls/)** v0.3.3
+* Upgraded to **[Absolute-to-Relative URLs](https://wordpress.org/extend/plugins/absolute-to-relative-urls/)** v0.3.3
 * Javascript URIs (`"javascript:"`) are no longer invalidated by the URL shortener
 * Minor cleanup
 
@@ -97,7 +97,7 @@ This plugin has only been tested with versions of WordPress as early as 3.2. For
 * Oops, minor slip-up
 
 = 0.5.5 =
-* Upgraded to **[Absolute-to-Relative URLs](http://wordpress.org/extend/plugins/absolute-to-relative-urls/)** v0.3.2
+* Upgraded to **[Absolute-to-Relative URLs](https://wordpress.org/extend/plugins/absolute-to-relative-urls/)** v0.3.2
 * Data URIs (`"data:"`) are no longer invalidated by the URL shortener
 * URL shortener now applied to `data` attribute values (common to `<object>`)
 * Minor bug prevention
@@ -110,7 +110,7 @@ This plugin has only been tested with versions of WordPress as early as 3.2. For
 
 = 0.5.4 =
 * Plugin should always load now, even for installations that seem to skip the execution of `template_redirect` (?)
-* Converted for use in standard PHP as **[HTML Minify](http://www.svachon.com/blog/html-minify/)**, for which this plugin now simply wraps
+* Converted for use in standard PHP as **[HTML Minify](https://www.svachon.com/blog/html-minify/)**, for which this plugin now simply wraps
 * Compression statistics comment disabled by default
 
 = 0.5.3 =
@@ -118,16 +118,16 @@ This plugin has only been tested with versions of WordPress as early as 3.2. For
 * Corrected "invalid plugin header" issue when activating from install screen
 
 = 0.5.2 =
-* Upgraded to **[Absolute-to-Relative URLs](http://wordpress.org/extend/plugins/absolute-to-relative-urls/)** v0.3.1
+* Upgraded to **[Absolute-to-Relative URLs](https://wordpress.org/extend/plugins/absolute-to-relative-urls/)** v0.3.1
 
 = 0.5.1 =
-* Upgraded to **[Absolute-to-Relative URLs](http://wordpress.org/extend/plugins/absolute-to-relative-urls/)** v0.3
+* Upgraded to **[Absolute-to-Relative URLs](https://wordpress.org/extend/plugins/absolute-to-relative-urls/)** v0.3
 * JavaScript library references with scheme-relative URLs (`//domain.com/`) are no longer broken
 * Canonical URL no longer shortened
 * Minor bug fixes
 
 = 0.5 =
-* Includes **[Absolute-to-Relative URLs](http://wordpress.org/extend/plugins/absolute-to-relative-urls/)** for `action`, `href`, `src` attributes
+* Includes **[Absolute-to-Relative URLs](https://wordpress.org/extend/plugins/absolute-to-relative-urls/)** for `action`, `href`, `src` attributes
 * Bypasses compression for RSS/Atom feeds
 * Bypasses compression on admin/dashboard pages to free up resources for other tools/plugins
 * Compresses themes that don't make use of a header.php file (previously did not)

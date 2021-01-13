@@ -9,7 +9,7 @@ if ( !class_exists('WPMUDEV_Dashboard_Notice3') ) {
 		var $product_name = false;
 		var $product_update = false;
 		var $theme_pack = 128;
-		var $server_url = 'http://premium.wpmudev.org/wdp-un.php';
+		var $server_url = 'https://premium.wpmudev.org/wdp-un.php';
 		var $update_count = 0;
 		
 		function __construct() {
@@ -144,7 +144,7 @@ if ( !class_exists('WPMUDEV_Dashboard_Notice3') ) {
 			}
 			echo '</p><a class="wpmu-button" href="' . $this->auto_install_url() . '">Install WPMU DEV Dashboard</a>';
 			echo '</div>';
-			echo '<div class="wpmu-more-wrap"><a href="http://premium.wpmudev.org/update-notifications-plugin-information/" class="wpmu-more-info">More Info&raquo;</a></div>';
+			echo '<div class="wpmu-more-wrap"><a href="https://premium.wpmudev.org/update-notifications-plugin-information/" class="wpmu-more-info">More Info&raquo;</a></div>';
 			echo '</div>';
 		}
 		
@@ -477,7 +477,7 @@ if ( !class_exists('WPMUDEV_Dashboard_Notice3') ) {
 				$res->slug = 'wpmu-dev-dashboard';
 				$res->version = '';
 				$res->rating = 100;
-				$res->homepage = 'http://premium.wpmudev.org/project/wpmu-dev-dashboard/';
+				$res->homepage = 'https://premium.wpmudev.org/project/wpmu-dev-dashboard/';
 				$res->download_link = $this->server_url . "?action=install_wpmudev_dash";
 				$res->tested = $cur_wp_version;
 				

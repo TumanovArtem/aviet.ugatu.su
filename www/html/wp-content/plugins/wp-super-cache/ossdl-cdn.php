@@ -1,6 +1,6 @@
 <?php
 
-/* Taken from OSSDL CDN off-linker, a plugin by W-Mark Kubacki (http://mark.ossdl.de/) and used with permission */
+/* Taken from OSSDL CDN off-linker, a plugin by W-Mark Kubacki (https://mark.ossdl.de/) and used with permission */
 
 /* Set up some defaults */
 if ( get_option( 'ossdl_off_cdn_url' ) == false )
@@ -140,15 +140,15 @@ function scossdl_off_options() {
 		}
 		wp_cache_replace_line('^ *\$ossdlcdn', "\$ossdlcdn = $ossdlcdn;", $wp_cache_config_file);
 	}
-	$example_cdn_uri = str_replace( 'http://', 'http://cdn.', str_replace( 'www.', '', get_option( 'siteurl' ) ) );
-	$example_cnames  = str_replace( 'http://cdn.', 'http://cdn1.', $example_cdn_uri );
-	$example_cnames .= ',' . str_replace( 'http://cdn.', 'http://cdn2.', $example_cdn_uri );
-	$example_cnames .= ',' . str_replace( 'http://cdn.', 'http://cdn3.', $example_cdn_uri );
+	$example_cdn_uri = str_replace( 'https://', 'https://cdn.', str_replace( 'www.', '', get_option( 'siteurl' ) ) );
+	$example_cnames  = str_replace( 'https://cdn.', 'https://cdn1.', $example_cdn_uri );
+	$example_cnames .= ',' . str_replace( 'https://cdn.', 'https://cdn2.', $example_cdn_uri );
+	$example_cnames .= ',' . str_replace( 'https://cdn.', 'https://cdn3.', $example_cdn_uri );
 
 	$example_cdn_uri = get_option('ossdl_off_cdn_url') == get_option('siteurl') ? $example_cdn_uri : get_option('ossdl_off_cdn_url');
 	$example_cdn_uri .= '/wp-includes/js/prototype.js';
 	?>
-		<p><?php _e( 'Your website probably uses lots of static files. Image, Javascript and CSS files are usually static files that could just as easily be served from another site or CDN. Therefore, this plugin replaces any links in the <code>wp-content</code> and <code>wp-includes</code> directories (except for PHP files) on your site with the URL you provide below. That way you can either copy all the static content to a dedicated host or mirror the files to a CDN by <a href="http://knowledgelayer.softlayer.com/questions/365/How+does+Origin+Pull+work%3F" target="_blank">origin pull</a>.', 'wp-super-cache' ); ?></p>
+		<p><?php _e( 'Your website probably uses lots of static files. Image, Javascript and CSS files are usually static files that could just as easily be served from another site or CDN. Therefore, this plugin replaces any links in the <code>wp-content</code> and <code>wp-includes</code> directories (except for PHP files) on your site with the URL you provide below. That way you can either copy all the static content to a dedicated host or mirror the files to a CDN by <a href="https://knowledgelayer.softlayer.com/questions/365/How+does+Origin+Pull+work%3F" target="_blank">origin pull</a>.', 'wp-super-cache' ); ?></p>
 		<p><?php printf( __( '<strong style="color: red">WARNING:</strong> Test some static urls e.g., %s  to ensure your CDN service is fully working before saving changes.', 'wp-super-cache' ), '<code>' . $example_cdn_uri . '</code>' ); ?></p>
 		<p><?php _e( 'You can define different CDN URLs for each site on a multsite network.', 'wp-super-cache' ); ?></p>
 		<p><form method="post" action="">
@@ -185,7 +185,7 @@ function scossdl_off_options() {
 				<th scope="row"><label for="ossdl_cname"><?php _e( 'Additional CNAMES', 'wp-super-cache' ); ?></label></th>
 				<td>
 					<input type="text" name="ossdl_cname" value="<?php echo esc_attr( get_option( 'ossdl_cname' ) ); ?>" size="64" class="regular-text code" /><br />
-					<span class="description"><?php printf( __( 'These <a href="http://en.wikipedia.org/wiki/CNAME_record">CNAMES</a> will be used in place of %1$s for rewriting (in addition to the off-site URL above). Use a comma as the delimiter. For pages with a large number of static files, this can improve browser performance. CNAMEs may also need to be configured on your CDN.<br />Example: %2$s', 'wp-super-cache' ), get_option( 'siteurl' ), $example_cnames ); ?></span>
+					<span class="description"><?php printf( __( 'These <a href="https://en.wikipedia.org/wiki/CNAME_record">CNAMES</a> will be used in place of %1$s for rewriting (in addition to the off-site URL above). Use a comma as the delimiter. For pages with a large number of static files, this can improve browser performance. CNAMEs may also need to be configured on your CDN.<br />Example: %2$s', 'wp-super-cache' ), get_option( 'siteurl' ), $example_cnames ); ?></span>
 				</td>
 			</tr>
 			<tr valign="top">
@@ -195,7 +195,7 @@ function scossdl_off_options() {
 		<input type="hidden" name="action" value="update_ossdl_off" />
 		<p class="submit"><input type="submit" class="button-primary" value="<?php _e('Save Changes') ?>" /></p>
 		</form></p>
-		<p><?php _e( 'CDN functionality provided by <a href="http://wordpress.org/plugins/ossdl-cdn-off-linker/">OSSDL CDN Off Linker</a> by <a href="http://mark.ossdl.de/">Mark Kubacki</a>', 'wp-super-cache' ); ?></p>
+		<p><?php _e( 'CDN functionality provided by <a href="https://wordpress.org/plugins/ossdl-cdn-off-linker/">OSSDL CDN Off Linker</a> by <a href="https://mark.ossdl.de/">Mark Kubacki</a>', 'wp-super-cache' ); ?></p>
 	<?php
 }
 ?>

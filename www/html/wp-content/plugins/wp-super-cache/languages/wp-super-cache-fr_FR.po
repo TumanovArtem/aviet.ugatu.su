@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Super Cache fr\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-super-cache\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tag/wp-super-cache\n"
 "POT-Creation-Date: 2010-06-16 10:25+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Maître Mô <postmaster@maitremo.fr>\n"
@@ -78,13 +78,13 @@ msgstr "Attention!"
 #@ wp-super-cache
 #: plugins/searchengine.php:71
 #, php-format
-msgid "<a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> plugin is %s."
-msgstr "L'extension <a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">Pas de pub pour les amis</a> est %s."
+msgid "<a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> plugin is %s."
+msgstr "L'extension <a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">Pas de pub pour les amis</a> est %s."
 
 #@ wp-super-cache
 #: plugins/searchengine.php:72
-msgid "(requires <a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> too) "
-msgstr "(nécessite également <a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a>) "
+msgid "(requires <a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> too) "
+msgstr "(nécessite également <a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a>) "
 
 #@ wp-super-cache
 #: wp-cache.php:87
@@ -110,13 +110,13 @@ msgstr "Votre serveur est configuré pour vérifier le propriétaire des scripts
 #@ wp-super-cache
 #: wp-cache.php:144
 #, php-format
-msgid "You or an administrator may be able to make it work by changing the group owner of the plugin scripts to match that of the web server user. The group owner of the %s/cache/ directory must also be changed. See the <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> for further details."
-msgstr "Vous ou un administrateur pouvez être en mesure de le faire fonctionner en modifiant le groupe du propriétaire des scripts de l'extension pour le faire correspondre à celui de l'utilisateur du serveur web. Le groupe du propriétaire du répertoire de %s/cache/ doit également être modifié. Voir la <a href=\"http://fr.php.net/features.safe-mode\">page du manuel du Mode Sécurité</a> pour plus de détails."
+msgid "You or an administrator may be able to make it work by changing the group owner of the plugin scripts to match that of the web server user. The group owner of the %s/cache/ directory must also be changed. See the <a href=\"https://php.net/features.safe-mode\">safe mode manual page</a> for further details."
+msgstr "Vous ou un administrateur pouvez être en mesure de le faire fonctionner en modifiant le groupe du propriétaire des scripts de l'extension pour le faire correspondre à celui de l'utilisateur du serveur web. Le groupe du propriétaire du répertoire de %s/cache/ doit également être modifié. Voir la <a href=\"https://fr.php.net/features.safe-mode\">page du manuel du Mode Sécurité</a> pour plus de détails."
 
 #@ wp-super-cache
 #: wp-cache.php:146
-msgid "You or an administrator must disable this. See the <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> for further details. This cannot be disabled in a .htaccess file unfortunately. It must be done in the php.ini config file."
-msgstr "Vous ou un administrateur devez désactiver ceci. Voir la <a href=\"http://fr.php.net/features.safe-mode\">page du manuel du Mode Sécurité</a> pour plus de détails. Ça ne peut malheureusement pas être désactivé dans un fichier .htaccess. Ça doit l'être dans le fichier de configuration php.ini."
+msgid "You or an administrator must disable this. See the <a href=\"https://php.net/features.safe-mode\">safe mode manual page</a> for further details. This cannot be disabled in a .htaccess file unfortunately. It must be done in the php.ini config file."
+msgstr "Vous ou un administrateur devez désactiver ceci. Voir la <a href=\"https://fr.php.net/features.safe-mode\">page du manuel du Mode Sécurité</a> pour plus de détails. Ça ne peut malheureusement pas être désactivé dans un fichier .htaccess. Ça doit l'être dans le fichier de configuration php.ini."
 
 #@ wp-super-cache
 #: wp-cache.php:152
@@ -169,8 +169,8 @@ msgstr "Compression Zlib Output activée !"
 
 #@ wp-super-cache
 #: wp-cache.php:205
-msgid "PHP is compressing the data sent to the visitors of your site. Disabling this is recommended as the plugin caches the compressed output once instead of compressing the same page over and over again. Also see #21 in the Troubleshooting section. See <a href=\"http://php.net/manual/en/zlib.configuration.php\">this page</a> for instructions on modifying your php.ini."
-msgstr "PHP compresse les données envoyées aux visiteurs de votre site. Il est recommandé de désactiver ceci car l'extension met en cache la sortie compressée une seule fois, au lieu de compresser la même page encore et encore. Voir également le #21 dans la section Dépannage. Voir <a href=\"http://php.net/manual/en/zlib.configuration.php\">cette page</a> pour obtenir des instructions pour la modification de votre fichier php.ini."
+msgid "PHP is compressing the data sent to the visitors of your site. Disabling this is recommended as the plugin caches the compressed output once instead of compressing the same page over and over again. Also see #21 in the Troubleshooting section. See <a href=\"https://php.net/manual/en/zlib.configuration.php\">this page</a> for instructions on modifying your php.ini."
+msgstr "PHP compresse les données envoyées aux visiteurs de votre site. Il est recommandé de désactiver ceci car l'extension met en cache la sortie compressée une seule fois, au lieu de compresser la même page encore et encore. Voir également le #21 dans la section Dépannage. Voir <a href=\"https://php.net/manual/en/zlib.configuration.php\">cette page</a> pour obtenir des instructions pour la modification de votre fichier php.ini."
 
 #@ wp-super-cache
 #: wp-cache.php:209
@@ -271,8 +271,8 @@ msgstr "Supprimez les règles de Réécriture de l'extension dans %s.htaccess si
 #@ wp-super-cache
 #: wp-cache.php:253
 #, php-format
-msgid "Add the rules yourself. Edit %s.htaccess and find the block of code enclosed by the lines <code># BEGIN WPSuperCache</code> and <code># END WPSuperCache</code>. There are two sections that look very similar. Just below the line <code>%%{HTTP:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> add these lines: (do it twice, once for each section)"
-msgstr "Ajoutez les règles vous-même. Éditez %s.htaccess et trouvez le bloc de code situé entre les lignes <code># BEGIN WPSuperCache</code> et <code># END WPSuperCache</code>. Il existe deux sections, qui se ressemblent beaucoup. Juste en dessous de la ligne <code>%%{HTTP:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code>, ajoutez ces lignes (faites-le deux fois, une par section) :"
+msgid "Add the rules yourself. Edit %s.htaccess and find the block of code enclosed by the lines <code># BEGIN WPSuperCache</code> and <code># END WPSuperCache</code>. There are two sections that look very similar. Just below the line <code>%%{https:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> add these lines: (do it twice, once for each section)"
+msgstr "Ajoutez les règles vous-même. Éditez %s.htaccess et trouvez le bloc de code situé entre les lignes <code># BEGIN WPSuperCache</code> et <code># END WPSuperCache</code>. Il existe deux sections, qui se ressemblent beaucoup. Juste en dessous de la ligne <code>%%{https:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code>, ajoutez ces lignes (faites-le deux fois, une par section) :"
 
 #@ wp-super-cache
 #: wp-cache.php:811
@@ -584,8 +584,8 @@ msgstr "Merci d'avoir effectué la mise à jour."
 #@ wp-super-cache
 #: wp-cache.php:1000
 #, php-format
-msgid "The mod_rewrite rules changed since you last installed this plugin. Unfortunately you must remove the old supercache rules before the new ones are updated. Refresh this page when you have edited your .htaccess file. If you wish to manually upgrade, change the following line: %1$s so it looks like this: %2$s The only changes are \"HTTP_COOKIE\" becomes \"HTTP:Cookie\" and \"wordpressuser\" becomes \"wordpress\". This is a WordPress 2.5 change but it&#8217;s backwards compatible with older versions if you&#8217;re brave enough to use them."
-msgstr "Les règles du Mode Réécriture ont changé depuis votre dernère installation de cette extension. Malheureusement, vous devez supprimer les anciennes règles de SuperCache avant que les nouvelles soient mises à jour. Rafraîchissez cette page après avoir édité votre fichier .htaccess. Si vous souhaitez mettre à jour manuellement, modifiez la ligne suivante : %1$s de façon qu'elle ressemble à ceci : %2$s. Les seuls changements sont \"HTTP_COOKIE\", devenant \"HTTP:Cookie\", et \"wordpressuser \", devenant \"wordpress\". C'est une modification de WordPress 2.5, mais il est rétrocompatible avec les anciennes versions, si vous êtes assez courageux pour utiliser celles-ci."
+msgid "The mod_rewrite rules changed since you last installed this plugin. Unfortunately you must remove the old supercache rules before the new ones are updated. Refresh this page when you have edited your .htaccess file. If you wish to manually upgrade, change the following line: %1$s so it looks like this: %2$s The only changes are \"HTTP_COOKIE\" becomes \"https:Cookie\" and \"wordpressuser\" becomes \"wordpress\". This is a WordPress 2.5 change but it&#8217;s backwards compatible with older versions if you&#8217;re brave enough to use them."
+msgstr "Les règles du Mode Réécriture ont changé depuis votre dernère installation de cette extension. Malheureusement, vous devez supprimer les anciennes règles de SuperCache avant que les nouvelles soient mises à jour. Rafraîchissez cette page après avoir édité votre fichier .htaccess. Si vous souhaitez mettre à jour manuellement, modifiez la ligne suivante : %1$s de façon qu'elle ressemble à ceci : %2$s. Les seuls changements sont \"HTTP_COOKIE\", devenant \"https:Cookie\", et \"wordpressuser \", devenant \"wordpress\". C'est une modification de WordPress 2.5, mais il est rétrocompatible avec les anciennes versions, si vous êtes assez courageux pour utiliser celles-ci."
 
 #@ wp-super-cache
 #: wp-cache.php:1004
@@ -810,8 +810,8 @@ msgstr "Sauvegarder les Listes d'User Agents"
 
 #@ wp-super-cache
 #: wp-cache.php:1331
-msgid "Do not cache the following page types. See the <a href=\"http://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> documentation for a complete discussion on each type."
-msgstr "Ne pas mettre en cache les types de page suivants. Voir la documentation <a href=\"http://codex.wordpress.org/fr:Marqueurs_conditionnels\">Marqueurs Conditionnels</a>pour un exposé complet sur chaque type."
+msgid "Do not cache the following page types. See the <a href=\"https://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> documentation for a complete discussion on each type."
+msgstr "Ne pas mettre en cache les types de page suivants. Voir la documentation <a href=\"https://codex.wordpress.org/fr:Marqueurs_conditionnels\">Marqueurs Conditionnels</a>pour un exposé complet sur chaque type."
 
 #@ wp-super-cache
 #: wp-cache.php:1334
@@ -1082,8 +1082,8 @@ msgstr "<strong>Erreur : WP_CACHE n'est pas activé</strong> dans votre fichier 
 
 #@ wp-super-cache
 #: wp-cache.php:1726
-msgid "<h3>WP_CACHE constant added to wp-config.php</h3><p>If you continue to see this warning message please see point 5 of the <a href=\"http://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. The WP_CACHE line must be moved up."
-msgstr "<h3>Constante WP_CACHE ajoutée à wp-config.php</h3><p>Si vous continuez à voir s'afficher ce message d'avertissement, merci de lire le point 5 de la<a href=\"http://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. La ligne WP_CACHE doit être déplacée."
+msgid "<h3>WP_CACHE constant added to wp-config.php</h3><p>If you continue to see this warning message please see point 5 of the <a href=\"https://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. The WP_CACHE line must be moved up."
+msgstr "<h3>Constante WP_CACHE ajoutée à wp-config.php</h3><p>Si vous continuez à voir s'afficher ce message d'avertissement, merci de lire le point 5 de la<a href=\"https://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. La ligne WP_CACHE doit être déplacée."
 
 #@ wp-super-cache
 #: wp-cache.php:1748
@@ -1427,14 +1427,14 @@ msgstr "(Supprime le texte \"Votre commentaire est en attente de modération.\" 
 #@ wp-super-cache
 #: plugins/badbehaviour.php:61
 #, php-format
-msgid "(Only legacy caching supported, disabled compression and requires <a href=\"http://www.bad-behavior.ioerror.us/\">Bad Behavior</a> in \"%s/plugins/bad-behavior/\") "
-msgstr "(Seule la mise en cache par héritage est prise en charge, la compression est désactivée ; nécessite <a href=\"http://www.bad-behavior.ioerror.us/\">Bad Behavior</a> dans \"%s/plugins/bad-behavior/\")"
+msgid "(Only legacy caching supported, disabled compression and requires <a href=\"https://www.bad-behavior.ioerror.us/\">Bad Behavior</a> in \"%s/plugins/bad-behavior/\") "
+msgstr "(Seule la mise en cache par héritage est prise en charge, la compression est désactivée ; nécessite <a href=\"https://www.bad-behavior.ioerror.us/\">Bad Behavior</a> dans \"%s/plugins/bad-behavior/\")"
 
 #@ wp-super-cache
 #: plugins/domain-mapping.php:57
 #, php-format
-msgid "<a href=\"http://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a> support plugin is %s"
-msgstr "Le support de l'extension <a href=\"http://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a>  est %s"
+msgid "<a href=\"https://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a> support plugin is %s"
+msgstr "Le support de l'extension <a href=\"https://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a>  est %s"
 
 #@ wp-super-cache
 #: plugins/domain-mapping.php:58

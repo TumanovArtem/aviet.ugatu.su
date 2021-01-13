@@ -42,7 +42,7 @@ if ( !class_exists( 'FooGallery_Justified_Gallery_Template' ) ) {
 									'title'	  => __( 'Tip', 'foogallery' ),
 									'type'	  => 'html',
 									'help'	  => true,
-									'desc'	  => __( 'The Justified Gallery template uses the popular <a href="http://miromannino.com/projects/justified-gallery/" target="_blank">Justified Gallery jQuery Plugin</a> under the hood. You can specify thumbnail captions by setting the alt text for your attachments.', 'foogallery' ),
+									'desc'	  => __( 'The Justified Gallery template uses the popular <a href="https://miromannino.com/projects/justified-gallery/" target="_blank">Justified Gallery jQuery Plugin</a> under the hood. You can specify thumbnail captions by setting the alt text for your attachments.', 'foogallery' ),
 							),
 							array(
 									'id'      => 'thumb_height',

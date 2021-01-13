@@ -185,8 +185,8 @@ msgid "Semantic Personal Publishing Platform"
 msgstr "Современная персональная платформа для публикаций"
 
 #: footer.php:19
-msgid "http://wordpress.org/"
-msgstr "http://wordpress.org/"
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
 
 #: content-none.php:27
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."

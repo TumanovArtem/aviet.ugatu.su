@@ -1,12 +1,12 @@
 === FooBox Image Lightbox ===
 Contributors: bradvin, fooplugins
-Donate link: http://fooplugins.com
+Donate link: https://fooplugins.com
 Tags: lightbox,media,images,gallery,modal
 Requires at least: 3.5.1
 Tested up to: 4.3
 Stable tag: trunk
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 A responsive image lightbox for WordPress galleries & Foo Gallery
 
@@ -14,7 +14,7 @@ A responsive image lightbox for WordPress galleries & Foo Gallery
 
 FooBox was the first lightbox to take responsive layout seriously. Not only does it scale images to look better on phones, but it rearranges it's button controls to look great in both portrait or landscape orientation.
 
-Works with most image gallery plugins, but works best with our free [FooGallery](http://wordpress.org/plugins/foogallery/) plugin.
+Works with most image gallery plugins, but works best with our free [FooGallery](https://wordpress.org/plugins/foogallery/) plugin.
 
 **Features**
 
@@ -24,7 +24,7 @@ Works with most image gallery plugins, but works best with our free [FooGallery]
 *	Works with WordPress captioned images
 *	Zero configuration
 
-**Upgrade to the [PRO version of FooBox](http://fooplugins.com/plugins/foobox/?utm_source=fooboxfreeplugin&utm_medium=fooboxfreeprolink&utm_campaign=foobox_free_wprepo) and also get**
+**Upgrade to the [PRO version of FooBox](https://fooplugins.com/plugins/foobox/?utm_source=fooboxfreeplugin&utm_medium=fooboxfreeprolink&utm_campaign=foobox_free_wprepo) and also get**
 
 *	Social sharing (10+ networks)
 *	Video support
@@ -36,26 +36,26 @@ Works with most image gallery plugins, but works best with our free [FooGallery]
 *	5 color schemes, 12 buttons icons and 11 loader icons
 *	85+ settings to customize
 
-**The [PRO version](http://fooplugins.com/plugins/foobox/?utm_source=fooboxfreeplugin&utm_medium=fooboxfreeprolink&utm_campaign=foobox_free_wprepo) also supports these galleries and plugins**
+**The [PRO version](https://fooplugins.com/plugins/foobox/?utm_source=fooboxfreeplugin&utm_medium=fooboxfreeprolink&utm_campaign=foobox_free_wprepo) also supports these galleries and plugins**
 
-*	[FooGallery](http://foo.gallery)
+*	[FooGallery](https://foo.gallery)
 *	NextGen
-*	[Justified Image Grid](http://codecanyon.net/item/justified-image-grid-premium-wordpress-gallery/2594251)
+*	[Justified Image Grid](https://codecanyon.net/item/justified-image-grid-premium-wordpress-gallery/2594251)
 *	WooCommerce product images
 *	JetPack Tiled Gallery
 
-Check out the [full feature comparison](http://fooplugins.com/foobox-feature-comparison/?utm_source=fooboxfreeplugin&utm_medium=fooboxcomparelink&utm_campaign=foobox_free_wprepo).
+Check out the [full feature comparison](https://fooplugins.com/foobox-feature-comparison/?utm_source=fooboxfreeplugin&utm_medium=fooboxcomparelink&utm_campaign=foobox_free_wprepo).
 
 **Partners**
 
 FooBox works great with most themes and gallery plugins right out of the box. But some vendors go that extra mile to ensure 100% FooBox compatibility:
 
-* [FooGallery](http://foo.gallery)
-* [Bottomless Design WordPress Themes](http://www.mojo-themes.com/user/bottomlessdesign)
+* [FooGallery](https://foo.gallery)
+* [Bottomless Design WordPress Themes](https://www.mojo-themes.com/user/bottomlessdesign)
 
 **Translations**
 
-* [Serbo-Croatian by Borisa Djuraskovic](http://www.webhostinghub.com/)
+* [Serbo-Croatian by Borisa Djuraskovic](https://www.webhostinghub.com/)
 
 == Installation ==
 

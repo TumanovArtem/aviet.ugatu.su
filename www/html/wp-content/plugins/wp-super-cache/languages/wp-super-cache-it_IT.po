@@ -1,11 +1,11 @@
 # WP Super Cache Translation File
 # GPL
-# Donncha O Caoimh, http://ocaoimh.ie/
+# Donncha O Caoimh, https://ocaoimh.ie/
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Super Cache in italiano\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-super-cache\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tag/wp-super-cache\n"
 "POT-Creation-Date: 2010-11-22 17:30+0000\n"
 "PO-Revision-Date: 2010-11-23 20:55+0100\n"
 "Last-Translator: Gianni Diurno (aka gidibao) <gidibao[at]gmail[dot]com>\n"
@@ -20,8 +20,8 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 
 #: ossdl-cdn.php:105
-msgid "Your website probably uses lots of static files. Image, Javascript and CSS files are usually static files that could just as easily be served from another site or CDN. Therefore this plugin replaces any links in the <code>wp-content</code> and <code>wp-includes</code> directories (except for PHP files) on your site with the URL you provide below. That way you can either copy all the static content to a dedicated host or mirror the files to a CDN by <a href=\"http://knowledgelayer.softlayer.com/questions/365/How+does+Origin+Pull+work%3F\" target=\"_blank\">origin pull</a>."
-msgstr "Probabilmente il tuo sito fa uso di molti file statici. I file immagine, Javascript e CSS sono generalmente dei file statici che potrebbero essere facilmente serviti da un altro sito o CDN. Quindi questo plugin sostituirà ogni link presente nelle cartelle <code>wp-content</code> e <code>wp-includes</code> (ad eccezione dei file PHP) del tuo sito con l'URL fornito qui sotto. In quel modo potrai copiare tutti i contenuti statici presso un host dedicato o fare un mirror dei file verso un CDN via <a href=\"http://knowledgelayer.softlayer.com/questions/365/How+does+Origin+Pull+work%3F\" target=\"_blank\">origin pull</a>."
+msgid "Your website probably uses lots of static files. Image, Javascript and CSS files are usually static files that could just as easily be served from another site or CDN. Therefore this plugin replaces any links in the <code>wp-content</code> and <code>wp-includes</code> directories (except for PHP files) on your site with the URL you provide below. That way you can either copy all the static content to a dedicated host or mirror the files to a CDN by <a href=\"https://knowledgelayer.softlayer.com/questions/365/How+does+Origin+Pull+work%3F\" target=\"_blank\">origin pull</a>."
+msgstr "Probabilmente il tuo sito fa uso di molti file statici. I file immagine, Javascript e CSS sono generalmente dei file statici che potrebbero essere facilmente serviti da un altro sito o CDN. Quindi questo plugin sostituirà ogni link presente nelle cartelle <code>wp-content</code> e <code>wp-includes</code> (ad eccezione dei file PHP) del tuo sito con l'URL fornito qui sotto. In quel modo potrai copiare tutti i contenuti statici presso un host dedicato o fare un mirror dei file verso un CDN via <a href=\"https://knowledgelayer.softlayer.com/questions/365/How+does+Origin+Pull+work%3F\" target=\"_blank\">origin pull</a>."
 
 #: ossdl-cdn.php:106
 #, php-format
@@ -37,8 +37,8 @@ msgid "Save Changes"
 msgstr "Salva le modifiche"
 
 #: ossdl-cdn.php:136
-msgid "CDN functionality provided by <a href=\"http://wordpress.org/extend/plugins/ossdl-cdn-off-linker/\">OSSDL CDN Off Linker</a> by <a href=\"http://mark.ossdl.de/\">Mark Kubacki</a>"
-msgstr "La funzionalità CDN  é fornita da <a href=\"http://wordpress.org/extend/plugins/ossdl-cdn-off-linker/\">OSSDL CDN Off Linker</a> di <a href=\"http://mark.ossdl.de/\">Mark Kubacki</a>"
+msgid "CDN functionality provided by <a href=\"https://wordpress.org/extend/plugins/ossdl-cdn-off-linker/\">OSSDL CDN Off Linker</a> by <a href=\"https://mark.ossdl.de/\">Mark Kubacki</a>"
+msgstr "La funzionalità CDN  é fornita da <a href=\"https://wordpress.org/extend/plugins/ossdl-cdn-off-linker/\">OSSDL CDN Off Linker</a> di <a href=\"https://mark.ossdl.de/\">Mark Kubacki</a>"
 
 #: plugins/awaitingmoderation.php:4
 msgid "Your comment is awaiting moderation."
@@ -102,8 +102,8 @@ msgstr "Bad Behavior"
 
 #: plugins/badbehaviour.php:66
 #, php-format
-msgid "(Only legacy caching supported, disabled compression and requires <a href=\"http://www.bad-behavior.ioerror.us/\">Bad Behavior</a> in \"%s/plugins/bad-behavior/\") "
-msgstr "(utilizzare la sola cache parziale, non attivare la compressione ed installare <a href=\"http://www.bad-behavior.ioerror.us/\">Bad Behavior</a> sotto \"%s/plugins/bad-behavior/\") "
+msgid "(Only legacy caching supported, disabled compression and requires <a href=\"https://www.bad-behavior.ioerror.us/\">Bad Behavior</a> in \"%s/plugins/bad-behavior/\") "
+msgstr "(utilizzare la sola cache parziale, non attivare la compressione ed installare <a href=\"https://www.bad-behavior.ioerror.us/\">Bad Behavior</a> sotto \"%s/plugins/bad-behavior/\") "
 
 #: plugins/badbehaviour.php:72
 #, php-format
@@ -121,8 +121,8 @@ msgid "Domain Mapping"
 msgstr "Informazioni autore"
 
 #: plugins/domain-mapping.php:63
-msgid "Provides support for <a href=\"http://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a> plugin to map multiple domains to a blog."
-msgstr "Provvede il supporto per il plugin <a href=\"http://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a> per la mappatura dei domini multipli di un blog."
+msgid "Provides support for <a href=\"https://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a> plugin to map multiple domains to a blog."
+msgstr "Provvede il supporto per il plugin <a href=\"https://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a> per la mappatura dei domini multipli di un blog."
 
 #: plugins/domain-mapping.php:69
 #, php-format
@@ -141,12 +141,12 @@ msgstr "Disattiva"
 
 #: plugins/searchengine.php:71
 #, php-format
-msgid "<a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> plugin is %s."
-msgstr "Il plugin <a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> é %s."
+msgid "<a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> plugin is %s."
+msgstr "Il plugin <a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> é %s."
 
 #: plugins/searchengine.php:72
-msgid "(requires <a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> too) "
-msgstr "(é necessario anche <a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a>) "
+msgid "(requires <a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> too) "
+msgstr "(é necessario anche <a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a>) "
 
 #: plugins/searchengine.php:74
 #: wp-cache.php:1177
@@ -172,12 +172,12 @@ msgstr "Prima che sia possibile la lettura e la scrittura dei file, il tuo serve
 
 #: wp-cache.php:152
 #, php-format
-msgid "You or an administrator may be able to make it work by changing the group owner of the plugin scripts to match that of the web server user. The group owner of the %s/cache/ directory must also be changed. See the <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> for further details."
-msgstr "L'amministratore del sito ha la possibilità di cambiare il proprietario del gruppo che fa capo agli script di questo plugin facendo sì che esso coincida con l'utente web del server. Anche il proprietario del gruppo per la cartella %s/cache/ può essere cambiato. Per ulteriori informazioni, consulta la pagina del manuale <a href=\"http://php.net/features.safe-mode\">safe mode</a>."
+msgid "You or an administrator may be able to make it work by changing the group owner of the plugin scripts to match that of the web server user. The group owner of the %s/cache/ directory must also be changed. See the <a href=\"https://php.net/features.safe-mode\">safe mode manual page</a> for further details."
+msgstr "L'amministratore del sito ha la possibilità di cambiare il proprietario del gruppo che fa capo agli script di questo plugin facendo sì che esso coincida con l'utente web del server. Anche il proprietario del gruppo per la cartella %s/cache/ può essere cambiato. Per ulteriori informazioni, consulta la pagina del manuale <a href=\"https://php.net/features.safe-mode\">safe mode</a>."
 
 #: wp-cache.php:154
-msgid "You or an administrator must disable this. See the <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> for further details. This cannot be disabled in a .htaccess file unfortunately. It must be done in the php.ini config file."
-msgstr "L'amministratore del sito ha la possibilità di disattivare questa funzione. Per ulteriori informazioni, consulta la pagina del manuale <a href=\"http://php.net/features.safe-mode\">safe mode</a>. La disattivazione non potrà avvenire via file .htaccess. L'operazione dovrà essere effettuata nel file di configurazione php.ini."
+msgid "You or an administrator must disable this. See the <a href=\"https://php.net/features.safe-mode\">safe mode manual page</a> for further details. This cannot be disabled in a .htaccess file unfortunately. It must be done in the php.ini config file."
+msgstr "L'amministratore del sito ha la possibilità di disattivare questa funzione. Per ulteriori informazioni, consulta la pagina del manuale <a href=\"https://php.net/features.safe-mode\">safe mode</a>. La disattivazione non potrà avvenire via file .htaccess. L'operazione dovrà essere effettuata nel file di configurazione php.ini."
 
 #: wp-cache.php:160
 msgid "Permlink Structure Error"
@@ -216,8 +216,8 @@ msgid "Zlib Output Compression Enabled!"
 msgstr "Compressione Zlib (output) attivata!"
 
 #: wp-cache.php:213
-msgid "PHP is compressing the data sent to the visitors of your site. Disabling this is recommended as the plugin caches the compressed output once instead of compressing the same page over and over again. Also see #21 in the Troubleshooting section. See <a href=\"http://php.net/manual/en/zlib.configuration.php\">this page</a> for instructions on modifying your php.ini."
-msgstr "Il PHP sta comprimendo i dati inviati ai visitatori del tuo sito. E' preferibile disattivare questa opzione qualora il plugin comprimesse la cache per l'output al posto di comprimere più volte la stessa pagina.. Consultare la n.ro 21 della sezione Troubleshooting. Leggi questa <a href=\"http://php.net/manual/en/zlib.configuration.php\">pagina</a> per le istruzioni sul come modificare il tuo php.ini."
+msgid "PHP is compressing the data sent to the visitors of your site. Disabling this is recommended as the plugin caches the compressed output once instead of compressing the same page over and over again. Also see #21 in the Troubleshooting section. See <a href=\"https://php.net/manual/en/zlib.configuration.php\">this page</a> for instructions on modifying your php.ini."
+msgstr "Il PHP sta comprimendo i dati inviati ai visitatori del tuo sito. E' preferibile disattivare questa opzione qualora il plugin comprimesse la cache per l'output al posto di comprimere più volte la stessa pagina.. Consultare la n.ro 21 della sezione Troubleshooting. Leggi questa <a href=\"https://php.net/manual/en/zlib.configuration.php\">pagina</a> per le istruzioni sul come modificare il tuo php.ini."
 
 #: wp-cache.php:217
 msgid "Mod rewrite may not be installed!"
@@ -300,8 +300,8 @@ msgstr "Cancella le regole mod_rewrite del plugin in %s.htaccess presenti tra <c
 
 #: wp-cache.php:261
 #, php-format
-msgid "Add the rules yourself. Edit %s.htaccess and find the block of code enclosed by the lines <code># BEGIN WPSuperCache</code> and <code># END WPSuperCache</code>. There are two sections that look very similar. Just below the line <code>%%{HTTP:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> add these lines: (do it twice, once for each section)"
-msgstr "Aggiungi tu stesso le regole. Modifica il file %s.htaccess e trova il blocco del codice contenuto tra le linee <code># BEGIN WPSuperCache</code> e <code># END WPSuperCache</code>. Troverai due sezioni particolarmente simili tra loro. Proprio sotto la linea <code>%%{HTTP:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> aggiungi queste linee: (per due volte, una per ogni sezione)"
+msgid "Add the rules yourself. Edit %s.htaccess and find the block of code enclosed by the lines <code># BEGIN WPSuperCache</code> and <code># END WPSuperCache</code>. There are two sections that look very similar. Just below the line <code>%%{https:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> add these lines: (do it twice, once for each section)"
+msgstr "Aggiungi tu stesso le regole. Modifica il file %s.htaccess e trova il blocco del codice contenuto tra le linee <code># BEGIN WPSuperCache</code> e <code># END WPSuperCache</code>. Troverai due sezioni particolarmente simili tra loro. Proprio sotto la linea <code>%%{https:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> aggiungi queste linee: (per due volte, una per ogni sezione)"
 
 #: wp-cache.php:274
 msgid "Required to serve compressed supercache files properly."
@@ -835,8 +835,8 @@ msgstr "Grazie per avere effettuato l'aggiornamento."
 
 #: wp-cache.php:1074
 #, php-format
-msgid "The mod_rewrite rules changed since you last installed this plugin. Unfortunately you must remove the old supercache rules before the new ones are updated. Refresh this page when you have edited your .htaccess file. If you wish to manually upgrade, change the following line: %1$s so it looks like this: %2$s The only changes are \"HTTP_COOKIE\" becomes \"HTTP:Cookie\" and \"wordpressuser\" becomes \"wordpress\". This is a WordPress 2.5 change but it&#8217;s backwards compatible with older versions if you&#8217;re brave enough to use them."
-msgstr "Le regole mod_rewrite sono cambiate dalla tua ultima installazione di questo plugin. E' necessario che tu rimuova le regole supercache precedenti prima che le nuove siano aggiornate. Ricarica questa pagina una volta che avrai modificato il tuo file .htaccess. Qualora desiderassi effettuare un aggiornamento manuale, modifica la seguente linea: %1$s rendendola simile a questa: %2$s Le sole modifiche sono \"HTTP_COOKIE\" che diventa \"HTTP:Cookie\" e \"wordpressuser\" che va sostituito con \"wordpress\". Questa é una modifica relativa a WordPress 2.5 comunque, la sua validità é estesa anche alle versioni precedenti (qualora avessi il coraggio di utilizzarle)."
+msgid "The mod_rewrite rules changed since you last installed this plugin. Unfortunately you must remove the old supercache rules before the new ones are updated. Refresh this page when you have edited your .htaccess file. If you wish to manually upgrade, change the following line: %1$s so it looks like this: %2$s The only changes are \"HTTP_COOKIE\" becomes \"https:Cookie\" and \"wordpressuser\" becomes \"wordpress\". This is a WordPress 2.5 change but it&#8217;s backwards compatible with older versions if you&#8217;re brave enough to use them."
+msgstr "Le regole mod_rewrite sono cambiate dalla tua ultima installazione di questo plugin. E' necessario che tu rimuova le regole supercache precedenti prima che le nuove siano aggiornate. Ricarica questa pagina una volta che avrai modificato il tuo file .htaccess. Qualora desiderassi effettuare un aggiornamento manuale, modifica la seguente linea: %1$s rendendola simile a questa: %2$s Le sole modifiche sono \"HTTP_COOKIE\" che diventa \"https:Cookie\" e \"wordpressuser\" che va sostituito con \"wordpress\". Questa é una modifica relativa a WordPress 2.5 comunque, la sua validità é estesa anche alle versioni precedenti (qualora avessi il coraggio di utilizzarle)."
 
 #: wp-cache.php:1078
 msgid "Trailing slash check required."
@@ -1026,8 +1026,8 @@ msgid "Save UA Strings"
 msgstr "Salva le stringhe UA"
 
 #: wp-cache.php:1405
-msgid "Do not cache the following page types. See the <a href=\"http://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> documentation for a complete discussion on each type."
-msgstr "Non effettuare la cache per i tipi di pagine a seguire. Per maggiori informazioni, leggi la documentazione circa i <a href=\"http://codex.wordpress.org/Conditional_Tags\">tag condizionali</a>."
+msgid "Do not cache the following page types. See the <a href=\"https://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> documentation for a complete discussion on each type."
+msgstr "Non effettuare la cache per i tipi di pagine a seguire. Per maggiori informazioni, leggi la documentazione circa i <a href=\"https://codex.wordpress.org/Conditional_Tags\">tag condizionali</a>."
 
 #: wp-cache.php:1408
 msgid "Single Posts"
@@ -1249,8 +1249,8 @@ msgid "Edit <code>%s</code> and add the following line:<br /> <code>define('WP_C
 msgstr "Modifica <code>%s</code> aggiungendo la seguente linea:<br /> <code>define('WP_CACHE', true);</code><br />Diversamente, <strong>WP-Cache non verrà eseguito</strong> dal core di Wordpress."
 
 #: wp-cache.php:1800
-msgid "<h3>WP_CACHE constant added to wp-config.php</h3><p>If you continue to see this warning message please see point 5 of the <a href=\"http://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. The WP_CACHE line must be moved up."
-msgstr "<h3>La costante WP_CACHE é stata aggiunta al file wp-config.php</h3><p>Nel caso in cui continuassi a visualizzare questo messaggio consulta il punto 5 delle <a href=\"http://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. La riga WP_CACHE deve essere spostata."
+msgid "<h3>WP_CACHE constant added to wp-config.php</h3><p>If you continue to see this warning message please see point 5 of the <a href=\"https://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. The WP_CACHE line must be moved up."
+msgstr "<h3>La costante WP_CACHE é stata aggiunta al file wp-config.php</h3><p>Nel caso in cui continuassi a visualizzare questo messaggio consulta il punto 5 delle <a href=\"https://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. La riga WP_CACHE deve essere spostata."
 
 #: wp-cache.php:1822
 msgid "Cache Contents"

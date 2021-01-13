@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: FooBox Free Image Lightbox
-Plugin URI: http://fooplugins.com/plugins/foobox/
+Plugin URI: https://fooplugins.com/plugins/foobox/
 Description: The best responsive image lightbox for WordPress.
 Version: 1.0.8
 Author: FooPlugins
-Author URI: http://fooplugins.com
+Author URI: https://fooplugins.com
 License: GPL2
 Text Domain: foobox-image-lightbox
 Domain Path: /languages
@@ -34,8 +34,8 @@ if (!class_exists('Foobox_Free')) {
 
 		const JS                   = 'foobox.free.min.js';
 		const CSS                  = 'foobox.free.min.css';
-		const FOOBOX_URL           = 'http://fooplugins.com/plugins/foobox/?utm_source=fooboxfreeplugin&utm_medium=fooboxfreeprolink&utm_campaign=foobox_free_pro_tab';
-		const BECOME_AFFILIATE_URL = 'http://fooplugins.com/affiliate-program/';
+		const FOOBOX_URL           = 'https://fooplugins.com/plugins/foobox/?utm_source=fooboxfreeplugin&utm_medium=fooboxfreeprolink&utm_campaign=foobox_free_pro_tab';
+		const BECOME_AFFILIATE_URL = 'https://fooplugins.com/affiliate-program/';
 
 		private static $instance;
 
@@ -265,14 +265,14 @@ if (!class_exists('Foobox_Free')) {
 					<div class="foobox-admin-notice-wrapper">
 					<div class="foobox-admin-notice-start"></div>
 					<div class="foobox-admin-notice">
-						<?php printf( __('Thanks for using %s, get 35%% off the PRO version by using the coupon %s', 'foobox-image-lightbox'), '<strong>FooBox</strong>', '<strong><a target="_blank" href="http://fooplugins.com/plugins/foobox/?utm_source=fooboxfreeplugin&utm_medium=fooboxfreeprolink&utm_campaign=foobox_free_admin_notice">FOOBOXPRO35</a></strong>' ); ?>
+						<?php printf( __('Thanks for using %s, get 35%% off the PRO version by using the coupon %s', 'foobox-image-lightbox'), '<strong>FooBox</strong>', '<strong><a target="_blank" href="https://fooplugins.com/plugins/foobox/?utm_source=fooboxfreeplugin&utm_medium=fooboxfreeprolink&utm_campaign=foobox_free_admin_notice">FOOBOXPRO35</a></strong>' ); ?>
 						<br />
 
 						<h3><?php _e('Would you like to create image and video galleries easier than ever before?', 'foobox-image-lightbox' ); ?></h3>
 
 						<?php printf( __('Try our free %s plugin and our premium %s extension, which both work beautifully with FooBox!', 'foobox-image-lightbox' ),
-							'<strong><a target="_blank" href="http://foo.gallery?utm_source=fooboxfreeplugin&utm_medium=fooboxfreeprolink&utm_campaign=foobox_free_admin_notice">FooGallery</a></strong>',
-							'<strong><a target="_blank" href="http://fooplugins.com/plugins/foovideo?utm_source=fooboxfreeplugin&utm_medium=fooboxfreefoovideolink&utm_campaign=foobox_free_admin_notice">FooVideo</a></strong>'); ?>
+							'<strong><a target="_blank" href="https://foo.gallery?utm_source=fooboxfreeplugin&utm_medium=fooboxfreeprolink&utm_campaign=foobox_free_admin_notice">FooGallery</a></strong>',
+							'<strong><a target="_blank" href="https://fooplugins.com/plugins/foovideo?utm_source=fooboxfreeplugin&utm_medium=fooboxfreefoovideolink&utm_campaign=foobox_free_admin_notice">FooVideo</a></strong>'); ?>
 						<a class="foobox-admin-notice-close" title="<?php _e('Hide this notice', 'foobox-image-lightbox'); ?>" href="<?php echo esc_url( add_query_arg( 'foogallery_did_you_know_ignore', '0' ) ); ?>">&times;</a></div>
 					</div><?php
 				}

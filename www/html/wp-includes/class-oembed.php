@@ -5,7 +5,7 @@
  * Used internally by the WP_Embed class, but is designed to be generic.
  *
  * @link https://codex.wordpress.org/oEmbed oEmbed Codex Article
- * @link http://oembed.com/ oEmbed Homepage
+ * @link https://oembed.com/ oEmbed Homepage
  *
  * @package WordPress
  * @subpackage oEmbed
@@ -59,7 +59,7 @@ class WP_oEmbed {
 			'#https?://(www\.)?flickr\.com/.*#i'           => array( 'https://www.flickr.com/services/oembed/', true ),
 			'#https?://flic\.kr/.*#i'                      => array( 'https://www.flickr.com/services/oembed/', true ),
 			'#https?://(.+\.)?smugmug\.com/.*#i'           => array( 'https://api.smugmug.com/services/oembed/', true ),
-			'#https?://(www\.)?hulu\.com/watch/.*#i'       => array( 'http://www.hulu.com/api/oembed.{format}', true ),
+			'#https?://(www\.)?hulu\.com/watch/.*#i'       => array( 'https://www.hulu.com/api/oembed.{format}', true ),
 			'#https?://(www\.)?scribd\.com/doc/.*#i'       => array( 'https://www.scribd.com/services/oembed', true ),
 			'#https?://wordpress\.tv/.*#i'                 => array( 'https://wordpress.tv/oembed/', true ),
 			'#https?://(.+\.)?polldaddy\.com/.*#i'         => array( 'https://api.crowdsignal.com/oembed', true ),
@@ -431,7 +431,7 @@ class WP_oEmbed {
 		 *
 		 * @since 4.0.0
 		 *
-		 * @see WP_Http::request()
+		 * @see WP_https::request()
 		 *
 		 * @param array  $args oEmbed remote get arguments.
 		 * @param string $url  URL to be inspected.

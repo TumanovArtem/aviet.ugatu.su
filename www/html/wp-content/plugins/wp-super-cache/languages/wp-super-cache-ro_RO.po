@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Super Cache\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-super-cache\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tag/wp-super-cache\n"
 "POT-Creation-Date: 2010-09-27 13:58+0000\n"
 "PO-Revision-Date: 2011-06-13 18:44+0200\n"
 "Last-Translator: Alexandr K.\n"
@@ -76,8 +76,8 @@ msgstr "Sprijin Bad Behaviour este %s."
 
 #: plugins/badbehaviour.php:61
 #, php-format
-msgid "(Only legacy caching supported, disabled compression and requires <a href=\"http://www.bad-behavior.ioerror.us/\">Bad Behavior</a> in \"%s/plugins/bad-behavior/\") "
-msgstr "(Numai cache moştenire a sprijinit, de compresie cu handicap şi necesită <a href=\"http://www.bad-behavior.ioerror.us/\">Bad Behavior</a> în \"%s/plugins/bad-behavior/\")"
+msgid "(Only legacy caching supported, disabled compression and requires <a href=\"https://www.bad-behavior.ioerror.us/\">Bad Behavior</a> in \"%s/plugins/bad-behavior/\") "
+msgstr "(Numai cache moştenire a sprijinit, de compresie cu handicap şi necesită <a href=\"https://www.bad-behavior.ioerror.us/\">Bad Behavior</a> în \"%s/plugins/bad-behavior/\")"
 
 #: plugins/badbehaviour.php:69
 #: wp-cache.php:1191
@@ -87,8 +87,8 @@ msgstr "Atenţie!"
 
 #: plugins/domain-mapping.php:57
 #, php-format
-msgid "<a href=\"http://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a> support plugin is %s"
-msgstr "<a href=\"http://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domeniu Mapping</a> suport plug-in este %s"
+msgid "<a href=\"https://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a> support plugin is %s"
+msgstr "<a href=\"https://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domeniu Mapping</a> suport plug-in este %s"
 
 #: plugins/domain-mapping.php:58
 msgid "(support for multiple domains on multisite websites) "
@@ -100,12 +100,12 @@ msgstr "Domeniu Mapping plugin detectate Vă rugăm să mergeţi la pagina Super
 
 #: plugins/searchengine.php:71
 #, php-format
-msgid "<a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> plugin is %s."
-msgstr "<a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">Nu Anunţuri pentru prietenii</a> plug-in este %s."
+msgid "<a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> plugin is %s."
+msgstr "<a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">Nu Anunţuri pentru prietenii</a> plug-in este %s."
 
 #: plugins/searchengine.php:72
-msgid "(requires <a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> too) "
-msgstr "(Necesită <a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> prea) "
+msgid "(requires <a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> too) "
+msgstr "(Necesită <a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> prea) "
 
 #: wp-cache.php:87
 #, php-format
@@ -126,12 +126,12 @@ msgstr "Serverul este configurat pentru a verifica proprietarul de scripturi PHP
 
 #: wp-cache.php:144
 #, php-format
-msgid "You or an administrator may be able to make it work by changing the group owner of the plugin scripts to match that of the web server user. The group owner of the %s/cache/ directory must also be changed. See the <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> for further details."
-msgstr "Ai sau un administrator ar putea să facem să funcţioneze prin schimbarea proprietar al grupului de plugin-ul script-uri pentru a se potrivi cel al utilizatorului server de web. Proprietar al grupului de %s/cache/ dosar trebuie să fie, de asemenea, schimbat. Se vedea <a href=\"http://php.net/features.safe-mode\">modul de siguranţă pagina de manual</a> pentru detalii suplimentare."
+msgid "You or an administrator may be able to make it work by changing the group owner of the plugin scripts to match that of the web server user. The group owner of the %s/cache/ directory must also be changed. See the <a href=\"https://php.net/features.safe-mode\">safe mode manual page</a> for further details."
+msgstr "Ai sau un administrator ar putea să facem să funcţioneze prin schimbarea proprietar al grupului de plugin-ul script-uri pentru a se potrivi cel al utilizatorului server de web. Proprietar al grupului de %s/cache/ dosar trebuie să fie, de asemenea, schimbat. Se vedea <a href=\"https://php.net/features.safe-mode\">modul de siguranţă pagina de manual</a> pentru detalii suplimentare."
 
 #: wp-cache.php:146
-msgid "You or an administrator must disable this. See the <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> for further details. This cannot be disabled in a .htaccess file unfortunately. It must be done in the php.ini config file."
-msgstr "Ai sau un administrator trebuie să dezactivaţi această. Consultaţi <a href=\"http://php.net/features.safe-mode\">pagina de siguranţă modul manual</a> pentru detalii suplimentare. Acest lucru nu poate fi dezactivat într-un fişier. htaccess, din păcate. Aceasta trebuie să fie în fişierul de configurare php.ini. "
+msgid "You or an administrator must disable this. See the <a href=\"https://php.net/features.safe-mode\">safe mode manual page</a> for further details. This cannot be disabled in a .htaccess file unfortunately. It must be done in the php.ini config file."
+msgstr "Ai sau un administrator trebuie să dezactivaţi această. Consultaţi <a href=\"https://php.net/features.safe-mode\">pagina de siguranţă modul manual</a> pentru detalii suplimentare. Acest lucru nu poate fi dezactivat într-un fişier. htaccess, din păcate. Aceasta trebuie să fie în fişierul de configurare php.ini. "
 
 #: wp-cache.php:152
 msgid "Permlink Structure Error"
@@ -170,8 +170,8 @@ msgid "Zlib Output Compression Enabled!"
 msgstr "Compresie de ieşire Zlib Enabled!"
 
 #: wp-cache.php:205
-msgid "PHP is compressing the data sent to the visitors of your site. Disabling this is recommended as the plugin caches the compressed output once instead of compressing the same page over and over again. Also see #21 in the Troubleshooting section. See <a href=\"http://php.net/manual/en/zlib.configuration.php\">this page</a> for instructions on modifying your php.ini."
-msgstr "PHP este comprimarea datelor trimise de vizitatorii site-ului. Dezactivarea acest lucru este recomandat ca plugin-ul cache de ieşire comprimat o dată în loc de comprimare aceeaşi pagină de peste si peste din nou. Vedea, de asemenea #21 în secţiunea Depanare. Consultaţi <a href=\"http://php.net/manual/en/zlib.configuration.php\">această pagină</a> pentru instrucţiuni referitoare la modificarea fişierul php.ini."
+msgid "PHP is compressing the data sent to the visitors of your site. Disabling this is recommended as the plugin caches the compressed output once instead of compressing the same page over and over again. Also see #21 in the Troubleshooting section. See <a href=\"https://php.net/manual/en/zlib.configuration.php\">this page</a> for instructions on modifying your php.ini."
+msgstr "PHP este comprimarea datelor trimise de vizitatorii site-ului. Dezactivarea acest lucru este recomandat ca plugin-ul cache de ieşire comprimat o dată în loc de comprimare aceeaşi pagină de peste si peste din nou. Vedea, de asemenea #21 în secţiunea Depanare. Consultaţi <a href=\"https://php.net/manual/en/zlib.configuration.php\">această pagină</a> pentru instrucţiuni referitoare la modificarea fişierul php.ini."
 
 #: wp-cache.php:209
 msgid "Mod rewrite may not be installed!"
@@ -254,8 +254,8 @@ msgstr "Şterge plugin mod_rewrite normele în %s.htaccess închise de către <c
 
 #: wp-cache.php:253
 #, php-format
-msgid "Add the rules yourself. Edit %s.htaccess and find the block of code enclosed by the lines <code># BEGIN WPSuperCache</code> and <code># END WPSuperCache</code>. There are two sections that look very similar. Just below the line <code>%%{HTTP:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> add these lines: (do it twice, once for each section)"
-msgstr "Adăugaţi regulile de tine liniile. Editare %s.htaccess şi pentru a găsi bloc de cod închisă de <code># BEGIN WPSuperCache</code> şi <code># END WPSuperCache</code>. Există două secţiuni, care arata foarte similar linie. Doar sub <code>%%{HTTP:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> adăugaţi aceste linii: (o fac de două ori, o dată pentru fiecare secţiune) "
+msgid "Add the rules yourself. Edit %s.htaccess and find the block of code enclosed by the lines <code># BEGIN WPSuperCache</code> and <code># END WPSuperCache</code>. There are two sections that look very similar. Just below the line <code>%%{https:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> add these lines: (do it twice, once for each section)"
+msgstr "Adăugaţi regulile de tine liniile. Editare %s.htaccess şi pentru a găsi bloc de cod închisă de <code># BEGIN WPSuperCache</code> şi <code># END WPSuperCache</code>. Există două secţiuni, care arata foarte similar linie. Doar sub <code>%%{https:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> adăugaţi aceste linii: (o fac de două ori, o dată pentru fiecare secţiune) "
 
 #: wp-cache.php:266
 msgid "Required to serve compressed supercache files properly."
@@ -714,8 +714,8 @@ msgstr "Vă mulţumim pentru upgrade."
 
 #: wp-cache.php:1011
 #, php-format
-msgid "The mod_rewrite rules changed since you last installed this plugin. Unfortunately you must remove the old supercache rules before the new ones are updated. Refresh this page when you have edited your .htaccess file. If you wish to manually upgrade, change the following line: %1$s so it looks like this: %2$s The only changes are \"HTTP_COOKIE\" becomes \"HTTP:Cookie\" and \"wordpressuser\" becomes \"wordpress\". This is a WordPress 2.5 change but it&#8217;s backwards compatible with older versions if you&#8217;re brave enough to use them."
-msgstr "Mod_rewrite normele modificate de la ultima ta instalat acest plug-in. Din păcate, trebuie să eliminaţi vechile reguli supercache înainte de cele noi sunt actualizate reîmprospăta această pagină. După ce aţi editat fişierul .htaccess. Dacă doriţi să faceţi upgrade manual, modificaţi următoarea linie:  %1$s  astfel se pare ca aceasta: %2$s. Singurele modificări sunt \"HTTP_COOKIE\"devine\"HTTP:Cookie\" şi \"wordpressuser\"devine\"WordPress\". Acesta este un WordPress 2.5. schimbare, dar este compatibil cu versiunile mai vechi daca esti destul de curajos să le folosească."
+msgid "The mod_rewrite rules changed since you last installed this plugin. Unfortunately you must remove the old supercache rules before the new ones are updated. Refresh this page when you have edited your .htaccess file. If you wish to manually upgrade, change the following line: %1$s so it looks like this: %2$s The only changes are \"HTTP_COOKIE\" becomes \"https:Cookie\" and \"wordpressuser\" becomes \"wordpress\". This is a WordPress 2.5 change but it&#8217;s backwards compatible with older versions if you&#8217;re brave enough to use them."
+msgstr "Mod_rewrite normele modificate de la ultima ta instalat acest plug-in. Din păcate, trebuie să eliminaţi vechile reguli supercache înainte de cele noi sunt actualizate reîmprospăta această pagină. După ce aţi editat fişierul .htaccess. Dacă doriţi să faceţi upgrade manual, modificaţi următoarea linie:  %1$s  astfel se pare ca aceasta: %2$s. Singurele modificări sunt \"HTTP_COOKIE\"devine\"https:Cookie\" şi \"wordpressuser\"devine\"WordPress\". Acesta este un WordPress 2.5. schimbare, dar este compatibil cu versiunile mai vechi daca esti destul de curajos să le folosească."
 
 #: wp-cache.php:1015
 msgid "Trailing slash check required."
@@ -913,8 +913,8 @@ msgid "Save UA Strings"
 msgstr "Salvaţi Strings UA"
 
 #: wp-cache.php:1342
-msgid "Do not cache the following page types. See the <a href=\"http://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> documentation for a complete discussion on each type."
-msgstr "Nu cache pagina de următoarele tipuri. Consultaţi <a href=\"http://codex.wordpress.org/Conditional_Tags\">Condiţionat Tag-uri</a> documentaţia pentru o discuţie completă pentru fiecare tip."
+msgid "Do not cache the following page types. See the <a href=\"https://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> documentation for a complete discussion on each type."
+msgstr "Nu cache pagina de următoarele tipuri. Consultaţi <a href=\"https://codex.wordpress.org/Conditional_Tags\">Condiţionat Tag-uri</a> documentaţia pentru o discuţie completă pentru fiecare tip."
 
 #: wp-cache.php:1345
 msgid "Single Posts"
@@ -1136,8 +1136,8 @@ msgid "Edit <code>%s</code> and add the following line:<br /> <code>define('WP_C
 msgstr "Editare codul <code>%s</code> şi adăugaţi următoarele:<br /> <code>define('WP_CACHE', true);</code><br />. În caz contrar, <strong>WP-Cache</strong>nu va porni."
 
 #: wp-cache.php:1737
-msgid "<h3>WP_CACHE constant added to wp-config.php</h3><p>If you continue to see this warning message please see point 5 of the <a href=\"http://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. The WP_CACHE line must be moved up."
-msgstr "<h3> Parţial WP_CACHE adăugat la fişierul de configurare wp-config.php </h3><p> Dacă vedeţi în continuare acest mesaj, apoi verificaţi cu punctul 5 din <a href=\"http://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a> (în limba engleză). Rând cu WP_CACHE ar trebui să fie plasat mai mare."
+msgid "<h3>WP_CACHE constant added to wp-config.php</h3><p>If you continue to see this warning message please see point 5 of the <a href=\"https://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. The WP_CACHE line must be moved up."
+msgstr "<h3> Parţial WP_CACHE adăugat la fişierul de configurare wp-config.php </h3><p> Dacă vedeţi în continuare acest mesaj, apoi verificaţi cu punctul 5 din <a href=\"https://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a> (în limba engleză). Rând cu WP_CACHE ar trebui să fie plasat mai mare."
 
 #: wp-cache.php:1759
 msgid "Cache Contents"

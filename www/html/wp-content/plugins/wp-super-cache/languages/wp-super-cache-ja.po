@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ja\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-super-cache\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tag/wp-super-cache\n"
 "POT-Creation-Date: 2011-02-23 17:57:46+00:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: JOTAKI, Taisuke <jotaki@digitalcube.jp>\n"
@@ -37,8 +37,8 @@ msgid "Disabled"
 msgstr "無効"
 
 #: plugins/badbehaviour.php:68
-msgid "(Only legacy caching supported, disabled compression and requires <a href=\"http://www.bad-behavior.ioerror.us/\">Bad Behavior</a> in \"%s/plugins/bad-behavior/\") "
-msgstr "(レガシーキャッシングのみサポートしています。圧縮が無効になっていて、\"%s/plugins/bad-behavior/\" に <a href=\"http://www.bad-behavior.ioerror.us/\">Bad Behavior</a> が必要です)"
+msgid "(Only legacy caching supported, disabled compression and requires <a href=\"https://www.bad-behavior.ioerror.us/\">Bad Behavior</a> in \"%s/plugins/bad-behavior/\") "
+msgstr "(レガシーキャッシングのみサポートしています。圧縮が無効になっていて、\"%s/plugins/bad-behavior/\" に <a href=\"https://www.bad-behavior.ioerror.us/\">Bad Behavior</a> が必要です)"
 
 #: plugins/badbehaviour.php:71
 #: plugins/awaitingmoderation.php:40
@@ -94,12 +94,12 @@ msgid "Disable"
 msgstr "停止する"
 
 #: plugins/searchengine.php:71
-msgid "<a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> plugin is %s."
-msgstr "<a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> プラグインは%sです。"
+msgid "<a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> plugin is %s."
+msgstr "<a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> プラグインは%sです。"
 
 #: plugins/searchengine.php:72
-msgid "(requires <a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> too) "
-msgstr "(<a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> も必要です) "
+msgid "(requires <a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> too) "
+msgstr "(<a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> も必要です) "
 
 #: plugins/searchengine.php:74
 #: wp-cache.php:1218
@@ -111,8 +111,8 @@ msgid "Domain Mapping"
 msgstr "ドメインマッピング"
 
 #: plugins/domain-mapping.php:63
-msgid "Provides support for <a href=\"http://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a> plugin to map multiple domains to a blog."
-msgstr "<a href=\"http://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">ドメインマッピング</a>をサポートしてブログに複数のドメインをマップします。"
+msgid "Provides support for <a href=\"https://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a> plugin to map multiple domains to a blog."
+msgstr "<a href=\"https://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">ドメインマッピング</a>をサポートしてブログに複数のドメインをマップします。"
 
 #: plugins/domain-mapping.php:69
 msgid "Domain Mapping support is now %s"
@@ -123,8 +123,8 @@ msgid "Domain Mapping plugin detected! Please go to the Supercache plugins page 
 msgstr "ドメインマッピングプラグインを検知しました ! Supercache プラグインの設定ページを開いてドメインマッピングのヘルパープラグインを有効化してください。"
 
 #: ossdl-cdn.php:146
-msgid "Your website probably uses lots of static files. Image, Javascript and CSS files are usually static files that could just as easily be served from another site or CDN. Therefore this plugin replaces any links in the <code>wp-content</code> and <code>wp-includes</code> directories (except for PHP files) on your site with the URL you provide below. That way you can either copy all the static content to a dedicated host or mirror the files to a CDN by <a href=\"http://knowledgelayer.softlayer.com/questions/365/How+does+Origin+Pull+work%3F\" target=\"_blank\">origin pull</a>."
-msgstr "おそらく、あなたのサイトでもたくさんの静的ファイルを使用していると思います。画像、JavaScript、CSS のファイルは通常は静的なファイルで、別サイトもしくはCDN から提供させるようにするのはとても簡単です。そのため、このプラグインでは <code>wp-content</code> と <code>wp-includes</code> ディレクトリ内の PHP ファイルを除くすべてのリンクを以下で指定している URL に入れ替える機能があります。すべての静的コンテンツを専用サーバーにコピーするか、<a href=\"http://knowledgelayer.softlayer.com/questions/365/How+does+Origin+Pull+work%3F\" target=\"_blank\">origin pull</a> で CDN にファイルをミラーすることができます。"
+msgid "Your website probably uses lots of static files. Image, Javascript and CSS files are usually static files that could just as easily be served from another site or CDN. Therefore this plugin replaces any links in the <code>wp-content</code> and <code>wp-includes</code> directories (except for PHP files) on your site with the URL you provide below. That way you can either copy all the static content to a dedicated host or mirror the files to a CDN by <a href=\"https://knowledgelayer.softlayer.com/questions/365/How+does+Origin+Pull+work%3F\" target=\"_blank\">origin pull</a>."
+msgstr "おそらく、あなたのサイトでもたくさんの静的ファイルを使用していると思います。画像、JavaScript、CSS のファイルは通常は静的なファイルで、別サイトもしくはCDN から提供させるようにするのはとても簡単です。そのため、このプラグインでは <code>wp-content</code> と <code>wp-includes</code> ディレクトリ内の PHP ファイルを除くすべてのリンクを以下で指定している URL に入れ替える機能があります。すべての静的コンテンツを専用サーバーにコピーするか、<a href=\"https://knowledgelayer.softlayer.com/questions/365/How+does+Origin+Pull+work%3F\" target=\"_blank\">origin pull</a> で CDN にファイルをミラーすることができます。"
 
 #: ossdl-cdn.php:147
 #: wp-cache.php:968
@@ -172,8 +172,8 @@ msgid "Additional CNAMES"
 msgstr "追加 CNAME"
 
 #: ossdl-cdn.php:184
-msgid "These <a href=\"http://en.wikipedia.org/wiki/CNAME_record\">CNAMES</a> will be used in place of %1$s for rewriting (in addition to the off-site URL above). Use a comma as the delimiter. For pages with a large number of static files, this can improve browser performance. CNAMEs may also need to be configured on your CDN.<br />Example: %2$s"
-msgstr "上記 <a href=\"http://en.wikipedia.org/wiki/CNAME_record\">CNAME</a> は %1$s の代わりに (さらに上のオフサイト URL に加えて) rewriteで使用されます。複数の場合はコンマで区切ってください。静的ファイルが多数あるページの場合にブラウザーのパフォーマンスを改善できます。CNAME は CDN で設定する必要があるかもしれません。<br />例: %2$s"
+msgid "These <a href=\"https://en.wikipedia.org/wiki/CNAME_record\">CNAMES</a> will be used in place of %1$s for rewriting (in addition to the off-site URL above). Use a comma as the delimiter. For pages with a large number of static files, this can improve browser performance. CNAMEs may also need to be configured on your CDN.<br />Example: %2$s"
+msgstr "上記 <a href=\"https://en.wikipedia.org/wiki/CNAME_record\">CNAME</a> は %1$s の代わりに (さらに上のオフサイト URL に加えて) rewriteで使用されます。複数の場合はコンマで区切ってください。静的ファイルが多数あるページの場合にブラウザーのパフォーマンスを改善できます。CNAME は CDN で設定する必要があるかもしれません。<br />例: %2$s"
 
 #: ossdl-cdn.php:188
 msgid "Skip https URLs to avoid \"mixed content\" errors"
@@ -184,8 +184,8 @@ msgid "Save Changes"
 msgstr "変更を保存"
 
 #: ossdl-cdn.php:194
-msgid "CDN functionality provided by <a href=\"http://wordpress.org/extend/plugins/ossdl-cdn-off-linker/\">OSSDL CDN Off Linker</a> by <a href=\"http://mark.ossdl.de/\">Mark Kubacki</a>"
-msgstr "CDN 機能は <a href=\"http://mark.ossdl.de/\">Mark Kubacki</a> の <a href=\"http://wordpress.org/extend/plugins/ossdl-cdn-off-linker/\">OSSDL CDN Off Linker</a> によって提供されています。"
+msgid "CDN functionality provided by <a href=\"https://wordpress.org/extend/plugins/ossdl-cdn-off-linker/\">OSSDL CDN Off Linker</a> by <a href=\"https://mark.ossdl.de/\">Mark Kubacki</a>"
+msgstr "CDN 機能は <a href=\"https://mark.ossdl.de/\">Mark Kubacki</a> の <a href=\"https://wordpress.org/extend/plugins/ossdl-cdn-off-linker/\">OSSDL CDN Off Linker</a> によって提供されています。"
 
 #: wp-cache.php:99
 msgid "Please create %s /wp-cache-config.php from wp-super-cache/wp-cache-config-sample.php"
@@ -204,12 +204,12 @@ msgid "Your server is set up to check the owner of PHP scripts before allowing t
 msgstr "お使いのサーバーではファイルの読み書きの許可の前に PHP スクリプトのオーナーを確認するように設定されています。"
 
 #: wp-cache.php:168
-msgid "You or an administrator may be able to make it work by changing the group owner of the plugin scripts to match that of the web server user. The group owner of the %s/cache/ directory must also be changed. See the <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> for further details."
-msgstr "あなたもしくは管理者が、このプラグインスクリプトのグループオーナーをウェブサーバーのユーザーと一致するように変更すれば動作するようになるかもしれません。%s/cache/ ディレクトリのグループオーナーは変更する必要があります。詳細は <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> を参照してください。"
+msgid "You or an administrator may be able to make it work by changing the group owner of the plugin scripts to match that of the web server user. The group owner of the %s/cache/ directory must also be changed. See the <a href=\"https://php.net/features.safe-mode\">safe mode manual page</a> for further details."
+msgstr "あなたもしくは管理者が、このプラグインスクリプトのグループオーナーをウェブサーバーのユーザーと一致するように変更すれば動作するようになるかもしれません。%s/cache/ ディレクトリのグループオーナーは変更する必要があります。詳細は <a href=\"https://php.net/features.safe-mode\">safe mode manual page</a> を参照してください。"
 
 #: wp-cache.php:170
-msgid "You or an administrator must disable this. See the <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> for further details. This cannot be disabled in a .htaccess file unfortunately. It must be done in the php.ini config file."
-msgstr "あなたもしくは管理者がこの機能を無効にする必要があります。詳細は <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> をご覧ください。残念ながら .htaccess ファイル内では無効にできません。php.ini 設定ファイルで無効にする必要があります。"
+msgid "You or an administrator must disable this. See the <a href=\"https://php.net/features.safe-mode\">safe mode manual page</a> for further details. This cannot be disabled in a .htaccess file unfortunately. It must be done in the php.ini config file."
+msgstr "あなたもしくは管理者がこの機能を無効にする必要があります。詳細は <a href=\"https://php.net/features.safe-mode\">safe mode manual page</a> をご覧ください。残念ながら .htaccess ファイル内では無効にできません。php.ini 設定ファイルで無効にする必要があります。"
 
 #: wp-cache.php:176
 msgid "Permlink Structure Error"
@@ -245,8 +245,8 @@ msgid "Zlib Output Compression Enabled!"
 msgstr "Zlib アウトプット圧縮を有効にしました !"
 
 #: wp-cache.php:229
-msgid "PHP is compressing the data sent to the visitors of your site. Disabling this is recommended as the plugin caches the compressed output once instead of compressing the same page over and over again. Also see #21 in the Troubleshooting section. See <a href=\"http://php.net/manual/en/zlib.configuration.php\">this page</a> for instructions on modifying your php.ini."
-msgstr "PHP がサイト訪問者に送るデータを圧縮しています。このプラグインは同じページを何度も圧縮するのではなく、圧縮した出力をキャッシュするだけなので、この機能は無効にすることをおすすめします。また、トラブルシューティングの #21 も参考にしてください。 php.ini の修正については「<a href=\"http://php.net/manual/ja/zlib.configuration.php\">実行時設定</a>」の説明をご覧ください。"
+msgid "PHP is compressing the data sent to the visitors of your site. Disabling this is recommended as the plugin caches the compressed output once instead of compressing the same page over and over again. Also see #21 in the Troubleshooting section. See <a href=\"https://php.net/manual/en/zlib.configuration.php\">this page</a> for instructions on modifying your php.ini."
+msgstr "PHP がサイト訪問者に送るデータを圧縮しています。このプラグインは同じページを何度も圧縮するのではなく、圧縮した出力をキャッシュするだけなので、この機能は無効にすることをおすすめします。また、トラブルシューティングの #21 も参考にしてください。 php.ini の修正については「<a href=\"https://php.net/manual/ja/zlib.configuration.php\">実行時設定</a>」の説明をご覧ください。"
 
 #: wp-cache.php:233
 msgid "Mod rewrite may not be installed!"
@@ -270,8 +270,8 @@ msgstr "これを行なう簡単な方法としては、CHMOD コマンドや ft
 
 #: wp-cache.php:242
 #: wp-cache.php:258
-msgid "<a href=\"http://codex.wordpress.org/Changing_File_Permissions\">This page</a> explains how to change file permissions."
-msgstr "ファイルパーミッションの変更は<a href=\"http://codex.wordpress.org/Changing_File_Permissions\">このページ</a>を参考にしてください。"
+msgid "<a href=\"https://codex.wordpress.org/Changing_File_Permissions\">This page</a> explains how to change file permissions."
+msgstr "ファイルパーミッションの変更は<a href=\"https://codex.wordpress.org/Changing_File_Permissions\">このページ</a>を参考にしてください。"
 
 #: wp-cache.php:243
 msgid "Writeable:"
@@ -329,8 +329,8 @@ msgid "Delete the plugin mod_rewrite rules in %s.htaccess enclosed by <code># BE
 msgstr "%s.htaccess 内の <code># BEGIN WPSuperCache</code> と <code># END WPSuperCache</code> で囲まれたこのプラグインの mod_rewrite ルールを削除して、ページを再読込みしてプラグインに再生成させてください。"
 
 #: wp-cache.php:280
-msgid "Add the rules yourself. Edit %s.htaccess and find the block of code enclosed by the lines <code># BEGIN WPSuperCache</code> and <code># END WPSuperCache</code>. There are two sections that look very similar. Just below the line <code>%%{HTTP:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> add these lines: (do it twice, once for each section)"
-msgstr "自分でルールを追加する。%s.htaccess を開いて <code># BEGIN WPSuperCache</code> と <code># END WPSuperCache</code> で囲まれているコードブロックを探します。とてもよく似ているセクションが 2 箇所あります。code>%%{HTTP:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> の下に次の行を追加します: (これを 2 回、各セクションで実施します)"
+msgid "Add the rules yourself. Edit %s.htaccess and find the block of code enclosed by the lines <code># BEGIN WPSuperCache</code> and <code># END WPSuperCache</code>. There are two sections that look very similar. Just below the line <code>%%{https:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> add these lines: (do it twice, once for each section)"
+msgstr "自分でルールを追加する。%s.htaccess を開いて <code># BEGIN WPSuperCache</code> と <code># END WPSuperCache</code> で囲まれているコードブロックを探します。とてもよく似ているセクションが 2 箇所あります。code>%%{https:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> の下に次の行を追加します: (これを 2 回、各セクションで実施します)"
 
 #: wp-cache.php:293
 msgid "Required to serve compressed supercache files properly."
@@ -849,8 +849,8 @@ msgid "Thank you for upgrading."
 msgstr "アップグレードありがとうございます。"
 
 #: wp-cache.php:1115
-msgid "The mod_rewrite rules changed since you last installed this plugin. Unfortunately you must remove the old supercache rules before the new ones are updated. Refresh this page when you have edited your .htaccess file. If you wish to manually upgrade, change the following line: %1$s so it looks like this: %2$s The only changes are \"HTTP_COOKIE\" becomes \"HTTP:Cookie\" and \"wordpressuser\" becomes \"wordpress\". This is a WordPress 2.5 change but it&#8217;s backwards compatible with older versions if you&#8217;re brave enough to use them."
-msgstr "mod_rewrite ルールは最後にこのプラグインがインストールされてから変更されています。残念ながら、新しいルールを更新する前に古い supercache のルールを取り除く必要があります。.htaccess ファイルを編集したら、このページを再読込みしてください。もし手動でアップグレードしたいならば、次の行を変更してください: %1$s は次に似ています: %2$s 違いは \"HTTP_COOKIE\" が \"HTTP:Cookie\" になり、\"wordpressuser\" が \"wordpress\" になったことだけです。これは WordPress 2.5 での変更ですが、これ以前のバージョンとの後方互換性があります。もしそれほど古いバージョンを使用する勇気があればの話ですが。"
+msgid "The mod_rewrite rules changed since you last installed this plugin. Unfortunately you must remove the old supercache rules before the new ones are updated. Refresh this page when you have edited your .htaccess file. If you wish to manually upgrade, change the following line: %1$s so it looks like this: %2$s The only changes are \"HTTP_COOKIE\" becomes \"https:Cookie\" and \"wordpressuser\" becomes \"wordpress\". This is a WordPress 2.5 change but it&#8217;s backwards compatible with older versions if you&#8217;re brave enough to use them."
+msgstr "mod_rewrite ルールは最後にこのプラグインがインストールされてから変更されています。残念ながら、新しいルールを更新する前に古い supercache のルールを取り除く必要があります。.htaccess ファイルを編集したら、このページを再読込みしてください。もし手動でアップグレードしたいならば、次の行を変更してください: %1$s は次に似ています: %2$s 違いは \"HTTP_COOKIE\" が \"https:Cookie\" になり、\"wordpressuser\" が \"wordpress\" になったことだけです。これは WordPress 2.5 での変更ですが、これ以前のバージョンとの後方互換性があります。もしそれほど古いバージョンを使用する勇気があればの話ですが。"
 
 #: wp-cache.php:1119
 msgid "Trailing slash check required."
@@ -1030,8 +1030,8 @@ msgid "Save UA Strings"
 msgstr "UA 文字列を保存"
 
 #: wp-cache.php:1446
-msgid "Do not cache the following page types. See the <a href=\"http://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> documentation for a complete discussion on each type."
-msgstr "次のページタイプはキャッシュしません。各タイプについての詳細は <a href=\"http://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> を参照してください。"
+msgid "Do not cache the following page types. See the <a href=\"https://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> documentation for a complete discussion on each type."
+msgstr "次のページタイプはキャッシュしません。各タイプについての詳細は <a href=\"https://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> を参照してください。"
 
 #: wp-cache.php:1449
 msgid "Single Posts"
@@ -1224,8 +1224,8 @@ msgid "Edit <code>%s</code> and add the following line:<br /> <code>define('WP_C
 msgstr "<code>%s</code> を編集して次の行を追加してください:<br /> <code>define('WP_CACHE', true);</code><br />追加しないと WordPress コアによる <strong>WP-Cache の実行ができません</strong>。"
 
 #: wp-cache.php:1831
-msgid "<h3>WP_CACHE constant added to wp-config.php</h3><p>If you continue to see this warning message please see point 5 of the <a href=\"http://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. The WP_CACHE line must be moved up."
-msgstr "<h3>WP_CACHE 定数の wp-config.php への追加</h3><p>もしこの警告メッセージが表示され続けるのなら、<a href=\"http://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a> のポイント 5 を参照してください。WP_CACHE の行を上に上げる必要があります。"
+msgid "<h3>WP_CACHE constant added to wp-config.php</h3><p>If you continue to see this warning message please see point 5 of the <a href=\"https://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. The WP_CACHE line must be moved up."
+msgstr "<h3>WP_CACHE 定数の wp-config.php への追加</h3><p>もしこの警告メッセージが表示され続けるのなら、<a href=\"https://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a> のポイント 5 を参照してください。WP_CACHE の行を上に上げる必要があります。"
 
 #: wp-cache.php:1855
 msgid "Cache Contents"
@@ -1501,7 +1501,7 @@ msgid ""
 "\n"
 "Regards,\n"
 "WP Super Cache Plugin\n"
-"http://wordpress.org/extend/plugins/wp-super-cache/"
+"https://wordpress.org/extend/plugins/wp-super-cache/"
 msgstr ""
 "ユーザー様へ\n"
 "\n"
@@ -1515,7 +1515,7 @@ msgstr ""
 "\n"
 "よろしくお願いします。\n"
 "WP Super Cache プラグイン\n"
-"http://wordpress.org/extend/plugins/wp-super-cache/"
+"https://wordpress.org/extend/plugins/wp-super-cache/"
 
 #~ msgid ""
 #~ "Notice: WP Super Cache mod_rewrite rule checks disabled unless running on "

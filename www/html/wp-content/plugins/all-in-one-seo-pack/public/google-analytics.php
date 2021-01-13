@@ -76,10 +76,10 @@ if ( ! class_exists( 'aioseop_google_analytics' ) ) {
 							ga.async = true;
 							<?php
 							if ( ! empty( $aioseop_options['aiosp_ga_advanced_options'] ) && ! empty( $aioseop_options['aiosp_ga_display_advertising'] ) ) {
-							?>            ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+							?>            ga.src = ('https:' == document.location.protocol ? 'https://' : 'https://') + 'stats.g.doubleclick.net/dc.js';
 							<?php
 							} else {
-							?>            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+							?>            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
 							<?php
 							}
 							?>            var s = document.getElementsByTagName('script')[0];

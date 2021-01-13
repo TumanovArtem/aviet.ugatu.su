@@ -1,11 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Super Cache 0.9.7\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-super-cache\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tag/wp-super-cache\n"
 "POT-Creation-Date: 2009-11-13 10:27+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Omi <equipajedemano@gmail.com>\n"
-"Language-Team: Omi <equipajedemano@gmail.com | http://equipajedemano.info/>\n"
+"Language-Team: Omi <equipajedemano@gmail.com | https://equipajedemano.info/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -44,8 +44,8 @@ msgstr "El soporte de Bad Behaviour está %s"
 
 #: plugins/badbehaviour.php:62
 #, php-format
-msgid "(Only half-on caching supported, disabled compression and requires <a href=\"http://www.bad-behavior.ioerror.us/\">Bad Behavior</a> in \"%s/plugins/bad-behavior/\") "
-msgstr "(Sólo se soporta caché \"a medias\", se desactiva la compresión y requiere instalar <a href=\"http://www.bad-behavior.ioerror.us/\">Bad Behavior</a> en \"%s/plugins/bad-behavior/\") "
+msgid "(Only half-on caching supported, disabled compression and requires <a href=\"https://www.bad-behavior.ioerror.us/\">Bad Behavior</a> in \"%s/plugins/bad-behavior/\") "
+msgstr "(Sólo se soporta caché \"a medias\", se desactiva la compresión y requiere instalar <a href=\"https://www.bad-behavior.ioerror.us/\">Bad Behavior</a> en \"%s/plugins/bad-behavior/\") "
 
 #: plugins/badbehaviour.php:64
 #: plugins/searchengine.php:74
@@ -61,12 +61,12 @@ msgstr "¡Atención!"
 
 #: plugins/searchengine.php:71
 #, php-format
-msgid "<a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> plugin is %s"
-msgstr "El plugin <a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> está %s"
+msgid "<a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> plugin is %s"
+msgstr "El plugin <a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> está %s"
 
 #: plugins/searchengine.php:72
-msgid "(requires <a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> too) "
-msgstr "(Necesita también <a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a>) "
+msgid "(requires <a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> too) "
+msgstr "(Necesita también <a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a>) "
 
 #: wp-cache.php:87
 #, php-format
@@ -91,12 +91,12 @@ msgstr "Su servidor está configurado para comprobar el propietario de los scrip
 
 #: wp-cache.php:176
 #, php-format
-msgid "You or an administrator may be able to make it work by changing the group owner of the plugin scripts to match that of the web server user. The group owner of the %s/cache/ directory must also be changed. See the <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> for further details."
-msgstr "Usted, o un administrador, debería ser capaz de hacerlo funcionar cambiando el propietario del grupo de los scripts para que coincidan con el del usuario web del servidor. El propietario del grupo del directorio %s/cache/ también deberá cambiarse. Revise la <a href=\"http://php.net/features.safe-mode\">página sobre safe mode en el manual</a> para obtener más información."
+msgid "You or an administrator may be able to make it work by changing the group owner of the plugin scripts to match that of the web server user. The group owner of the %s/cache/ directory must also be changed. See the <a href=\"https://php.net/features.safe-mode\">safe mode manual page</a> for further details."
+msgstr "Usted, o un administrador, debería ser capaz de hacerlo funcionar cambiando el propietario del grupo de los scripts para que coincidan con el del usuario web del servidor. El propietario del grupo del directorio %s/cache/ también deberá cambiarse. Revise la <a href=\"https://php.net/features.safe-mode\">página sobre safe mode en el manual</a> para obtener más información."
 
 #: wp-cache.php:178
-msgid "You or an administrator must disable this. See the <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> for further details. This cannot be disabled in a .htaccess file unfortunately. It must be done in the php.ini config file."
-msgstr "Usted, o un administrador, deberán desactivar esto. Revise la <a href=\"http://php.net/features.safe-mode\">página sobre safe mode en el manual</a> para obtener más información. Desafortunadamente, esto no puede ser desactivado desde un fichero .htaccess sino que debe hacerse desde el fichero de configuración php.ini"
+msgid "You or an administrator must disable this. See the <a href=\"https://php.net/features.safe-mode\">safe mode manual page</a> for further details. This cannot be disabled in a .htaccess file unfortunately. It must be done in the php.ini config file."
+msgstr "Usted, o un administrador, deberán desactivar esto. Revise la <a href=\"https://php.net/features.safe-mode\">página sobre safe mode en el manual</a> para obtener más información. Desafortunadamente, esto no puede ser desactivado desde un fichero .htaccess sino que debe hacerse desde el fichero de configuración php.ini"
 
 #: wp-cache.php:189
 msgid "Configuration file changed, some values might be wrong. Load the page again from the \"Settings\" menu to reset them."
@@ -255,8 +255,8 @@ msgid "Delete the plugin mod_rewrite rules in %s.htaccess enclosed by <code># BE
 msgstr "Eliminar las reglas mod_rewrite del plugin en %s.htaccess que estén entre <code># BEGIN WPSuperCache</code> y <code># END WPSuperCache</code> y permitir que el plugin vuelva a generarlas recargando esta página."
 
 #: wp-cache.php:380
-msgid "Add the rules yourself. Edit %s.htaccess and find the block of code enclosed by the lines <code># BEGIN WPSuperCache</code> and <code># END WPSuperCache</code>. There are two sections that look very similar. Just below the line <code>%{HTTP:Cookie} !^.*(comment_author_|wordpress|wp-postpass_).*$</code> add this line: (do it twice, once for each section)"
-msgstr "Añadir las reglas manualmente. Edite el fichero %s.htaccess y localice el bloque de código encerrado entre las líneas <code># BEGIN WPSuperCache</code> y <code># END WPSuperCache</code>. Hay dos secciones que parecen muy similares. Justo debajo de la línea <code>%{HTTP:Cookie} !^.*(comment_author_|wordpress|wp-postpass_).*$</code> añada esta otra línea: (deberá hacerlo dos veces, una para cada sección)"
+msgid "Add the rules yourself. Edit %s.htaccess and find the block of code enclosed by the lines <code># BEGIN WPSuperCache</code> and <code># END WPSuperCache</code>. There are two sections that look very similar. Just below the line <code>%{https:Cookie} !^.*(comment_author_|wordpress|wp-postpass_).*$</code> add this line: (do it twice, once for each section)"
+msgstr "Añadir las reglas manualmente. Edite el fichero %s.htaccess y localice el bloque de código encerrado entre las líneas <code># BEGIN WPSuperCache</code> y <code># END WPSuperCache</code>. Hay dos secciones que parecen muy similares. Justo debajo de la línea <code>%{https:Cookie} !^.*(comment_author_|wordpress|wp-postpass_).*$</code> añada esta otra línea: (deberá hacerlo dos veces, una para cada sección)"
 
 #: wp-cache.php:383
 msgid "Note:"
@@ -433,8 +433,8 @@ msgstr "Gracias por actualizar."
 
 #: wp-cache.php:590
 #, php-format
-msgid "The mod_rewrite rules changed since you last installed this plugin. Unfortunately you must remove the old supercache rules before the new ones are updated. Refresh this page when you have edited your .htaccess file. If you wish to manually upgrade, change the following line: %1$s so it looks like this: %2$s The only changes are \"HTTP_COOKIE\" becomes \"HTTP:Cookie\" and \"wordpressuser\" becomes \"wordpress\". This is a WordPress 2.5 change but it&#8217;s backwards compatible with older versions if you&#8217;re brave enough to use them."
-msgstr "Las reglas mod_rewrite han cambiado desde que instaló este plugin. Desafortunadamente, deberá eliminar las antiguas reglas de supercache antes de que puedan instalarse las nuevas. Recargue esta página después de que haya editado su fichero .htaccess file. Si desea realizar una actualización manual, cambie la siguiente línea: %1$s para que quede como la siguiente: %2$s Los únicos cambios son que\"HTTP_COOKIE\" pasa a ser \"HTTP:Cookie\" y \"wordpressuser\" se convierte en \"wordpress\". Este es un cambio de WordPress 2.5 aunque sigue siendo compatible con versiones anteriores (si tiene valor para usarlas)"
+msgid "The mod_rewrite rules changed since you last installed this plugin. Unfortunately you must remove the old supercache rules before the new ones are updated. Refresh this page when you have edited your .htaccess file. If you wish to manually upgrade, change the following line: %1$s so it looks like this: %2$s The only changes are \"HTTP_COOKIE\" becomes \"https:Cookie\" and \"wordpressuser\" becomes \"wordpress\". This is a WordPress 2.5 change but it&#8217;s backwards compatible with older versions if you&#8217;re brave enough to use them."
+msgstr "Las reglas mod_rewrite han cambiado desde que instaló este plugin. Desafortunadamente, deberá eliminar las antiguas reglas de supercache antes de que puedan instalarse las nuevas. Recargue esta página después de que haya editado su fichero .htaccess file. Si desea realizar una actualización manual, cambie la siguiente línea: %1$s para que quede como la siguiente: %2$s Los únicos cambios son que\"HTTP_COOKIE\" pasa a ser \"https:Cookie\" y \"wordpressuser\" se convierte en \"wordpress\". Este es un cambio de WordPress 2.5 aunque sigue siendo compatible con versiones anteriores (si tiene valor para usarlas)"
 
 #: wp-cache.php:594
 msgid "Trailing slash check required."
@@ -655,8 +655,8 @@ msgid "Save UA Strings"
 msgstr "Grabar cadenas User Agent"
 
 #: wp-cache.php:933
-msgid "Do not cache the following page types. See the <a href=\"http://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> documentation for a complete discussion on each type."
-msgstr "No almacenar en caché los siguientes tipos de páginas. Revise el apartado <a href=\"http://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> de la documentación para acceder a un completo argumento sobre cada uno de los tipos."
+msgid "Do not cache the following page types. See the <a href=\"https://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> documentation for a complete discussion on each type."
+msgstr "No almacenar en caché los siguientes tipos de páginas. Revise el apartado <a href=\"https://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> de la documentación para acceder a un completo argumento sobre cada uno de los tipos."
 
 #: wp-cache.php:936
 msgid "Single Posts"
@@ -882,8 +882,8 @@ msgid "Edit <code>%s</code> and add the following line:<br /> <code>define('WP_C
 msgstr "Edite el fichero <code>%s</code> y añada la siguiente línea:<br /> <code>define('WP_CACHE', true);</code><br />En caso contrario, <strong>WP-Cache no será ejecutado</strong> por el núcleo de Wordpress."
 
 #: wp-cache.php:1322
-msgid "<h3>WP_CACHE constant added to wp-config.php</h3><p>If you continue to see this warning message please see point 5 of the <a href=\"http://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. The WP_CACHE line must be moved up."
-msgstr "<h3>Constante WP_CACHE añadida al fichero wp-config.php</h3><p>Si sigue viendo este mensaje de aviso, revise por favor el punto 5 del <a href=\"http://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. La línea WP_CACHE debe subirse sobre otras líneas."
+msgid "<h3>WP_CACHE constant added to wp-config.php</h3><p>If you continue to see this warning message please see point 5 of the <a href=\"https://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. The WP_CACHE line must be moved up."
+msgstr "<h3>Constante WP_CACHE añadida al fichero wp-config.php</h3><p>Si sigue viendo este mensaje de aviso, revise por favor el punto 5 del <a href=\"https://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. La línea WP_CACHE debe subirse sobre otras líneas."
 
 #: wp-cache.php:1343
 msgid "Cache Contents"

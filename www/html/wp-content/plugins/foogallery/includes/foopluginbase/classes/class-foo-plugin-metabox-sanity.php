@@ -7,7 +7,7 @@
  * @version   1.0.0
  * @author    Brad Vincent
  * @copyright Copyright (c) 2014, Brad Vincent
- * @license   http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
+ * @license   https://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @link      https://github.com/fooplugins/Foo_Plugin_Base
  */
 

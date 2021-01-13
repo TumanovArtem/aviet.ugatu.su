@@ -3,7 +3,7 @@ $instance = FooGallery_Plugin::get_instance();
 $info = $instance->get_plugin_info();
 $title = apply_filters( 'foogallery_admin_help_title', sprintf( __( 'Welcome to %s %s', 'foogallery' ), foogallery_plugin_name(), $info['version'] ) );
 $tagline = apply_filters( 'foogallery_admin_help_tagline', sprintf( __( 'Thank you for choosing %s, the most intuitive and extensible gallery creation and management tool ever created for WordPress!', 'foogallery' ), foogallery_plugin_name() ) );
-$link = apply_filters( 'foogallery_admin_help_tagline_link', ' - <a href="http://foo.gallery" target="_blank">' . __( 'Visit our homepage', 'foogallery' ) . '</a>' );
+$link = apply_filters( 'foogallery_admin_help_tagline_link', ' - <a href="https://foo.gallery" target="_blank">' . __( 'Visit our homepage', 'foogallery' ) . '</a>' );
 $show_foobot = apply_filters( 'foogallery_admin_show_foobot', true );
 $show_tabs = apply_filters( 'foogallery_admin_help_show_tabs', true );
 $show_extensions_section = apply_filters( 'foogallery_admin_help_show_extensions_section', true );
@@ -47,7 +47,7 @@ $show_extensions_section = apply_filters( 'foogallery_admin_help_show_extensions
 		<a class="nav-tab" href="<?php echo esc_url( foogallery_admin_extensions_url() ); ?>">
 			<?php _e( 'Extensions', 'foogallery' ); ?>
 		</a>
-		<a class="nav-tab" href="http://fooplugins.com">
+		<a class="nav-tab" href="https://fooplugins.com">
 			<?php _e( 'Other Plugins', 'foogallery' ); ?>
 		</a>
 		<?php if ( current_user_can( 'activate_plugins' ) ) { ?>
@@ -74,12 +74,12 @@ $show_extensions_section = apply_filters( 'foogallery_admin_help_show_extensions
 			<h4><?php _e( 'Lightbox Support', 'foogallery' );?></h4>
 			<p>
 				<?php _e( 'FooGallery works out of the box with FooBox, our popular responsive image lightbox.', 'foogallery' );?>
-				<a target="_blank" href="http://fooplugins.com/plugins/foobox"><?php _e( 'Purchase FooBox now!', 'foogallery' );?></a>
+				<a target="_blank" href="https://fooplugins.com/plugins/foobox"><?php _e( 'Purchase FooBox now!', 'foogallery' );?></a>
 			</p>
 			<h4><?php _e( 'Video Support', 'foogallery' );?></h4>
 			<p>
 				<?php _e( 'FooGallery now supports the creation of video galleries with the FooVideo premium extension!', 'foogallery' );?>
-				<a target="_blank" href="http://fooplugins.com/plugins/foovideo"><?php _e( 'Purchase FooVideo now!', 'foogallery' );?></a>
+				<a target="_blank" href="https://fooplugins.com/plugins/foovideo"><?php _e( 'Purchase FooVideo now!', 'foogallery' );?></a>
 			</p>
 		</div>
 	</div>

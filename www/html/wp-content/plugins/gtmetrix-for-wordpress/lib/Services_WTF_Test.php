@@ -8,13 +8,13 @@
  * A PHP REST client for the Web Testing Framework (WTF) Testing Service API
  * Currently only supports GTmetrix. See:
  *
- *     http://gtmetrix.com/api/
+ *     https://gtmetrix.com/api/
  *
  * for more information on the API and how to contribute to the web testing
  * framework!
  *
- * Copyright Gossamer Threads Inc. (http://gt.net/)
- * License: http://opensource.org/licenses/GPL-2.0 GPL 2
+ * Copyright Gossamer Threads Inc. (https://gt.net/)
+ * License: https://opensource.org/licenses/GPL-2.0 GPL 2
  *
  * This software is free software distributed under the terms of the GNU 
  * General Public License 2.0.
@@ -45,7 +45,7 @@ class Services_WTF_Test {
     const api_url = 'https://gtmetrix.com/api/0.1';
     private $username = '';
     private $password = '';
-    private $user_agent = 'Services_WTF_Test_php/0.4 (+http://gtmetrix.com/api/)';
+    private $user_agent = 'Services_WTF_Test_php/0.4 (+https://gtmetrix.com/api/)';
     protected $test_id = '';
     protected $result = array( );
     protected $error = '';
@@ -74,7 +74,7 @@ class Services_WTF_Test {
      *
      * $user_agent    string   in the form of "product name/version number" used to identify the application to the API
      *
-     * Optional, defaults to "Services_WTF_Test_php/0.1 (+http://gtmetrix.com/api/)"
+     * Optional, defaults to "Services_WTF_Test_php/0.1 (+https://gtmetrix.com/api/)"
      */
     public function user_agent( $user_agent ) {
         $this->user_agent = $user_agent;
@@ -106,7 +106,7 @@ class Services_WTF_Test {
         curl_setopt( $ch, CURLOPT_USERAGENT, $this->user_agent );
         curl_setopt( $ch, CURLOPT_USERPWD, $this->username . ":" . $this->password );
         curl_setopt( $ch, CURLOPT_CUSTOMREQUEST, $req );
-        // CURLOPT_SSL_VERIFYPEER turned off to avoid failure when cURL has no CA cert bundle: see http://curl.haxx.se/docs/sslcerts.html
+        // CURLOPT_SSL_VERIFYPEER turned off to avoid failure when cURL has no CA cert bundle: see https://curl.haxx.se/docs/sslcerts.html
         curl_setopt( $ch, CURLOPT_SSL_VERIFYPEER, FALSE );
 
         if ( $req == 'POST' )

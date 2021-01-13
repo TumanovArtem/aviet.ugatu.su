@@ -40,8 +40,8 @@ msgid "<strong>ERROR</strong>: \"Table Prefix\" must not be empty."
 msgstr "<strong>ОШИБКА</strong>: Префикс таблиц не может быть пустым."
 
 #. Author URI of the plugin
-msgid "http://ma.tt/"
-msgstr "http://ma.tt/"
+msgid "https://ma.tt/"
+msgstr "https://ma.tt/"
 
 #. Author of the plugin
 msgid "Matt Mullenweg"
@@ -52,8 +52,8 @@ msgid "This is not just a plugin, it symbolizes the hope and enthusiasm of an en
 msgstr "Это не просто плагин, он символизирует надежду и энтузиазм целого поколения, выраженные в двух словах из песни, наиболее известной в исполнении Луиса Армстронга: &laquo;Hello, Dolly&raquo;. После активации плагина на каждой странице панели управления в правом верхнем углу будет отображаться случайная строка из этой песни."
 
 #. Plugin URI of the plugin
-msgid "http://wordpress.org/plugins/hello-dolly/"
-msgstr "http://wordpress.org/plugins/hello-dolly/"
+msgid "https://wordpress.org/plugins/hello-dolly/"
+msgstr "https://wordpress.org/plugins/hello-dolly/"
 
 #. Plugin Name of the plugin
 msgid "Hello Dolly"
@@ -5943,126 +5943,126 @@ msgid "Image Address"
 msgstr "Адрес картинки"
 
 #: wp-admin/includes/meta-boxes.php:1205
-msgid "If the link is to a person, you can specify your relationship with them using the above form. If you would like to learn more about the idea check out <a href=\"http://gmpg.org/xfn/\">XFN</a>."
-msgstr "Если ссылка ведёт на человека, с помощью этой формы вы можете указать ваши отношения. За дополнительной информацией обращайтесь к <a href=\"http://gmpg.org/xfn/\">XFN</a>."
+msgid "If the link is to a person, you can specify your relationship with them using the above form. If you would like to learn more about the idea check out <a href=\"https://gmpg.org/xfn/\">XFN</a>."
+msgstr "Если ссылка ведёт на человека, с помощью этой формы вы можете указать ваши отношения. За дополнительной информацией обращайтесь к <a href=\"https://gmpg.org/xfn/\">XFN</a>."
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1199
 msgid "sweetheart"
 msgstr "любовь"
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1196
 msgid "date"
 msgstr "свидания"
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1193
 msgid "crush"
 msgstr "страсть"
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1190
 msgid "muse"
 msgstr "муза"
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1187 wp-admin/includes/meta-boxes.php:1188
 msgid "romantic"
 msgstr "романтика"
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1179
 msgid "spouse"
 msgstr "супруг(а)"
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1176
 msgid "sibling"
 msgstr "брат, сестра"
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1173
 msgid "parent"
 msgstr "родитель"
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1170
 msgid "kin"
 msgstr "родственник"
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1167
 msgid "child"
 msgstr "ребёнок"
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1164 wp-admin/includes/meta-boxes.php:1165
 msgid "family"
 msgstr "семья"
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1156
 msgid "neighbor"
 msgstr "сосед"
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1153
 msgid "co-resident"
 msgstr "земляк"
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1150 wp-admin/includes/meta-boxes.php:1151
 msgid "geographical"
 msgstr "географически"
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1145
 msgid "colleague"
 msgstr "коллега"
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1142
 msgid "co-worker"
 msgstr "вместе работаем"
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1139 wp-admin/includes/meta-boxes.php:1140
 msgid "professional"
 msgstr "профессионально"
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1134
 msgid "met"
 msgstr "встречались"
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1131 wp-admin/includes/meta-boxes.php:1132
 msgid "physical"
 msgstr "физически"
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1126 wp-admin/includes/meta-boxes.php:1159
 #: wp-admin/includes/meta-boxes.php:1182
 msgid "none"
 msgstr "отсутствует"
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1123
 msgid "friend"
 msgstr "друг"
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1120
 msgid "acquaintance"
 msgstr "приятель"
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1117
 msgid "contact"
 msgstr "знакомый"
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1114 wp-admin/includes/meta-boxes.php:1115
 msgid "friendship"
 msgstr "дружба"
@@ -6071,12 +6071,12 @@ msgstr "дружба"
 msgid "another web address of mine"
 msgstr "ещё один мой веб-адрес"
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1106 wp-admin/includes/meta-boxes.php:1107
 msgid "identity"
 msgstr "личность"
 
-#. translators: xfn: http://gmpg.org/xfn
+#. translators: xfn: https://gmpg.org/xfn
 #: wp-admin/includes/meta-boxes.php:1102
 msgid "rel:"
 msgstr "rel:"
@@ -7468,8 +7468,8 @@ msgid "WordPress Blog"
 msgstr "Блог WordPress"
 
 #: wp-admin/includes/dashboard.php:1297
-msgid "http://wordpress.org/news/feed/"
-msgstr "http://ru.wordpress.org/news/feed/"
+msgid "https://wordpress.org/news/feed/"
+msgstr "https://ru.wordpress.org/news/feed/"
 
 #: wp-admin/includes/dashboard.php:1288
 msgid "https://wordpress.org/news/"
@@ -10543,8 +10543,8 @@ msgid "This will be shown when someone hovers over the link in the blogroll, or 
 msgstr "Будет показано, когда кто-то наводит курсор на ссылку из списка, или (возможно) под ссылкой."
 
 #: wp-admin/edit-link-form.php:111
-msgid "Example: <code>http://wordpress.org/</code> &#8212; don&#8217;t forget the <code>http://</code>"
-msgstr "Пример: <code>http://wordpress.org/</code> &#8212; не забудьте <code>http://</code>"
+msgid "Example: <code>https://wordpress.org/</code> &#8212; don&#8217;t forget the <code>https://</code>"
+msgstr "Пример: <code>https://wordpress.org/</code> &#8212; не забудьте <code>https://</code>"
 
 #: wp-admin/edit-link-form.php:108
 msgid "Web Address"
@@ -10576,8 +10576,8 @@ msgid "<a href=\"https://codex.wordpress.org/Links_Add_New_Screen\">Documentatio
 msgstr "<a href=\"https://codex.wordpress.org/Links_Add_New_Screen\">Документация по созданию ссылок</a>"
 
 #: wp-admin/edit-link-form.php:60
-msgid "XFN stands for <a href=\"http://gmpg.org/xfn/\">XHTML Friends Network</a>, which is optional. WordPress allows the generation of XFN attributes to show how you are related to the authors/owners of the site to which you are linking."
-msgstr "XFN расшифровывается как <a href=\"http://gmpg.org/xfn/\">XHTML Friends Network</a> (микроформат для пометки социальных взаимоотношений) и является необязательным блоком. WordPress позволяет использовать атрибуты XFN, чтобы указать ваше отношение к авторам/владельцам сайта, на который вы ссылаетесь."
+msgid "XFN stands for <a href=\"https://gmpg.org/xfn/\">XHTML Friends Network</a>, which is optional. WordPress allows the generation of XFN attributes to show how you are related to the authors/owners of the site to which you are linking."
+msgstr "XFN расшифровывается как <a href=\"https://gmpg.org/xfn/\">XHTML Friends Network</a> (микроформат для пометки социальных взаимоотношений) и является необязательным блоком. WordPress позволяет использовать атрибуты XFN, чтобы указать ваше отношение к авторам/владельцам сайта, на который вы ссылаетесь."
 
 #: wp-admin/edit-link-form.php:59
 msgid "The boxes for link name, web address, and description have fixed positions, while the others may be repositioned using drag and drop. You can also hide boxes you don&#8217;t use in the Screen Options tab, or minimize boxes by clicking on the title bar of the box."

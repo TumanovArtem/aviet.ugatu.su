@@ -12,7 +12,7 @@ function wp_cache_phase2() {
 
 	wp_cache_debug( 'In WP Cache Phase 2', 5 );
 
-	$wp_cache_gmt_offset = get_option( 'gmt_offset' ); // caching for later use when wpdb is gone. http://wordpress.org/support/topic/224349
+	$wp_cache_gmt_offset = get_option( 'gmt_offset' ); // caching for later use when wpdb is gone. https://wordpress.org/support/topic/224349
 	$wp_cache_blog_charset = get_option( 'blog_charset' );
 
 	wp_cache_mutex_init();
@@ -546,7 +546,7 @@ function wp_cache_get_ob(&$buffer) {
 	if ( $wp_cache_mfunc_enabled == 1 ) {
 		if ( preg_match( '/<!--mclude|<!--mfunc|<!--dynamic-cached-content-->/', $buffer ) ) { //Dynamic content
 			wp_cache_debug( "mfunc/mclude/dynamic-cached-content tags have been retired. Please update your theme. See docs for updates." );
-			wp_cache_add_to_buffer( $buffer, "Warning! Obsolete mfunc/mclude/dynamic-cached-content tags found. Please update your theme. See http://ocaoimh.ie/y/5b for more information." );
+			wp_cache_add_to_buffer( $buffer, "Warning! Obsolete mfunc/mclude/dynamic-cached-content tags found. Please update your theme. See https://ocaoimh.ie/y/5b for more information." );
 		}
 
 		global $wp_super_cache_late_init;
@@ -976,7 +976,7 @@ function wp_cache_get_postid_from_comment( $comment_id, $status = 'NA' ) {
 	}
 	$postid = $comment['comment_post_ID'];
 	// Do nothing if comment is not moderated
-	// http://ocaoimh.ie/2006/12/05/caching-wordpress-with-wp-cache-in-a-spam-filled-world
+	// https://ocaoimh.ie/2006/12/05/caching-wordpress-with-wp-cache-in-a-spam-filled-world
 	if ( !preg_match('/wp-admin\//', $wp_cache_request_uri) ) {
 		if ( $comment['comment_approved'] == 'delete' && ( isset( $comment[ 'old_comment_approved' ] ) && $comment[ 'old_comment_approved' ] == 0 ) ) { // do nothing if moderated comments are deleted
 			wp_cache_debug( "Moderated comment deleted. Don't delete any cache files.", 4 );
@@ -1177,7 +1177,7 @@ function wp_cache_post_change( $post_id ) {
 	$permalink = trailingslashit( str_replace( get_option( 'siteurl' ), '', get_permalink( $post_id ) ) );
 	if( $super_cache_enabled ) {
 		$dir = get_supercache_dir();
-		$siteurl = trailingslashit( strtolower( preg_replace( '/:.*$/', '', str_replace( 'https://', '', str_replace( 'http://', '', get_option( 'home' ) ) ) ) ) );
+		$siteurl = trailingslashit( strtolower( preg_replace( '/:.*$/', '', str_replace( 'https://', '', str_replace( 'https://', '', get_option( 'home' ) ) ) ) ) );
 		// make sure the front page has a rebuild file
 		wp_cache_post_id_gc( $siteurl, $post_id );
 		if ( $all == true ) {
@@ -1298,7 +1298,7 @@ function maybe_stop_gc( $flag ) {
 }
 function get_gc_flag() {
 	global $cache_path;
-	return $cache_path . strtolower( preg_replace( '!/:.*$!', '', str_replace( 'http://', '', str_replace( 'https://', '', get_option( 'home' ) ) ) ) ) . "_wp_cache_gc.txt";
+	return $cache_path . strtolower( preg_replace( '!/:.*$!', '', str_replace( 'https://', '', str_replace( 'https://', '', get_option( 'home' ) ) ) ) ) . "_wp_cache_gc.txt";
 }
 
 function wp_cache_gc_cron() {

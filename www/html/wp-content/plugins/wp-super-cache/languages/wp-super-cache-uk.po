@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: wp-super-cache\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-super-cache\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tag/wp-super-cache\n"
 "POT-Creation-Date: 2009-11-13 10:27+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Vitaly <vitaly.mylo@gmail.com>\n"
@@ -43,8 +43,8 @@ msgstr "Підтримку ПОГАНОЇ ПОВЕДІНКИ %s"
 
 #: plugins/badbehaviour.php:62
 #, php-format
-msgid "(Only half-on caching supported, disabled compression and requires <a href=\"http://www.bad-behavior.ioerror.us/\">Bad Behavior</a> in \"%s/plugins/bad-behavior/\") "
-msgstr " (Підтримується тільки напів-кешування, стиснення ввимкнено та потребує <a href=\"http://www.bad-behavior.ioerror.us/\">ПОГАНУ ПОВЕДІНКУ</a> у \"%s/plugins/bad-behavior/\") "
+msgid "(Only half-on caching supported, disabled compression and requires <a href=\"https://www.bad-behavior.ioerror.us/\">Bad Behavior</a> in \"%s/plugins/bad-behavior/\") "
+msgstr " (Підтримується тільки напів-кешування, стиснення ввимкнено та потребує <a href=\"https://www.bad-behavior.ioerror.us/\">ПОГАНУ ПОВЕДІНКУ</a> у \"%s/plugins/bad-behavior/\") "
 
 #: plugins/badbehaviour.php:64
 #: plugins/searchengine.php:74
@@ -60,12 +60,12 @@ msgstr "Увага!"
 
 #: plugins/searchengine.php:71
 #, php-format
-msgid "<a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> plugin is %s"
-msgstr "Плаґін <a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">Нема посилань для друзів</a> %s"
+msgid "<a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> plugin is %s"
+msgstr "Плаґін <a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">Нема посилань для друзів</a> %s"
 
 #: plugins/searchengine.php:72
-msgid "(requires <a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> too) "
-msgstr "(необхідно також <a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a>) "
+msgid "(requires <a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a> too) "
+msgstr "(необхідно також <a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">friendsadverts.php</a>) "
 
 #: wp-cache.php:87
 #, php-format
@@ -90,12 +90,12 @@ msgstr "Ваш сервер налаштований на перевірку в�
 
 #: wp-cache.php:176
 #, php-format
-msgid "You or an administrator may be able to make it work by changing the group owner of the plugin scripts to match that of the web server user. The group owner of the %s/cache/ directory must also be changed. See the <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> for further details."
-msgstr "Ви або Адміністратор можете виправити роботу, змінивши власника групи скриптів плаґіну. Необхідно також змінити власника групи папки %s/cache/. Додаткові деталі Ви можете переглянути на <a href=\"http://php.net/features.safe-mode\">сторінці документації безпечного режиму</a>."
+msgid "You or an administrator may be able to make it work by changing the group owner of the plugin scripts to match that of the web server user. The group owner of the %s/cache/ directory must also be changed. See the <a href=\"https://php.net/features.safe-mode\">safe mode manual page</a> for further details."
+msgstr "Ви або Адміністратор можете виправити роботу, змінивши власника групи скриптів плаґіну. Необхідно також змінити власника групи папки %s/cache/. Додаткові деталі Ви можете переглянути на <a href=\"https://php.net/features.safe-mode\">сторінці документації безпечного режиму</a>."
 
 #: wp-cache.php:178
-msgid "You or an administrator must disable this. See the <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> for further details. This cannot be disabled in a .htaccess file unfortunately. It must be done in the php.ini config file."
-msgstr "Ви або Адміністратор повинні вимкнути це. Додаткові деталі Ви можете переглянути на <a href=\"http://php.net/features.safe-mode\">сторінці документації безпечного режиму</a>. На жаль, це не можна вимкнути у фалі .htaccess. Це можна поправити у файлі налаштувань php.ini."
+msgid "You or an administrator must disable this. See the <a href=\"https://php.net/features.safe-mode\">safe mode manual page</a> for further details. This cannot be disabled in a .htaccess file unfortunately. It must be done in the php.ini config file."
+msgstr "Ви або Адміністратор повинні вимкнути це. Додаткові деталі Ви можете переглянути на <a href=\"https://php.net/features.safe-mode\">сторінці документації безпечного режиму</a>. На жаль, це не можна вимкнути у фалі .htaccess. Це можна поправити у файлі налаштувань php.ini."
 
 #: wp-cache.php:189
 msgid "Configuration file changed, some values might be wrong. Load the page again from the \"Settings\" menu to reset them."
@@ -254,8 +254,8 @@ msgid "Delete the plugin mod_rewrite rules in %s.htaccess enclosed by <code># BE
 msgstr "Видалити mod_rewrite правила плаґіну у %s.htaccess, що починається зі стрічки <code># BEGIN WPSuperCache</code> та закінчується <code># END WPSuperCache</code> та дозволити плаґіну перегенерувати їх за допомогою перезавантаження сторінки."
 
 #: wp-cache.php:380
-msgid "Add the rules yourself. Edit %s.htaccess and find the block of code enclosed by the lines <code># BEGIN WPSuperCache</code> and <code># END WPSuperCache</code>. There are two sections that look very similar. Just below the line <code>%{HTTP:Cookie} !^.*(comment_author_|wordpress|wp-postpass_).*$</code> add this line: (do it twice, once for each section)"
-msgstr "Додати правила самостійно. Відредагуйте %s.htaccess та знайдіть фрагмент коду, що починається зі стрічки <code># BEGIN WPSuperCache</code> та закінчується стрічкою <code># END WPSuperCache</code>. Є два подібні між собою фрагменти коду. Одразу під стрічкою <code>%{HTTP:Cookie} !^.*(comment_author_|wordpress|wp-postpass_).*$</code> додайте цей код: (зробіть це двічі, тобто для кожного з фрагментів)"
+msgid "Add the rules yourself. Edit %s.htaccess and find the block of code enclosed by the lines <code># BEGIN WPSuperCache</code> and <code># END WPSuperCache</code>. There are two sections that look very similar. Just below the line <code>%{https:Cookie} !^.*(comment_author_|wordpress|wp-postpass_).*$</code> add this line: (do it twice, once for each section)"
+msgstr "Додати правила самостійно. Відредагуйте %s.htaccess та знайдіть фрагмент коду, що починається зі стрічки <code># BEGIN WPSuperCache</code> та закінчується стрічкою <code># END WPSuperCache</code>. Є два подібні між собою фрагменти коду. Одразу під стрічкою <code>%{https:Cookie} !^.*(comment_author_|wordpress|wp-postpass_).*$</code> додайте цей код: (зробіть це двічі, тобто для кожного з фрагментів)"
 
 #: wp-cache.php:383
 msgid "Note:"
@@ -432,8 +432,8 @@ msgstr "Дякую за оновлення"
 
 #: wp-cache.php:590
 #, php-format
-msgid "The mod_rewrite rules changed since you last installed this plugin. Unfortunately you must remove the old supercache rules before the new ones are updated. Refresh this page when you have edited your .htaccess file. If you wish to manually upgrade, change the following line: %1$s so it looks like this: %2$s The only changes are \"HTTP_COOKIE\" becomes \"HTTP:Cookie\" and \"wordpressuser\" becomes \"wordpress\". This is a WordPress 2.5 change but it&#8217;s backwards compatible with older versions if you&#8217;re brave enough to use them."
-msgstr "Правила mod_rewrite змінилися з того часу, коли Ви інсталювали цей плаґін. На жаль, Ви повинні видалити старі правила для Супер Кешу перед тим, як додати нові. Оновіть цю сторінку, коли відредагуєте Ваш .htaccess файл. Якщо Ви бажаєте додати оновлення вручну, змініть наступну стрічку: %1$s щоб вона виглядала приблизно ось так: %2$s Необхідно внести наступні зміни: \"HTTP_COOKIE\" замінити на \"HTTP:Cookie\" та \"wordpressuser\" замінити на \"wordpress\". Це зміна для Вордпресу 2.5, але це зворотня сумісність зі старішими версіями, якщо Ви достатньо хоробрий, щоб їх використовувати."
+msgid "The mod_rewrite rules changed since you last installed this plugin. Unfortunately you must remove the old supercache rules before the new ones are updated. Refresh this page when you have edited your .htaccess file. If you wish to manually upgrade, change the following line: %1$s so it looks like this: %2$s The only changes are \"HTTP_COOKIE\" becomes \"https:Cookie\" and \"wordpressuser\" becomes \"wordpress\". This is a WordPress 2.5 change but it&#8217;s backwards compatible with older versions if you&#8217;re brave enough to use them."
+msgstr "Правила mod_rewrite змінилися з того часу, коли Ви інсталювали цей плаґін. На жаль, Ви повинні видалити старі правила для Супер Кешу перед тим, як додати нові. Оновіть цю сторінку, коли відредагуєте Ваш .htaccess файл. Якщо Ви бажаєте додати оновлення вручну, змініть наступну стрічку: %1$s щоб вона виглядала приблизно ось так: %2$s Необхідно внести наступні зміни: \"HTTP_COOKIE\" замінити на \"https:Cookie\" та \"wordpressuser\" замінити на \"wordpress\". Це зміна для Вордпресу 2.5, але це зворотня сумісність зі старішими версіями, якщо Ви достатньо хоробрий, щоб їх використовувати."
 
 #: wp-cache.php:594
 msgid "Trailing slash check required."
@@ -654,8 +654,8 @@ msgid "Save UA Strings"
 msgstr "Зберегти назви ботів (пошукових павуків)"
 
 #: wp-cache.php:933
-msgid "Do not cache the following page types. See the <a href=\"http://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> documentation for a complete discussion on each type."
-msgstr "Не кешувати наступні типи сторінок. Відвідайте сторінку документації <a href=\"http://codex.wordpress.org/Conditional_Tags\">умовні теги</a> для повного роз&#8217;яснення по кожному типу."
+msgid "Do not cache the following page types. See the <a href=\"https://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> documentation for a complete discussion on each type."
+msgstr "Не кешувати наступні типи сторінок. Відвідайте сторінку документації <a href=\"https://codex.wordpress.org/Conditional_Tags\">умовні теги</a> для повного роз&#8217;яснення по кожному типу."
 
 #: wp-cache.php:936
 msgid "Single Posts"
@@ -881,8 +881,8 @@ msgid "Edit <code>%s</code> and add the following line:<br /> <code>define('WP_C
 msgstr "Відредагуйте код <code>%s</code> та додайте наступну стрічку:<br /> <code>define('WP_CACHE', true);</code><br />  В іншому випадку <strong>Вордпрес-Кеш не виконається</strong> за допомогою ядра Вордпресу."
 
 #: wp-cache.php:1322
-msgid "<h3>WP_CACHE constant added to wp-config.php</h3><p>If you continue to see this warning message please see point 5 of the <a href=\"http://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. The WP_CACHE line must be moved up."
-msgstr "<h3>Константа WP_CACHE додана у файл wp-config.php</h3><p> Якщо Ви продовжуєте бачити це попередження, тоді дивіться пункт 5 у <a href=\"http://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. Стрічка WP_CACHE повинна бути переміщена вгору."
+msgid "<h3>WP_CACHE constant added to wp-config.php</h3><p>If you continue to see this warning message please see point 5 of the <a href=\"https://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. The WP_CACHE line must be moved up."
+msgstr "<h3>Константа WP_CACHE додана у файл wp-config.php</h3><p> Якщо Ви продовжуєте бачити це попередження, тоді дивіться пункт 5 у <a href=\"https://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a>. Стрічка WP_CACHE повинна бути переміщена вгору."
 
 #: wp-cache.php:1343
 msgid "Cache Contents"

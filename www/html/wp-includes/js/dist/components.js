@@ -286,7 +286,7 @@ function _defineProperty(obj, key, value) {
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
   Copyright (c) 2017 Jed Watson.
   Licensed under the MIT License (MIT), see
-  http://jedwatson.github.io/classnames
+  https://jedwatson.github.io/classnames
 */
 /* global define */
 
@@ -553,7 +553,7 @@ function _typeof(obj) {
 
 if (false) { var throwOnDirectAccess, isValidElement, REACT_ELEMENT_TYPE; } else {
   // By explicitly using `prop-types` you are opting into new production behavior.
-  // http://fb.me/prop-types-in-prod
+  // https://fb.me/prop-types-in-prod
   module.exports = __webpack_require__(109)();
 }
 
@@ -981,12 +981,12 @@ tinycolor.prototype = {
         return this._a;
     },
     getBrightness: function() {
-        //http://www.w3.org/TR/AERT#color-contrast
+        //https://www.w3.org/TR/AERT#color-contrast
         var rgb = this.toRgb();
         return (rgb.r * 299 + rgb.g * 587 + rgb.b * 114) / 1000;
     },
     getLuminance: function() {
-        //http://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef
+        //https://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef
         var rgb = this.toRgb();
         var RsRGB, GsRGB, BsRGB, R, G, B;
         RsRGB = rgb.r/255;
@@ -1272,11 +1272,11 @@ function inputToRGB(color) {
 // --------------------
 
 // `rgbToHsl`, `rgbToHsv`, `hslToRgb`, `hsvToRgb` modified from:
-// <http://mjijackson.com/2008/02/rgb-to-hsl-and-rgb-to-hsv-color-model-conversion-algorithms-in-javascript>
+// <https://mjijackson.com/2008/02/rgb-to-hsl-and-rgb-to-hsv-color-model-conversion-algorithms-in-javascript>
 
 // `rgbToRgb`
 // Handle bounds / percentage checking to conform to CSS color spec
-// <http://www.w3.org/TR/css3-color/>
+// <https://www.w3.org/TR/css3-color/>
 // *Assumes:* r, g, b in [0, 255] or [0, 1]
 // *Returns:* { r, g, b } in [0, 255]
 function rgbToRgb(r, g, b){
@@ -1632,7 +1632,7 @@ tinycolor.mix = function(color1, color2, amount) {
 
 // Readability Functions
 // ---------------------
-// <http://www.w3.org/TR/2008/REC-WCAG20-20081211/#contrast-ratiodef (WCAG Version 2)
+// <https://www.w3.org/TR/2008/REC-WCAG20-20081211/#contrast-ratiodef (WCAG Version 2)
 
 // `contrast`
 // Analyze the 2 colors and returns the color contrast defined by (WCAG Version 2)
@@ -1714,7 +1714,7 @@ tinycolor.mostReadable = function(baseColor, colorList, args) {
 
 // Big List of Colors
 // ------------------
-// <http://www.w3.org/TR/css3-color/#svg-color>
+// <https://www.w3.org/TR/css3-color/#svg-color>
 var names = tinycolor.names = {
     aliceblue: "f0f8ff",
     antiquewhite: "faebd7",
@@ -1928,7 +1928,7 @@ function parseIntFromHex(val) {
 }
 
 // Need to handle 1.0 as 100%, since once it is a number, there is no difference between it and 1
-// <http://stackoverflow.com/questions/7422072/javascript-how-to-detect-number-as-a-decimal-including-1-0>
+// <https://stackoverflow.com/questions/7422072/javascript-how-to-detect-number-as-a-decimal-including-1-0>
 function isOnePointZero(n) {
     return typeof n == "string" && n.indexOf('.') != -1 && parseFloat(n) === 1;
 }
@@ -1963,10 +1963,10 @@ function convertHexToDecimal(h) {
 
 var matchers = (function() {
 
-    // <http://www.w3.org/TR/css3-values/#integers>
+    // <https://www.w3.org/TR/css3-values/#integers>
     var CSS_INTEGER = "[-\\+]?\\d+%?";
 
-    // <http://www.w3.org/TR/css3-values/#number-value>
+    // <https://www.w3.org/TR/css3-values/#number-value>
     var CSS_NUMBER = "[-\\+]?\\d*\\.\\d+%?";
 
     // Allow positive/negative integer/number.  Don't capture the either/or, just the entire outcome.
@@ -2773,7 +2773,7 @@ var getRandomValues = (typeof(crypto) != 'undefined' && crypto.getRandomValues &
                       (typeof(msCrypto) != 'undefined' && typeof window.msCrypto.getRandomValues == 'function' && msCrypto.getRandomValues.bind(msCrypto));
 
 if (getRandomValues) {
-  // WHATWG crypto RNG - http://wiki.whatwg.org/wiki/Crypto
+  // WHATWG crypto RNG - https://wiki.whatwg.org/wiki/Crypto
   var rnds8 = new Uint8Array(16); // eslint-disable-line no-undef
 
   module.exports = function whatwgRNG() {
@@ -4028,7 +4028,7 @@ module.exports = function() {
     var err = new Error(
       'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +
       'Use PropTypes.checkPropTypes() to call them. ' +
-      'Read more at http://fb.me/use-check-prop-types'
+      'Read more at https://fb.me/use-check-prop-types'
     );
     err.name = 'Invariant Violation';
     throw err;
@@ -4189,7 +4189,7 @@ function getInputHeight(_ref, small) {
 
 /**
  * Checks if `value` is the
- * [language type](http://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
+ * [language type](https://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
  * of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
  *
  * @static
@@ -6112,7 +6112,7 @@ var PX = 'px';
 
 function _getComputedStyleIE(elem, name) {
   // currentStyle maybe null
-  // http://msdn.microsoft.com/en-us/library/ms535231.aspx
+  // https://msdn.microsoft.com/en-us/library/ms535231.aspx
   var ret = elem[CURRENT_STYLE] && elem[CURRENT_STYLE][name];
 
   // 当 width/height 设置为百分比时，通过 pixelLeft 方式转换的 width/height 值
@@ -6121,7 +6121,7 @@ function _getComputedStyleIE(elem, name) {
   // borderWidth 等值也有问题，但考虑到 borderWidth 设为百分比的概率很小，这里就不考虑了
 
   // From the awesome hack by Dean Edwards
-  // http://erik.eae.net/archives/2007/07/27/18.54.15/#comment-102291
+  // https://erik.eae.net/archives/2007/07/27/18.54.15/#comment-102291
   // If we're not dealing with a regular pixel number
   // but a number that has a weird ending, we need to convert it to pixels
   // exclude left right for relativity
@@ -15126,7 +15126,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/*global define:false */
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- * http://www.apache.org/licenses/LICENSE-2.0
+ * https://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -15836,7 +15836,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/*global define:false */
         function _handleKeyEvent(e) {
 
             // normalize e.which for key events
-            // @see http://stackoverflow.com/questions/4285627/javascript-keycode-vs-charcode-utter-confusion
+            // @see https://stackoverflow.com/questions/4285627/javascript-keycode-vs-charcode-utter-confusion
             if (typeof e.which !== 'number') {
                 e.which = e.keyCode;
             }
@@ -16592,7 +16592,7 @@ var $gOPD = $Object.getOwnPropertyDescriptor;
 
 var $isExtensible = $Object.isExtensible;
 
-// whitespace from: http://es5.github.io/#x15.5.4.20
+// whitespace from: https://es5.github.io/#x15.5.4.20
 // implementation from https://github.com/es-shims/es5-shim/blob/v3.4.0/es5-shim.js#L1304-L1324
 var ws = [
 	'\x09\x0A\x0B\x0C\x0D\x20\xA0\u1680\u180E\u2000\u2001\u2002\u2003',
@@ -17293,7 +17293,7 @@ var GetMethod = function GetMethod(O, P) {
 	return void 0;
 };
 
-// http://www.ecma-international.org/ecma-262/6.0/#sec-toprimitive
+// https://www.ecma-international.org/ecma-262/6.0/#sec-toprimitive
 module.exports = function ToPrimitive(input) {
 	if (isPrimitive(input)) {
 		return input;
@@ -17648,7 +17648,7 @@ var isPrimitive = __webpack_require__(130);
 
 var isCallable = __webpack_require__(106);
 
-// http://ecma-international.org/ecma-262/5.1/#sec-8.12.8
+// https://ecma-international.org/ecma-262/5.1/#sec-8.12.8
 var ES5internalSlots = {
 	'[[DefaultValue]]': function (O) {
 		var actualHint;
@@ -17675,7 +17675,7 @@ var ES5internalSlots = {
 	}
 };
 
-// http://ecma-international.org/ecma-262/5.1/#sec-9.1
+// https://ecma-international.org/ecma-262/5.1/#sec-9.1
 module.exports = function ToPrimitive(input) {
 	if (isPrimitive(input)) {
 		return input;
@@ -20877,7 +20877,7 @@ var hasOwnProperty = objectProto.hasOwnProperty;
 
 /**
  * Used to resolve the
- * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+ * [`toStringTag`](https://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
  * of values.
  */
 var nativeObjectToString = objectProto.toString;
@@ -20924,7 +20924,7 @@ var objectProto = Object.prototype;
 
 /**
  * Used to resolve the
- * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+ * [`toStringTag`](https://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
  * of values.
  */
 var nativeObjectToString = objectProto.toString;
@@ -25120,7 +25120,7 @@ function (_Component) {
         role: "img",
         focusable: "false",
         className: iconClass,
-        xmlns: "http://www.w3.org/2000/svg",
+        xmlns: "https://www.w3.org/2000/svg",
         width: size,
         height: size,
         viewBox: "0 0 20 20"
@@ -31241,7 +31241,7 @@ function FormToggle(_ref) {
     className: "components-form-toggle__on",
     width: "2",
     height: "6",
-    xmlns: "http://www.w3.org/2000/svg",
+    xmlns: "https://www.w3.org/2000/svg",
     viewBox: "0 0 2 6"
   }, Object(external_this_wp_element_["createElement"])(svg_Path, {
     d: "M0 0h2v6H0z"
@@ -31252,7 +31252,7 @@ function FormToggle(_ref) {
     "aria-hidden": "true",
     role: "img",
     focusable: "false",
-    xmlns: "http://www.w3.org/2000/svg",
+    xmlns: "https://www.w3.org/2000/svg",
     viewBox: "0 0 6 6"
   }, Object(external_this_wp_element_["createElement"])(svg_Path, {
     d: "M3 1.5c.8 0 1.5.7 1.5 1.5S3.8 4.5 3 4.5 1.5 3.8 1.5 3 2.2 1.5 3 1.5M3 0C1.3 0 0 1.3 0 3s1.3 3 3 3 3-1.3 3-3-1.3-3-3-3z"
@@ -33217,7 +33217,7 @@ function (_Component) {
         width: "24px",
         height: "24px",
         viewBox: "0 0 24 24",
-        xmlns: "http://www.w3.org/2000/svg"
+        xmlns: "https://www.w3.org/2000/svg"
       }, Object(external_this_wp_element_["createElement"])(svg_G, null, Object(external_this_wp_element_["createElement"])(svg_Path, {
         fill: "none",
         d: "M0,0h24v24H0V0z"
@@ -33228,7 +33228,7 @@ function (_Component) {
         width: "24px",
         height: "24px",
         viewBox: "0 0 24 24",
-        xmlns: "http://www.w3.org/2000/svg"
+        xmlns: "https://www.w3.org/2000/svg"
       }, Object(external_this_wp_element_["createElement"])(svg_G, null, Object(external_this_wp_element_["createElement"])(svg_Path, {
         fill: "none",
         d: "M0,0h24v24H0V0z"

@@ -11018,8 +11018,8 @@ msgid "Color"
 msgstr "Цвет"
 
 #: wp-includes/class-wp-editor.php:1138
-msgid "The URL you entered seems to be an external link. Do you want to add the required http:// prefix?"
-msgstr "Введённый вами адрес похож на внешнюю ссылку, добавить http:// в начало?"
+msgid "The URL you entered seems to be an external link. Do you want to add the required https:// prefix?"
+msgstr "Введённый вами адрес похож на внешнюю ссылку, добавить https:// в начало?"
 
 #: wp-includes/class-wp-editor.php:1136
 msgid "The URL you entered seems to be an email address. Do you want to add the required mailto: prefix?"

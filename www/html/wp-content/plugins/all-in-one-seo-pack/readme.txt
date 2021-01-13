@@ -6,7 +6,7 @@ Requires at least: 4.0
 Tested up to: 4.8
 Stable tag: 2.3.13.2
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 The original SEO plugin for WordPress, downloaded over 30,000,000 times since 2007.
 
@@ -14,9 +14,9 @@ The original SEO plugin for WordPress, downloaded over 30,000,000 times since 20
 
 Use **All in One SEO Pack** to optimize your WordPress site for SEO. It's easy and works out of the box for beginners, and has advanced features and an API for developers.
 
-**[Upgrade to Pro Version](http://semperplugins.com/plugins/all-in-one-seo-pack-pro-version/?loc=readme_utpv)**
+**[Upgrade to Pro Version](https://semperplugins.com/plugins/all-in-one-seo-pack-pro-version/?loc=readme_utpv)**
 
-[Premium Support](http://semperplugins.com/support/?loc=readme_ps)
+[Premium Support](https://semperplugins.com/support/?loc=readme_ps)
 
 First created in 2007, see why AIOSEO is one of the all time most downloaded plugins for WordPress.
 
@@ -41,7 +41,7 @@ First created in 2007, see why AIOSEO is one of the all time most downloaded plu
 * PHP 7 100% Compatible
 
 Follow me on Twitter to keep up with the latest updates [Michael
-Torbert](http://twitter.com/michaeltorbert/)
+Torbert](https://twitter.com/michaeltorbert/)
 
 https://www.youtube.com/watch?v=46MR4FboMaA
 
@@ -50,14 +50,14 @@ seo, SEO, All in One, google, meta, meta description, search engine optimization
 
 == Changelog ==
 
-All in One SEO Pack [Changelog](http://semperfiwebdesign.com/documentation/all-in-one-seo-pack/all-in-one-seo-pack-release-history/)
+All in One SEO Pack [Changelog](https://semperfiwebdesign.com/documentation/all-in-one-seo-pack/all-in-one-seo-pack-release-history/)
 
 == Frequently Asked Questions ==
 
-Please visit our complete **[Documentation](http://semperplugins.com/documentation/)** before requesting support for SEO from the
-**[All in One SEO Pack Support Forum](http://semperplugins.com/support/)**
+Please visit our complete **[Documentation](https://semperplugins.com/documentation/)** before requesting support for SEO from the
+**[All in One SEO Pack Support Forum](https://semperplugins.com/support/)**
 
-[Translations](http://semperfiwebdesign.com/documentation/all-in-one-seo-pack/translations-for-all-in-one-seo-pack/)
+[Translations](https://semperfiwebdesign.com/documentation/all-in-one-seo-pack/translations-for-all-in-one-seo-pack/)
 
 = General Settings =
 https://www.youtube.com/watch?v=uGt6CVbA5bI

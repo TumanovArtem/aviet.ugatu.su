@@ -10,7 +10,7 @@ function domain_mapping_gc_cache( $function, $directory ) {
 	if ( !$siteurl )
 		return false;
 
-	$protocol = ( isset( $_SERVER['HTTPS' ] ) && 'on' == strtolower( $_SERVER['HTTPS' ] ) ) ? 'https://' : 'http://';
+	$protocol = ( isset( $_SERVER['HTTPS' ] ) && 'on' == strtolower( $_SERVER['HTTPS' ] ) ) ? 'https://' : 'https://';
 	$siteurl = trailingslashit( str_replace( $protocol, '', $siteurl ) );
 
 	if ( $directory == 'homepage' )
@@ -39,7 +39,7 @@ function domain_mapping_supercachedir( $dir ) {
 	if ( !$siteurl )
 		return $dir;
 
-	$protocol = ( isset( $_SERVER['HTTPS' ] ) && 'on' == strtolower( $_SERVER['HTTPS' ] ) ) ? 'https://' : 'http://';
+	$protocol = ( isset( $_SERVER['HTTPS' ] ) && 'on' == strtolower( $_SERVER['HTTPS' ] ) ) ? 'https://' : 'https://';
 	$siteurl = str_replace( $protocol, '', $siteurl );
 	return trailingslashit( $cache_path . 'supercache/' . $siteurl );
 }
@@ -75,7 +75,7 @@ function wp_supercache_domain_mapping_admin() {
 		<label><input type="radio" name="cache_domain_mapping" value="1" <?php if( $cache_domain_mapping ) { echo 'checked="checked" '; } ?>/> <?php _e( 'Enabled', 'wp-super-cache' ); ?></label>
 		<label><input type="radio" name="cache_domain_mapping" value="0" <?php if( !$cache_domain_mapping ) { echo 'checked="checked" '; } ?>/> <?php _e( 'Disabled', 'wp-super-cache' ); ?></label>
 		<p><?php _e( '', 'wp-super-cache' ); ?></p><?php
-		echo '<p>' . __( 'Provides support for <a href="http://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/">Domain Mapping</a> plugin to map multiple domains to a blog.', 'wp-super-cache' ) . '</p>';
+		echo '<p>' . __( 'Provides support for <a href="https://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/">Domain Mapping</a> plugin to map multiple domains to a blog.', 'wp-super-cache' ) . '</p>';
 		if ( isset( $changed ) && $changed ) {
 			if ( $cache_domain_mapping )
 				$status = __( "enabled" );

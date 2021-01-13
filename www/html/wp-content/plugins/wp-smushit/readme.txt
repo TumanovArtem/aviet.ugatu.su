@@ -2,13 +2,13 @@
 Plugin Name: WP Smush
 Version: 2.1.2
 Author: WPMU DEV
-Author URI: http://premium.wpmudev.org/
+Author URI: https://premium.wpmudev.org/
 Contributors: WPMUDEV, alexdunae
 Tags: Attachment,Attachments,Compress,Compress Image File,Compress Image Size,Compress JPG,Compressed JPG, Compression Image,Image,Images,JPG,Optimise,Optimize,Photo,Photos,Pictures,PNG,Reduce Image Size,Smush,Smush.it,Upload,WordPress Compression,WordPress Image Tool,Yahoo, Yahoo Smush.it
 Requires at least: 3.5
 Tested up to: 4.3.1
 Stable tag: 2.1.2
-License: GPL v2 - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+License: GPL v2 - https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 Reduce image file sizes, improve performance and boost your SEO using the free <a href="https://premium.wpmudev.org/">WPMU DEV</a> WordPress Smush API.
 
@@ -33,7 +33,7 @@ WP Smush strips hidden, bulky information from your images, reducing the file si
 Heavy image files may be slowing down your site without you even knowing it. WP Smush meticulously scans every image you upload – or have already added to your site – and cuts all the unnecessary data for you.
 
 ★★★★★ <br>
-“I had no idea that my page load time was being dragged down by the images. The plugin nearly halved the time it took.” - <a href="http://profiles.wordpress.org/karlcw">karlcw</a>
+“I had no idea that my page load time was being dragged down by the images. The plugin nearly halved the time it took.” - <a href="https://profiles.wordpress.org/karlcw">karlcw</a>
 
 Install WP Smush and find out why it's the most popular image optimization plugin for WordPress available today with over 1 million downloads.
 
@@ -193,7 +193,7 @@ Yahoo's Smush.it API is gone forever. So WPMU DEV built our own free API that is
 = 1.6.5.1 =
 * Correct Settings > Media issue causing settings to report warnings and not save. 
 * Corrected some processing logic to better handling or image path. Images still need to be within ABSPATH of site
-* Correct image URL passed to Smush.it API to convert https:// urls to http:// since the API does not allow https:// images
+* Correct image URL passed to Smush.it API to convert https:// urls to https:// since the API does not allow https:// images
 
 
 = 1.6.5 =
@@ -205,7 +205,7 @@ Yahoo's Smush.it API is gone forever. So WPMU DEV built our own free API that is
 
 = 1.6.3 =
 * check image size before uploading (1 MB limit)
-* attempt to smush more than one image before bailing (kind thanks to <a href="http://wordpress.org/support/profile/xrampage16">xrampage16</a>)
+* attempt to smush more than one image before bailing (kind thanks to <a href="https://wordpress.org/support/profile/xrampage16">xrampage16</a>)
 * allow setting timeout value under `Media > Settings` (default is 60 seconds)
 
 = 1.6.2 =
@@ -219,10 +219,10 @@ Yahoo's Smush.it API is gone forever. So WPMU DEV built our own free API that is
 * on HTTP error, smushing will be temporarily disabled for 6 hours
 
 = 1.5.0 =
-* added basic integration for the <a href="http://wordpress.org/extend/plugins/wp-smushit-nextgen-gallery-integration/">NextGEN gallery plugin</a>
+* added basic integration for the <a href="https://wordpress.org/extend/plugins/wp-smushit-nextgen-gallery-integration/">NextGEN gallery plugin</a>
 * add support for media bulk action dropdown
 * compatibility with WordPress earlier than 3.1
-* added a <a href="http://dunae.ca/donate.html">donate link</a>
+* added a <a href="https://dunae.ca/donate.html">donate link</a>
 
 = 1.4.3 =
 * cleaner handling of file paths
@@ -247,8 +247,8 @@ Yahoo's Smush.it API is gone forever. So WPMU DEV built our own free API that is
 * IPv6 compat
 
 = 1.3.1 =
-* handle images stored on other domains -- props to [ka-ri-ne](http://wordpress.org/support/profile/ka-ri-ne) for the fix
-* avoid time-out errors when working with larger files -- props to [Milan Dinić](http://wordpress.org/support/profile/dimadin) for the fix
+* handle images stored on other domains -- props to [ka-ri-ne](https://wordpress.org/support/profile/ka-ri-ne) for the fix
+* avoid time-out errors when working with larger files -- props to [Milan Dinić](https://wordpress.org/support/profile/dimadin) for the fix
 
 = 1.2.10 =
 * removed testing link
@@ -260,7 +260,7 @@ Yahoo's Smush.it API is gone forever. So WPMU DEV built our own free API that is
 * fixed path checking on Windows servers
 
 = 1.2.7 =
-* update to workaround WordPress's new JSON compat layer (see [trac ticket](http://core.trac.wordpress.org/ticket/11827))
+* update to workaround WordPress's new JSON compat layer (see [trac ticket](https://core.trac.wordpress.org/ticket/11827))
 
 = 1.2.6 =
 * updated Smush.it endpoint URL
@@ -281,8 +281,8 @@ Yahoo's Smush.it API is gone forever. So WPMU DEV built our own free API that is
 
 = 1.2.1 =
 * added support for PHP 4
-* created admin action hook as workaround to WordPress 2.9's `$_registered_pages` security (see [changeset 11596](http://core.trac.wordpress.org/changeset/11596))
-* add savings amount in bytes to Media Library (thx [Yoast](http://www.yoast.com/))
+* created admin action hook as workaround to WordPress 2.9's `$_registered_pages` security (see [changeset 11596](https://core.trac.wordpress.org/changeset/11596))
+* add savings amount in bytes to Media Library (thx [Yoast](https://www.yoast.com/))
 
 = 1.2 =
 * added support for `WP_Http`
@@ -317,8 +317,8 @@ WPMU DEV is a premium supplier of quality WordPress plugins and themes. For prem
 Don't forget to stay up to date on everything WordPress from the Internet's number one resource:
 <a href="https://premium.wpmudev.org/blog/?utm_source=wordpress.org&utm_medium=readme">WPMU DEV Blog</a>
 
-Hey, one more thing... we hope you <a href="http://profiles.wordpress.org/WPMUDEV/">enjoy our free offerings</a> as much as we've loved making them for you!
+Hey, one more thing... we hope you <a href="https://profiles.wordpress.org/WPMUDEV/">enjoy our free offerings</a> as much as we've loved making them for you!
 
 == Contact and Credits ==
 
-Originally written by Alex Dunae at Dialect ([dialect.ca](http://dialect.ca/?wp_smush_it), e-mail 'alex' at 'dialect dot ca'), 2008-11.
+Originally written by Alex Dunae at Dialect ([dialect.ca](https://dialect.ca/?wp_smush_it), e-mail 'alex' at 'dialect dot ca'), 2008-11.

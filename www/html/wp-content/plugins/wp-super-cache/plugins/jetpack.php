@@ -31,7 +31,7 @@ function wp_super_cache_jetpack_admin() {
 		<label><input type="radio" name="cache_jetpack" value="1" <?php if( $cache_jetpack ) { echo 'checked="checked" '; } ?>/> <?php _e( 'Enabled', 'wp-super-cache' ); ?></label>
 		<label><input type="radio" name="cache_jetpack" value="0" <?php if( !$cache_jetpack ) { echo 'checked="checked" '; } ?>/> <?php _e( 'Disabled', 'wp-super-cache' ); ?></label>
 		<?php
-		echo '<p>' . __( 'Provides support for the <a href="http://wordpress.org/extend/plugins/jetpack/">Jetpack</a> mobile theme and plugin. PHP caching mode and mobile support will be enabled too.', 'wp-super-cache' ) . '</p>';
+		echo '<p>' . __( 'Provides support for the <a href="https://wordpress.org/extend/plugins/jetpack/">Jetpack</a> mobile theme and plugin. PHP caching mode and mobile support will be enabled too.', 'wp-super-cache' ) . '</p>';
 		if ( isset( $changed ) && $changed ) {
 			if ( $cache_jetpack )
 				$status = __( "enabled" );

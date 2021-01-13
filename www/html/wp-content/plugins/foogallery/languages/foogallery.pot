@@ -768,7 +768,7 @@ msgstr ""
 
 #: extensions/default-templates/class-default-templates-extension.php:269
 msgid ""
-"The Justified Gallery template uses the popular <a href=\"http://miromannino."
+"The Justified Gallery template uses the popular <a href=\"https://miromannino."
 "com/projects/justified-gallery/\" target=\"_blank\">Justified Gallery jQuery "
 "Plugin</a> under the hood. You can specify thumbnail captions by setting the "
 "alt text for your attachments."
@@ -2471,5 +2471,5 @@ msgid "FooPlugins"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "http://fooplugins.com"
+msgid "https://fooplugins.com"
 msgstr ""

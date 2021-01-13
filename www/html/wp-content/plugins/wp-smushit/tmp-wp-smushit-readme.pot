@@ -96,7 +96,7 @@ msgstr ""
 #. Found in description paragraph.
 msgid ""
 "★★★★★ <br />\n"
-"“I had no idea that my page load time was being dragged down by the images. The plugin nearly halved the time it took.” - <a href=\"http://profiles.wordpress.org/karlcw\">karlcw</a>"
+"“I had no idea that my page load time was being dragged down by the images. The plugin nearly halved the time it took.” - <a href=\"https://profiles.wordpress.org/karlcw\">karlcw</a>"
 msgstr ""
 
 #. Found in description paragraph.
@@ -340,7 +340,7 @@ msgid "Corrected some processing logic to better handling or image path. Images 
 msgstr ""
 
 #. Found in changelog list item.
-msgid "Correct image URL passed to Smush.it API to convert https:// urls to http:// since the API does not allow https:// images"
+msgid "Correct image URL passed to Smush.it API to convert https:// urls to https:// since the API does not allow https:// images"
 msgstr ""
 
 #. Found in changelog list item.
@@ -360,7 +360,7 @@ msgid "check image size before uploading (1 MB limit)"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "attempt to smush more than one image before bailing (kind thanks to <a href=\"http://wordpress.org/support/profile/xrampage16\">xrampage16</a>)"
+msgid "attempt to smush more than one image before bailing (kind thanks to <a href=\"https://wordpress.org/support/profile/xrampage16\">xrampage16</a>)"
 msgstr ""
 
 #. Found in changelog list item.
@@ -384,7 +384,7 @@ msgid "on HTTP error, smushing will be temporarily disabled for 6 hours"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "added basic integration for the <a href=\"http://wordpress.org/extend/plugins/wp-smushit-nextgen-gallery-integration/\">NextGEN gallery plugin</a>"
+msgid "added basic integration for the <a href=\"https://wordpress.org/extend/plugins/wp-smushit-nextgen-gallery-integration/\">NextGEN gallery plugin</a>"
 msgstr ""
 
 #. Found in changelog list item.
@@ -396,7 +396,7 @@ msgid "compatibility with WordPress earlier than 3.1"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "added a <a href=\"http://dunae.ca/donate.html\">donate link</a>"
+msgid "added a <a href=\"https://dunae.ca/donate.html\">donate link</a>"
 msgstr ""
 
 #. Found in changelog list item.
@@ -428,11 +428,11 @@ msgid "IPv6 compat"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "handle images stored on other domains -- props to <a href=\"http://wordpress.org/support/profile/ka-ri-ne\">ka-ri-ne</a> for the fix"
+msgid "handle images stored on other domains -- props to <a href=\"https://wordpress.org/support/profile/ka-ri-ne\">ka-ri-ne</a> for the fix"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "avoid time-out errors when working with larger files -- props to <a href=\"http://wordpress.org/support/profile/dimadin\">Milan Dinić</a> for the fix"
+msgid "avoid time-out errors when working with larger files -- props to <a href=\"https://wordpress.org/support/profile/dimadin\">Milan Dinić</a> for the fix"
 msgstr ""
 
 #. Found in changelog list item.
@@ -448,7 +448,7 @@ msgid "fixed path checking on Windows servers"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "update to workaround WordPress's new JSON compat layer (see <a href=\"http://core.trac.wordpress.org/ticket/11827\">trac ticket</a>)"
+msgid "update to workaround WordPress's new JSON compat layer (see <a href=\"https://core.trac.wordpress.org/ticket/11827\">trac ticket</a>)"
 msgstr ""
 
 #. Found in changelog list item.
@@ -476,11 +476,11 @@ msgid "added support for PHP 4"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "created admin action hook as workaround to WordPress 2.9's <code>$_registered_pages</code> security (see <a href=\"http://core.trac.wordpress.org/changeset/11596\">changeset 11596</a>)"
+msgid "created admin action hook as workaround to WordPress 2.9's <code>$_registered_pages</code> security (see <a href=\"https://core.trac.wordpress.org/changeset/11596\">changeset 11596</a>)"
 msgstr ""
 
 #. Found in changelog list item.
-msgid "add savings amount in bytes to Media Library (thx <a href=\"http://www.yoast.com/\">Yoast</a>)"
+msgid "add savings amount in bytes to Media Library (thx <a href=\"https://www.yoast.com/\">Yoast</a>)"
 msgstr ""
 
 #. Found in changelog list item.
@@ -544,9 +544,9 @@ msgid ""
 msgstr ""
 
 #. Found in remaining content paragraph.
-msgid "Hey, one more thing... we hope you <a href=\"http://profiles.wordpress.org/WPMUDEV/\">enjoy our free offerings</a> as much as we've loved making them for you!"
+msgid "Hey, one more thing... we hope you <a href=\"https://profiles.wordpress.org/WPMUDEV/\">enjoy our free offerings</a> as much as we've loved making them for you!"
 msgstr ""
 
 #. Found in remaining content paragraph.
-msgid "Originally written by Alex Dunae at Dialect (<a href=\"http://dialect.ca/?wp_smush_it\">dialect.ca</a>, e-mail 'alex' at 'dialect dot ca'), 2008-11."
+msgid "Originally written by Alex Dunae at Dialect (<a href=\"https://dialect.ca/?wp_smush_it\">dialect.ca</a>, e-mail 'alex' at 'dialect dot ca'), 2008-11."
 msgstr ""

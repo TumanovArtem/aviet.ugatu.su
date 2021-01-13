@@ -90,7 +90,7 @@ class WP_Http_Curl {
 		}
 
 		// Construct Cookie: header if any cookies are set.
-		WP_Http::buildCookieHeader( $r );
+		WP_https::buildCookieHeader( $r );
 
 		$handle = curl_init();
 
@@ -257,7 +257,7 @@ class WP_Http_Curl {
 		}
 
 		curl_exec( $handle );
-		$theHeaders          = WP_Http::processHeaders( $this->headers, $url );
+		$theHeaders          = WP_https::processHeaders( $this->headers, $url );
 		$theBody             = $this->body;
 		$bytes_written_total = $this->bytes_written_total;
 
@@ -307,7 +307,7 @@ class WP_Http_Curl {
 		);
 
 		// Handle redirects.
-		if ( false !== ( $redirect_response = WP_HTTP::handle_redirects( $url, $r, $response ) ) ) {
+		if ( false !== ( $redirect_response = WP_https::handle_redirects( $url, $r, $response ) ) ) {
 			return $redirect_response;
 		}
 

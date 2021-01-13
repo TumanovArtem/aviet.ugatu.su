@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WP Super Cache (Traditional Chinese)\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/wp-super-cache\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tag/wp-super-cache\n"
 "POT-Creation-Date: 2012-06-21 09:44:46+00:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Liang, Jih-Kai <privism@gmail.com>\n"
@@ -14,8 +14,8 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: ossdl-cdn.php:151
-msgid "Your website probably uses lots of static files. Image, Javascript and CSS files are usually static files that could just as easily be served from another site or CDN. Therefore this plugin replaces any links in the <code>wp-content</code> and <code>wp-includes</code> directories (except for PHP files) on your site with the URL you provide below. That way you can either copy all the static content to a dedicated host or mirror the files to a CDN by <a href=\"http://knowledgelayer.softlayer.com/questions/365/How+does+Origin+Pull+work%3F\" target=\"_blank\">origin pull</a>."
-msgstr "你的網站可能使用了許多的靜態檔案。圖片、Javascript、CSS 檔案通常都是靜態檔案，可以很簡單地使用另一個站台或 CDN (內容傳遞網路)來服務。所以這個外掛會根據你下面所提供的 URL，取代你的網站中 <code>wp-content</code> 和 <code>wp-includes</code> 目錄下除了 PHP 檔案以外的任何連結。用這個方式，你可以把所有的靜態內容拷貝到一個專用的主機或或使用 <a href=\"http://knowledgelayer.softlayer.com/questions/365/How+does+Origin+Pull+work%3F\" target=\"_blank\">origin pull</a> 鏡射到 CDN 上。"
+msgid "Your website probably uses lots of static files. Image, Javascript and CSS files are usually static files that could just as easily be served from another site or CDN. Therefore this plugin replaces any links in the <code>wp-content</code> and <code>wp-includes</code> directories (except for PHP files) on your site with the URL you provide below. That way you can either copy all the static content to a dedicated host or mirror the files to a CDN by <a href=\"https://knowledgelayer.softlayer.com/questions/365/How+does+Origin+Pull+work%3F\" target=\"_blank\">origin pull</a>."
+msgstr "你的網站可能使用了許多的靜態檔案。圖片、Javascript、CSS 檔案通常都是靜態檔案，可以很簡單地使用另一個站台或 CDN (內容傳遞網路)來服務。所以這個外掛會根據你下面所提供的 URL，取代你的網站中 <code>wp-content</code> 和 <code>wp-includes</code> 目錄下除了 PHP 檔案以外的任何連結。用這個方式，你可以把所有的靜態內容拷貝到一個專用的主機或或使用 <a href=\"https://knowledgelayer.softlayer.com/questions/365/How+does+Origin+Pull+work%3F\" target=\"_blank\">origin pull</a> 鏡射到 CDN 上。"
 
 #: ossdl-cdn.php:152
 #: wp-cache.php:1071
@@ -63,8 +63,8 @@ msgid "Additional CNAMES"
 msgstr "額外的正規名稱(CNAMES)"
 
 #: ossdl-cdn.php:189
-msgid "These <a href=\"http://en.wikipedia.org/wiki/CNAME_record\">CNAMES</a> will be used in place of %1$s for rewriting (in addition to the off-site URL above). Use a comma as the delimiter. For pages with a large number of static files, this can improve browser performance. CNAMEs may also need to be configured on your CDN.<br />Example: %2$s"
-msgstr "這些 <a href=\"http://en.wikipedia.org/wiki/CNAME_record\">正規名稱記錄(CNAMES)</a> 會在重寫時用來取代 %1$s (和上面的站外URL一起)。 使用逗號作為分隔符號。 在有大量靜態檔案的網頁中，這可以增進瀏覽器效能。 這些正規名稱可能也需要在你的 CDN 被設定。<br />例： %2$s"
+msgid "These <a href=\"https://en.wikipedia.org/wiki/CNAME_record\">CNAMES</a> will be used in place of %1$s for rewriting (in addition to the off-site URL above). Use a comma as the delimiter. For pages with a large number of static files, this can improve browser performance. CNAMEs may also need to be configured on your CDN.<br />Example: %2$s"
+msgstr "這些 <a href=\"https://en.wikipedia.org/wiki/CNAME_record\">正規名稱記錄(CNAMES)</a> 會在重寫時用來取代 %1$s (和上面的站外URL一起)。 使用逗號作為分隔符號。 在有大量靜態檔案的網頁中，這可以增進瀏覽器效能。 這些正規名稱可能也需要在你的 CDN 被設定。<br />例： %2$s"
 
 #: ossdl-cdn.php:193
 msgid "Skip https URLs to avoid \"mixed content\" errors"
@@ -75,8 +75,8 @@ msgid "Save Changes"
 msgstr "儲存變更"
 
 #: ossdl-cdn.php:199
-msgid "CDN functionality provided by <a href=\"http://wordpress.org/extend/plugins/ossdl-cdn-off-linker/\">OSSDL CDN Off Linker</a> by <a href=\"http://mark.ossdl.de/\">Mark Kubacki</a>"
-msgstr "CDN 功能由<a href=\"http://wordpress.org/extend/plugins/ossdl-cdn-off-linker/\">OSSDL CDN Off Linker</a>提供，作者為<a href=\"http://mark.ossdl.de/\">Mark Kubacki</a>"
+msgid "CDN functionality provided by <a href=\"https://wordpress.org/extend/plugins/ossdl-cdn-off-linker/\">OSSDL CDN Off Linker</a> by <a href=\"https://mark.ossdl.de/\">Mark Kubacki</a>"
+msgstr "CDN 功能由<a href=\"https://wordpress.org/extend/plugins/ossdl-cdn-off-linker/\">OSSDL CDN Off Linker</a>提供，作者為<a href=\"https://mark.ossdl.de/\">Mark Kubacki</a>"
 
 #: plugins/awaitingmoderation.php:4
 msgid "Your comment is awaiting moderation."
@@ -147,8 +147,8 @@ msgid "Bad Behavior"
 msgstr "Bad Behavior"
 
 #: plugins/badbehaviour.php:68
-msgid "(Only legacy caching supported, disabled compression and requires <a href=\"http://www.bad-behavior.ioerror.us/\">Bad Behavior</a> in \"%s/plugins/bad-behavior/\") "
-msgstr "（只支援傳統模式，停用壓縮，<a href=\"http://www.bad-behavior.ioerror.us/\">Bad Behavior</a> 路徑必須為 \"%s/plugins/bad-behavior/\"）"
+msgid "(Only legacy caching supported, disabled compression and requires <a href=\"https://www.bad-behavior.ioerror.us/\">Bad Behavior</a> in \"%s/plugins/bad-behavior/\") "
+msgstr "（只支援傳統模式，停用壓縮，<a href=\"https://www.bad-behavior.ioerror.us/\">Bad Behavior</a> 路徑必須為 \"%s/plugins/bad-behavior/\"）"
 
 #: plugins/badbehaviour.php:74
 msgid "Bad Behavior support is now %s"
@@ -165,8 +165,8 @@ msgid "Domain Mapping"
 msgstr "Domain Mapping"
 
 #: plugins/domain-mapping.php:78
-msgid "Provides support for <a href=\"http://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a> plugin to map multiple domains to a blog."
-msgstr "<a href=\"http://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a>外掛支援，映射多個網域至一個 blog。"
+msgid "Provides support for <a href=\"https://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a> plugin to map multiple domains to a blog."
+msgstr "<a href=\"https://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a>外掛支援，映射多個網域至一個 blog。"
 
 #: plugins/domain-mapping.php:84
 msgid "Domain Mapping support is now %s"
@@ -200,8 +200,8 @@ msgid "No Adverts for Friends"
 msgstr "No Adverts for Friends"
 
 #: plugins/searchengine.php:72
-msgid "Provides support for <a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a>."
-msgstr "<a href=\"http://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> 外掛支援。"
+msgid "Provides support for <a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a>."
+msgstr "<a href=\"https://ocaoimh.ie/no-adverts-for-friends/\">No Adverts for Friends</a> 外掛支援。"
 
 #: plugins/searchengine.php:78
 msgid "No Adverts for Friends support is now %s"
@@ -212,8 +212,8 @@ msgid "WPTouch"
 msgstr "WPTouch"
 
 #: plugins/wptouch.php:25
-msgid "Provides support for <a href=\"http://wordpress.org/extend/plugins/wptouch/\">WPTouch</a> mobile theme and plugin."
-msgstr "<a href=\"http://wordpress.org/extend/plugins/wptouch/\">WPTouch</a> 行動裝置主題外掛支援。"
+msgid "Provides support for <a href=\"https://wordpress.org/extend/plugins/wptouch/\">WPTouch</a> mobile theme and plugin."
+msgstr "<a href=\"https://wordpress.org/extend/plugins/wptouch/\">WPTouch</a> 行動裝置主題外掛支援。"
 
 #: plugins/wptouch.php:31
 msgid "WPTouch support is now %s"
@@ -252,12 +252,12 @@ msgid "Your server is set up to check the owner of PHP scripts before allowing t
 msgstr "你的伺服器設定為先檢查 PHP 程式擁有者才可以存取檔案。"
 
 #: wp-cache.php:168
-msgid "You or an administrator may be able to make it work by changing the group owner of the plugin scripts to match that of the web server user. The group owner of the %s/cache/ directory must also be changed. See the <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> for further details."
-msgstr "你或管理員可以透過變更外掛程式群組的所有者使其與伺服器使用者一致，進而讓其運作。%s/cache/ 目錄的所有者也必須變更。查看<a href=\"http://php.net/features.safe-mode\">安全模式使用手冊</a>以取得更多說明。"
+msgid "You or an administrator may be able to make it work by changing the group owner of the plugin scripts to match that of the web server user. The group owner of the %s/cache/ directory must also be changed. See the <a href=\"https://php.net/features.safe-mode\">safe mode manual page</a> for further details."
+msgstr "你或管理員可以透過變更外掛程式群組的所有者使其與伺服器使用者一致，進而讓其運作。%s/cache/ 目錄的所有者也必須變更。查看<a href=\"https://php.net/features.safe-mode\">安全模式使用手冊</a>以取得更多說明。"
 
 #: wp-cache.php:170
-msgid "You or an administrator must disable this. See the <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> for further details. This cannot be disabled in a .htaccess file unfortunately. It must be done in the php.ini config file."
-msgstr "你或管理員必須先停用此項目。查看<a href=\"http://php.net/features.safe-mode\">安全模式使用手冊</a>以取得更多說明。很抱歉，這無法在 .htaccess 檔案裡停用。它必須在 php.ini 設定檔中完成。"
+msgid "You or an administrator must disable this. See the <a href=\"https://php.net/features.safe-mode\">safe mode manual page</a> for further details. This cannot be disabled in a .htaccess file unfortunately. It must be done in the php.ini config file."
+msgstr "你或管理員必須先停用此項目。查看<a href=\"https://php.net/features.safe-mode\">安全模式使用手冊</a>以取得更多說明。很抱歉，這無法在 .htaccess 檔案裡停用。它必須在 php.ini 設定檔中完成。"
 
 #: wp-cache.php:176
 msgid "Permlink Structure Error"
@@ -293,8 +293,8 @@ msgid "Zlib Output Compression Enabled!"
 msgstr "Zlib 輸出壓縮已被啟用！"
 
 #: wp-cache.php:228
-msgid "PHP is compressing the data sent to the visitors of your site. Disabling this is recommended as the plugin caches the compressed output once instead of compressing the same page over and over again. Also see #21 in the Troubleshooting section. See <a href=\"http://php.net/manual/en/zlib.configuration.php\">this page</a> for instructions on modifying your php.ini."
-msgstr "PHP頁面壓縮啟用中。建議將它關閉，因為外掛針對一個頁面只需要壓縮一次，而不需要反覆的壓縮。另請參見錯換排除段落第21條。 <a href=\"http://php.net/manual/en/zlib.configuration.php\">這邊</a>有如何修改php.ini的說明。"
+msgid "PHP is compressing the data sent to the visitors of your site. Disabling this is recommended as the plugin caches the compressed output once instead of compressing the same page over and over again. Also see #21 in the Troubleshooting section. See <a href=\"https://php.net/manual/en/zlib.configuration.php\">this page</a> for instructions on modifying your php.ini."
+msgstr "PHP頁面壓縮啟用中。建議將它關閉，因為外掛針對一個頁面只需要壓縮一次，而不需要反覆的壓縮。另請參見錯換排除段落第21條。 <a href=\"https://php.net/manual/en/zlib.configuration.php\">這邊</a>有如何修改php.ini的說明。"
 
 #: wp-cache.php:232
 msgid "Mod rewrite may not be installed!"
@@ -318,8 +318,8 @@ msgstr "最簡單的方式是使用 CHMOD 指令或透過 FTP 程式來變更權
 
 #: wp-cache.php:242
 #: wp-cache.php:258
-msgid "<a href=\"http://codex.wordpress.org/Changing_File_Permissions\">This page</a> explains how to change file permissions."
-msgstr "<a href=\"http://codex.wordpress.org/Changing_File_Permissions\">這邊</a>解釋如何變更檔案權限。"
+msgid "<a href=\"https://codex.wordpress.org/Changing_File_Permissions\">This page</a> explains how to change file permissions."
+msgstr "<a href=\"https://codex.wordpress.org/Changing_File_Permissions\">這邊</a>解釋如何變更檔案權限。"
 
 #: wp-cache.php:243
 msgid "Writeable:"
@@ -377,8 +377,8 @@ msgid "Delete the plugin mod_rewrite rules in %s.htaccess enclosed by <code># BE
 msgstr "從 %s.htaccess 內刪除 <code># BEGIN WPSuperCache</code> 和 <code># END WPSuperCache</code> 之間原始碼區段的 mod_rewrite 規則，之後重新載入本頁讓外掛再次產生規則。"
 
 #: wp-cache.php:280
-msgid "Add the rules yourself. Edit %s.htaccess and find the block of code enclosed by the lines <code># BEGIN WPSuperCache</code> and <code># END WPSuperCache</code>. There are two sections that look very similar. Just below the line <code>%%{HTTP:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> add these lines: (do it twice, once for each section)"
-msgstr "自行加入規則。編輯 %s.htaccess 並找到 <code># BEGIN WPSuperCache</code> 和 <code># END WPSuperCache</code> 之間的原始碼區段。有兩個區段非常相似。緊接著 <code>%%{HTTP:Cookie} !^.*(comment_author_|wordpress|wp-postpass_).*$</code> 的下方新增這幾行(要做兩次，一個區段一次)："
+msgid "Add the rules yourself. Edit %s.htaccess and find the block of code enclosed by the lines <code># BEGIN WPSuperCache</code> and <code># END WPSuperCache</code>. There are two sections that look very similar. Just below the line <code>%%{https:Cookie} !^.*(comment_author_|wordpress_logged_in|wp-postpass_).*$</code> add these lines: (do it twice, once for each section)"
+msgstr "自行加入規則。編輯 %s.htaccess 並找到 <code># BEGIN WPSuperCache</code> 和 <code># END WPSuperCache</code> 之間的原始碼區段。有兩個區段非常相似。緊接著 <code>%%{https:Cookie} !^.*(comment_author_|wordpress|wp-postpass_).*$</code> 的下方新增這幾行(要做兩次，一個區段一次)："
 
 #: wp-cache.php:293
 msgid "Required to serve compressed supercache files properly."
@@ -609,8 +609,8 @@ msgid "Advanced"
 msgstr "進階選項"
 
 #: wp-cache.php:888
-msgid "Mobile device support. (External plugin or theme required. See the <a href=\"http://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a> for further details.)"
-msgstr "行動裝置支援 (需要外掛或額外的主題來支援。 參見<a href=\"http://wordpress.org/extend/plugins/wp-super-cache/faq/\">常見問答</a>以獲得更多資訊。)"
+msgid "Mobile device support. (External plugin or theme required. See the <a href=\"https://wordpress.org/extend/plugins/wp-super-cache/faq/\">FAQ</a> for further details.)"
+msgstr "行動裝置支援 (需要外掛或額外的主題來支援。 參見<a href=\"https://wordpress.org/extend/plugins/wp-super-cache/faq/\">常見問答</a>以獲得更多資訊。)"
 
 #: wp-cache.php:890
 msgid "Mobile Browsers"
@@ -848,7 +848,7 @@ msgstr "%1$s由%2$s開發及維護，並得到許多人的幫助貢獻。"
 
 #: wp-cache.php:1087
 msgid "He blogs at %1$s and posts photos at %2$s."
-msgstr "我的部落格在 %1$s，相簿在 %2$s。繁體中文翻譯問題請洽<a href=\"http://priv.tw/blog/\">priv</a>"
+msgstr "我的部落格在 %1$s，相簿在 %2$s。繁體中文翻譯問題請洽<a href=\"https://priv.tw/blog/\">priv</a>"
 
 #: wp-cache.php:1088
 msgid "Please say hi to him on %s too!"
@@ -907,8 +907,8 @@ msgid "This is strictly an advanced feature only and knowledge of both PHP and W
 msgstr "這是一個非常進階的功能，只有對 PHP 和 Wordpress 動作都非常了解的人才能撰寫。"
 
 #: wp-cache.php:1135
-msgid "<strong>Warning</strong>! Due to the way WordPress upgrades plugins the plugins you upload to wp-super-cache/plugins/ will be deleted when you upgrade WP Super Cache. You can avoid this by loading the plugins from elsewhere. Set <strong>$wp_cache_plugins_dir</strong> to the new location in wp-config.php and WP Super Cache will look there instead.<br />More info available in the <a href=\"http://ocaoimh.ie/wp-super-cache-developers/\">developer documentation</a>."
-msgstr "<strong>警告</strong>！ 肇因於 WordPress 升級外掛的方式，上傳至 wp-super-cache/plugins 的外掛在升級 WP Super Cache 將會被刪除。你可以把外掛放到別的地方以避免此一問題。在 wp-config.php 中設定 <strong>$wp_cache_plugins_dir</strong> 至新的位置，WP Super Cache 將會改用此一新位置。<br /><a href=\"http://ocaoimh.ie/wp-super-cache-developers/\">開發者文件</a>中有更多的資訊。"
+msgid "<strong>Warning</strong>! Due to the way WordPress upgrades plugins the plugins you upload to wp-super-cache/plugins/ will be deleted when you upgrade WP Super Cache. You can avoid this by loading the plugins from elsewhere. Set <strong>$wp_cache_plugins_dir</strong> to the new location in wp-config.php and WP Super Cache will look there instead.<br />More info available in the <a href=\"https://ocaoimh.ie/wp-super-cache-developers/\">developer documentation</a>."
+msgstr "<strong>警告</strong>！ 肇因於 WordPress 升級外掛的方式，上傳至 wp-super-cache/plugins 的外掛在升級 WP Super Cache 將會被刪除。你可以把外掛放到別的地方以避免此一問題。在 wp-config.php 中設定 <strong>$wp_cache_plugins_dir</strong> 至新的位置，WP Super Cache 將會改用此一新位置。<br /><a href=\"https://ocaoimh.ie/wp-super-cache-developers/\">開發者文件</a>中有更多的資訊。"
 
 #: wp-cache.php:1145
 msgid "Available Plugins"
@@ -971,8 +971,8 @@ msgid "Thank you for upgrading."
 msgstr "感謝升級。"
 
 #: wp-cache.php:1221
-msgid "The mod_rewrite rules changed since you last installed this plugin. Unfortunately you must remove the old supercache rules before the new ones are updated. Refresh this page when you have edited your .htaccess file. If you wish to manually upgrade, change the following line: %1$s so it looks like this: %2$s The only changes are \"HTTP_COOKIE\" becomes \"HTTP:Cookie\" and \"wordpressuser\" becomes \"wordpress\". This is a WordPress 2.5 change but it&#8217;s backwards compatible with older versions if you&#8217;re brave enough to use them."
-msgstr "從你上次安裝此外掛，mod_rewrite 規則已經變更。在新的 supercache 規則更新前，你必須先刪除舊的 supercache 規則。在你修改你的 .htaccess 檔案後重新整理此頁。如果你希望手動更新，更改以下幾行：%1$s 使它看起來像這樣：%2$s ，唯一改變的地方是 \"HTTP_COOKIE\" 變成 \"HTTP:Cookie\" 以及 \"wordpressuser\" 變成 \"wordpress\"。這是 WordPress 2.5 的改變，但如果你敢使用，它與舊版本相容。"
+msgid "The mod_rewrite rules changed since you last installed this plugin. Unfortunately you must remove the old supercache rules before the new ones are updated. Refresh this page when you have edited your .htaccess file. If you wish to manually upgrade, change the following line: %1$s so it looks like this: %2$s The only changes are \"HTTP_COOKIE\" becomes \"https:Cookie\" and \"wordpressuser\" becomes \"wordpress\". This is a WordPress 2.5 change but it&#8217;s backwards compatible with older versions if you&#8217;re brave enough to use them."
+msgstr "從你上次安裝此外掛，mod_rewrite 規則已經變更。在新的 supercache 規則更新前，你必須先刪除舊的 supercache 規則。在你修改你的 .htaccess 檔案後重新整理此頁。如果你希望手動更新，更改以下幾行：%1$s 使它看起來像這樣：%2$s ，唯一改變的地方是 \"HTTP_COOKIE\" 變成 \"https:Cookie\" 以及 \"wordpressuser\" 變成 \"wordpress\"。這是 WordPress 2.5 的改變，但如果你敢使用，它與舊版本相容。"
 
 #: wp-cache.php:1225
 msgid "Trailing slash check required."
@@ -1254,8 +1254,8 @@ msgid "Save UA Strings"
 msgstr "儲存 UA 字串"
 
 #: wp-cache.php:1662
-msgid "Do not cache the following page types. See the <a href=\"http://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> documentation for a complete discussion on each type."
-msgstr "不快取以下頁面類型。查看<a href=\"http://codex.wordpress.org/Conditional_Tags\">條件標籤</a>文件中對每個類型的完整探討。"
+msgid "Do not cache the following page types. See the <a href=\"https://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> documentation for a complete discussion on each type."
+msgstr "不快取以下頁面類型。查看<a href=\"https://codex.wordpress.org/Conditional_Tags\">條件標籤</a>文件中對每個類型的完整探討。"
 
 #: wp-cache.php:1665
 msgid "Single Posts"
@@ -1457,8 +1457,8 @@ msgid "Edit <code>%s</code> and add the following line:<br /> <code>define('WP_C
 msgstr "編輯 <code>%s</code> 並加入以下原始碼：<br /> <code>define('WP_CACHE', true);</code><br />否則，<strong>WP-Cache 將無法被 WordPress 核心執行</strong>。"
 
 #: wp-cache.php:2057
-msgid "<h3>WP_CACHE constant added to wp-config.php</h3><p>If you continue to see this warning message please see point 5 of the <a href=\"http://wordpress.org/extend/plugins/wp-super-cache/faq/\">Troubleshooting Guide</a>. The WP_CACHE line must be moved up."
-msgstr "<h3>WP_CACHE 不斷被新增到 wp-config.php</h3><p>如果你持續看到此警告訊息，請參閱 <a href=\"http://wordpress.org/extend/plugins/wp-super-cache/faq/\">常見問答</a> 第五點。WP_CACHE 原始碼必須往前移動。"
+msgid "<h3>WP_CACHE constant added to wp-config.php</h3><p>If you continue to see this warning message please see point 5 of the <a href=\"https://wordpress.org/extend/plugins/wp-super-cache/faq/\">Troubleshooting Guide</a>. The WP_CACHE line must be moved up."
+msgstr "<h3>WP_CACHE 不斷被新增到 wp-config.php</h3><p>如果你持續看到此警告訊息，請參閱 <a href=\"https://wordpress.org/extend/plugins/wp-super-cache/faq/\">常見問答</a> 第五點。WP_CACHE 原始碼必須往前移動。"
 
 #: wp-cache.php:2085
 msgid "Cache Contents"
@@ -1730,7 +1730,7 @@ msgid ""
 "\n"
 "Regards,\n"
 "WP Super Cache Plugin\n"
-"http://wordpress.org/extend/plugins/wp-super-cache/"
+"https://wordpress.org/extend/plugins/wp-super-cache/"
 msgstr ""
 "親愛的使用者，\n"
 "\n"
@@ -1743,7 +1743,7 @@ msgstr ""
 "%s\n"
 "\n"
 "WP Super Cache Plugin 敬上\n"
-"http://wordpress.org/extend/plugins/wp-super-cache/"
+"https://wordpress.org/extend/plugins/wp-super-cache/"
 
 #: wp-cache.php:3031
 msgid "Delete cache of the current page"
@@ -1779,10 +1779,10 @@ msgstr "刪除目前頁面的快取"
 #~ msgstr "目前的伺服器時間為：%s"
 
 #~ msgid ""
-#~ "(requires <a href=\"http://ocaoimh.ie/no-adverts-for-friends/"
+#~ "(requires <a href=\"https://ocaoimh.ie/no-adverts-for-friends/"
 #~ "\">friendsadverts.php</a> too) "
 #~ msgstr ""
-#~ "（必須有 <a href=\"http://ocaoimh.ie/no-adverts-for-friends/"
+#~ "（必須有 <a href=\"https://ocaoimh.ie/no-adverts-for-friends/"
 #~ "\">friendsadverts.php</a>）"
 
 #~ msgid "Mobile device support."

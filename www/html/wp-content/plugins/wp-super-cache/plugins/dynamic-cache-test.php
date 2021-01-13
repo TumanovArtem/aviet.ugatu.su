@@ -27,7 +27,7 @@
 
 /*
  * EXAMPLE 1
- * http://ocaoimh.ie/2013/10/21/shiny-new-dynamic-content-wp-super-cache/
+ * https://ocaoimh.ie/2013/10/21/shiny-new-dynamic-content-wp-super-cache/
  * Replace a string in your theme with the dynamic content.
  *
  * dynamic_cache_test_init()
@@ -101,7 +101,7 @@ if ( DYNAMIC_CACHE_TEST_TAG != '' ) {
  * writes to the cache file. The placeholder tag for any dynamic content has
  * to be written to that cache file but also, it has to be replaced with
  * dynamic content before the page is shown to the user.
- * More on output buffers here: http://php.net/ob_start
+ * More on output buffers here: https://php.net/ob_start
  *
  * Unfortunately an extra output buffer is often required when capturing dynamic
  * content such as sidebar widgets. Due to a quirk of the way PHP works it's

@@ -27,73 +27,73 @@ Template Name: Faculty-Life
 	</div>
 </div>
 <div class="citations-back" data-slider="citations-lg">
-	<div class="grad-container hidden-lg hidden-xs left-grad"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/grad.png" alt=""></div>
-	<div class="grad-container hidden-lg hidden-xs right-grad"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/grad.png" alt=""></div>
+	<div class="grad-container hidden-lg hidden-xs left-grad"><img src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/grad.png" alt=""></div>
+	<div class="grad-container hidden-lg hidden-xs right-grad"><img src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/grad.png" alt=""></div>
 	<div class="citations container" data-slider="citations-xs">
-		<div class="arrow hidden-lg hidden-sm" data-slider-controls="left" data-slider-controls-info="citations-xs"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/arrow-l.png" alt=""></div>
+		<div class="arrow hidden-lg hidden-sm" data-slider-controls="left" data-slider-controls-info="citations-xs"><img src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/arrow-l.png" alt=""></div>
 		<div class="citations-scroll col-xs-8">
 			<div class="citations-lg-wrapper hidden-lg fadeIn" data-slider-info="citations-lg" data-slider-number="0">
-				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="0" data-modal-button="http://aviet-ugatu.herokuapp.com/predsedatel-profbyuro/">
-					<div class="avatar"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/galimova.png" alt=""></div>
+				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="0" data-modal-button="https://aviet-ugatu.herokuapp.com/predsedatel-profbyuro/">
+					<div class="avatar"><img src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/galimova.png" alt=""></div>
 					<h2>ГАЛИМОВА ДИАНА</h2>
 					<em>ПРЕДСЕДАТЕЛЬ ПРОФБЮРО</em>
 					<blockquote></blockquote>
 				</div>
-				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="1" data-modal-button="http://aviet-ugatu.herokuapp.com/zamestitel-po-obshhim-voprosam/">
-					<div class="avatar"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/satinaev.png" alt=""></div>
+				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="1" data-modal-button="https://aviet-ugatu.herokuapp.com/zamestitel-po-obshhim-voprosam/">
+					<div class="avatar"><img src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/satinaev.png" alt=""></div>
 					<h2>САТИНАЕВ АЛЕКСЕЙ</h2>
 					<em>ЗАМЕСТИТЕЛЬ ПО ОБЩИМ ВОПРОСАМ</em>
 					<blockquote></blockquote>
 				</div>
-				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="2" data-modal-button="http://aviet-ugatu.herokuapp.com/zamestitel-po-sotsialno-pravovoy-pomoshhi-studentam/">
-					<div class="avatar"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/egibaev.png" alt=""></div>
+				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="2" data-modal-button="https://aviet-ugatu.herokuapp.com/zamestitel-po-sotsialno-pravovoy-pomoshhi-studentam/">
+					<div class="avatar"><img src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/egibaev.png" alt=""></div>
 					<h2>ИГЕБАЕВ АЗАТ</h2>
 					<em>ЗАМЕСТИТЕЛЬ ПО СОЦИАЛЬНО-ПРАВОВОЙ ПОМОЩИ СТУДЕНТАМ</em>
 					<blockquote>Обеспечение контроля на факультете за соблюдением и исполнением законодательных, нормативно-правовых документов любого уровня.Индивидуальные консультации для студентов по правовым вопросам.</blockquote>
 				</div>
 			</div>
 			<div class="citations-lg-wrapper hidden-lg fadeIn" data-slider-info="citations-lg" data-slider-number="1">
-				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="3" data-modal-button="http://aviet-ugatu.herokuapp.com/nauchnaya-komissiya-2/">
-					<div class="avatar"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/ermolaev.png" alt=""></div>
+				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="3" data-modal-button="https://aviet-ugatu.herokuapp.com/nauchnaya-komissiya-2/">
+					<div class="avatar"><img src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/ermolaev.png" alt=""></div>
 					<h2>ЕРМОЛАЕВ ВЛАДИСЛАВ</h2>
 					<em>ЗАМЕСТИТЕЛЬ ПО ДОКУМЕНТАЦИИ, ПРЕДСЕДАТЕЛЬ НАУЧНОЙ КОМИССИИ</em>
 					<blockquote>Организовывает проект «Помощь первокурсникам», массово-научные мероприятия, такие как «Взрыв интеллекта». Знает все про различные олимпиады, проводимые в стенах нашего ВУЗа.</blockquote>
 				</div>
-				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="4" data-modal-button="http://aviet-ugatu.herokuapp.com/sportivnaya-komissiya">
-					<div class="avatar"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/zaidullina.png" alt=""></div>
+				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="4" data-modal-button="https://aviet-ugatu.herokuapp.com/sportivnaya-komissiya">
+					<div class="avatar"><img src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/zaidullina.png" alt=""></div>
 					<h2>ЗАЙДУЛЛИНА КРИСТИНА</h2>
 					<em>ПРЕДСЕДАТЕЛЬ СПОРТИВНОЙ КОМИССИИ</em>
 					<blockquote>Занимается организацией спортивно-массовых мероприятий в рамках факультета, выявлением и отбором спортсменов в сборные команды факультета для участия в Спартакиаде УГАТУ и других спортивно-оздоровительных мероприятиях</blockquote>
 				</div>
-				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="5" data-modal-button="http://aviet-ugatu.herokuapp.com/kultmassovaya-komissiya/">
-					<div class="avatar"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/nugmanova.png" alt=""></div>
+				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="5" data-modal-button="https://aviet-ugatu.herokuapp.com/kultmassovaya-komissiya/">
+					<div class="avatar"><img src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/nugmanova.png" alt=""></div>
 					<h2>НУГМАНОВА АЗАЛИЯ</h2>
 					<em>ПРЕДСЕДАТЕЛЬ КУЛЬТМАССОВОЙ КОМИССИИ</em>
 					<blockquote>Занимается организацией ярких фестивалей и праздников, интересных мероприятий. Планированием культурного отдыха и активного досуга студентов</blockquote>
 				</div>
 			</div>
 			<div class="citations-lg-wrapper hidden-lg fadeIn" data-slider-info="citations-lg" data-slider-number="2">
-				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="6" data-modal-button="http://aviet-ugatu.herokuapp.com/ozdorovitelnaya-komissiya/">
-					<div class="avatar"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/allayarova.png" alt=""></div>
+				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="6" data-modal-button="https://aviet-ugatu.herokuapp.com/ozdorovitelnaya-komissiya/">
+					<div class="avatar"><img src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/allayarova.png" alt=""></div>
 					<h2>АЛЛАЯРОВА ЛИНЕРА</h2>
 					<em>ПРЕДСЕДАТЕЛЬ ОЗДОРОВИТЕЛЬНОЙ КОМИССИИ</em>
 					<blockquote>Организует отдых в санатории-профилактории УГАТУ, поездки на море, отдых на побережье Павловского водохранилища в СОЛ «Авиатор».</blockquote>
 				</div>
-				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="7" data-modal-button="http://aviet-ugatu.herokuapp.com/informatsionnaya-komissiya/">
-					<div class="avatar"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/davletova.png" alt=""></div>
+				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="7" data-modal-button="https://aviet-ugatu.herokuapp.com/informatsionnaya-komissiya/">
+					<div class="avatar"><img src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/davletova.png" alt=""></div>
 					<h2>ДАВЛЕТОВА АЛИНА</h2>
 					<em>ПРЕДСЕДАТЕЛЬ ИНФОРМАЦИОННОЙ КОМИССИИ</em>
 					<blockquote>Распространяет полную, объективную и своевременную информацию обо всех аспектах жизни студентов факультета. Всегда в курсе всех дел и свежих новостей университета.</blockquote>
 				</div>
-				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="8" data-modal-button="http://aviet-ugatu.herokuapp.com/sotsialnaya-komissiya/">
-					<div class="avatar"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/mashtarieva.png" alt=""></div>
+				<div class="cit colm-lg-4 hidden-xs citations-xs-wrapper fadeIn wow" data-slider-info="citations-xs" data-slider-number="8" data-modal-button="https://aviet-ugatu.herokuapp.com/sotsialnaya-komissiya/">
+					<div class="avatar"><img src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/mashtarieva.png" alt=""></div>
 					<h2>МУШТАРИЕВА ЗИЛЯ</h2>
 					<em>ПРЕДСЕДАТЕЛЬ СОЦИАЛЬНОЙ КОМИССИИ</em>
 					<blockquote>Осуществляет контроль над стипендиальным обеспечением студентов, материальным содержанием обучающихся в ВУЗ-е студентов-сирот, студентов-инвалидов и других групп студентов из социально-незащищенных категорий</blockquote>
 				</div>
 			</div>
 		</div>
-		<div class="arrow hidden-lg hidden-sm" data-slider-controls="right" data-slider-controls-info="citations-xs"><img src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/arrow-r.png" alt=""></div>
+		<div class="arrow hidden-lg hidden-sm" data-slider-controls="right" data-slider-controls-info="citations-xs"><img src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/img/arrow-r.png" alt=""></div>
 	</div>
 </div>
 <div class="citations-radio-back hidden-sm">
@@ -265,20 +265,20 @@ Template Name: Faculty-Life
 </div>
 <?php get_footer(); ?>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/menu.js"></script>
-<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/slider.js"></script>
-<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/modal-window.js"></script>
-<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/load-posts.js"></script>
-<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/post-auto-delay.js"></script>
-<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/jquery.smoothscroll.js"></script>
+<script src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/menu.js"></script>
+<script src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/slider.js"></script>
+<script src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/modal-window.js"></script>
+<script src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/load-posts.js"></script>
+<script src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/post-auto-delay.js"></script>
+<script src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/jquery.smoothscroll.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/accordion.js"></script>
+<script src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/accordion.js"></script>
 <script>
 	'use strict'
 	document.addEventListener("DOMContentLoaded", postAutoDelay(document.querySelectorAll(".citations-lg-wrapper")));
-	$('<link rel="stylesheet" href="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/all.css"><link rel="stylesheet" href="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/faculty-life.css">').appendTo($("head"));
+	$('<link rel="stylesheet" href="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/all.css"><link rel="stylesheet" href="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/css/faculty-life.css">').appendTo($("head"));
 	var ajaxurl = '<?php echo site_url() ?>/wp-admin/admin-ajax.php';
 </script>
-<script src="http://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/scrolls.js"></script>
+<script src="https://aviet-ugatu.herokuapp.com/wp-content/themes/aviet/js/scrolls.js"></script>
 </body>
 </html>

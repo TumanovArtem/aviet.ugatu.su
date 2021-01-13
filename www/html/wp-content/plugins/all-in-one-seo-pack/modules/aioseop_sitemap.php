@@ -749,7 +749,7 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Sitemap' ) ) {
 									if ( false == isset( $_SERVER['HTTPS'] ) ) {
 										$_SERVER['HTTPS'] = 'Off';
 									}
-									$protocol = ( 'on' == strtolower( $_SERVER['HTTPS'] ) ) ? 'https://' : 'http://';
+									$protocol = ( 'on' == strtolower( $_SERVER['HTTPS'] ) ) ? 'https://' : 'https://';
 									$siteurl  = untrailingslashit( $protocol . $domain );
 								}
 							}
@@ -1949,7 +1949,7 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Sitemap' ) ) {
 
 			$xml_header = '<?xml-stylesheet type="text/xsl" href="' . $xsl_url . '"?>' . "\r\n"
 			              . '<urlset ';
-			$namespaces = apply_filters( $this->prefix . 'xml_namespace', array( 'xmlns' => 'http://www.sitemaps.org/schemas/sitemap/0.9' ) );
+			$namespaces = apply_filters( $this->prefix . 'xml_namespace', array( 'xmlns' => 'https://www.sitemaps.org/schemas/sitemap/0.9' ) );
 			if ( ! empty( $namespaces ) ) {
 				$ns = array();
 				foreach ( $namespaces as $k => $v ) {
@@ -2026,7 +2026,7 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Sitemap' ) ) {
 			echo '<!-- ' . sprintf( $this->comment_string, $comment, AIOSEOP_VERSION, date( 'D, d M Y H:i:s e' ) ) . " -->\r\n";
 			$xsl_url = $this->get_sitemap_xsl();
 			echo '<?xml-stylesheet type="text/xsl" href="' . $xsl_url . '"?>' . "\r\n";
-			echo '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\r\n";
+			echo '<sitemapindex xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">' . "\r\n";
 			$count = 0;
 			foreach ( $urls as $url ) {
 				echo "\t<sitemap>\r\n";
@@ -2205,7 +2205,7 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Sitemap' ) ) {
 		 *
 		 * Props to thomas at gielfeldt dot com.
 		 *
-		 * @link http://www.php.net/manual/en/function.parse-url.php#106731
+		 * @link https://www.php.net/manual/en/function.parse-url.php#106731
 		 *
 		 * @param $parsed_url
 		 *

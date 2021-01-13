@@ -245,7 +245,7 @@ class WP_Theme_Install_List_Table extends WP_Themes_List_Table {
 	 *     @type string $slug           Theme slug, e.g. 'twentynineteen'.
 	 *     @type string $version        Theme version, e.g. '1.1'.
 	 *     @type string $author         Theme author username, e.g. 'melchoyce'.
-	 *     @type string $preview_url    Preview URL, e.g. 'http://2019.wordpress.net/'.
+	 *     @type string $preview_url    Preview URL, e.g. 'https://2019.wordpress.net/'.
 	 *     @type string $screenshot_url Screenshot URL, e.g. 'https://wordpress.org/themes/twentynineteen/'.
 	 *     @type float  $rating         Rating score.
 	 *     @type int    $num_ratings    The number of ratings.

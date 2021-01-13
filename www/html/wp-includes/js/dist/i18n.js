@@ -841,7 +841,7 @@ var i18n = new Tannin({});
  * Merges locale data into the Tannin instance by domain. Accepts data in a
  * Jed-formatted JSON object shape.
  *
- * @see http://messageformat.github.io/Jed/
+ * @see https://messageformat.github.io/Jed/
  *
  * @param {?Object} data   Locale data configuration.
  * @param {?string} domain Domain for which configuration applies.
@@ -956,7 +956,7 @@ function _nx(single, plural, number, context, domain) {
  * @param {string}   format  The format of the string to generate.
  * @param {string[]} ...args Arguments to apply to the format.
  *
- * @see http://www.diveintojavascript.com/projects/javascript-sprintf
+ * @see https://www.diveintojavascript.com/projects/javascript-sprintf
  *
  * @return {string} The formatted string.
  */
