@@ -74,6 +74,9 @@ $table_prefix  = 'av45785Qiet';
 define('WP_DEBUG', false);
 
 define('FORCE_SSL_ADMIN', true);
+define('WP_HOME', 'https://' . $_SERVER['HTTP_HOST']);
+define('WP_SITEURL', WP_HOME);
+
 /* Это всё, дальше не редактируем. Успехов! */
 
 /** Абсолютный путь к директории WordPress. */
