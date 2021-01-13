@@ -16,23 +16,24 @@
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define('WP_CACHE', true); //Added by WP-Cache Manager
-define( 'WPCACHEHOME', '/home/www/aviet.ugatu.su/www/html/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
-define('DB_NAME', 'aviet');
+$url = parse_url(getenv('DATABASE_URL') ? getenv('DATABASE_URL') : getenv('CLEARDB_DATABASE_URL'));
 
-/** Имя пользователя MySQL */
-define('DB_USER', 'aviet');
+/** The name of the database for WordPress */
+define('DB_NAME', trim($url['path'], '/'));
 
-/** Пароль к базе данных MySQL */
-define('DB_PASSWORD', 'LcPyEDBsBc3bbzXs');
+/** MySQL database username */
+define('DB_USER', $url['user']);
 
-/** Имя сервера MySQL */
-define('DB_HOST', 'localhost');
+/** MySQL database password */
+define('DB_PASSWORD', $url['pass']);
 
-/** Кодировка базы данных для создания таблиц. */
+/** MySQL hostname */
+define('DB_HOST', $url['host']);
+
+/** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 
-/** Схема сопоставления. Не меняйте, если не уверены. */
+/** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
 
 /**#@+
