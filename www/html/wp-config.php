@@ -73,6 +73,7 @@ $table_prefix  = 'av45785Qiet';
  */
 define('WP_DEBUG', false);
 
+define('FORCE_SSL_ADMIN', true);
 /* Это всё, дальше не редактируем. Успехов! */
 
 /** Абсолютный путь к директории WordPress. */
